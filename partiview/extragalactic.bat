@@ -1,0 +1,1 @@
+partiview ./data/extragalactic.cf

@@ -15,7 +15,7 @@ For long-form meetings and discussion, I think twice per week is good enough for
 
 For quick daily check-ins and small questions, Slack or email is fine.
 
-In the beginning, I imagine that a lot of the communication will be us exchanging ideas on what to make, and how best to divide work. I’m sure I’ll be asking questions related to astronomy if I don’t understand something technical. Once we are developing a product, there will be a lot of fine tuning and discussion, probably with Professor Schaufman, on how he likes the work.
+In the beginning, I imagine that a lot of the communication will be us exchanging ideas on what to make. I’m sure I’ll be asking questions related to astronomy if I don’t understand something technical. Once we are developing a product, there will be a lot of fine tuning and discussion, probably with Professor Schaufman, on how he likes the work. I will be mostly leading the planetarium show production.
 
 Besides work-related communication, I definitely welcome talking about anything else at all. 
 
@@ -38,7 +38,8 @@ Furthermore, I would like to work on my interaction and “human” skills. Espe
 
 Preliminary Ideas:
 
-I know that we are supposed to make a planetarium presentation, probably using Partiview, that traces a path through the stars. 
+I know that we are supposed to make a planetarium presentation, probably using Partiview, that traces a path through the stars and shows exoplanets and
+detection techniques.
 
 Since a lot of the outreach work is aimed at children or the general public, I think it would be interesting to make some educational videos about astrophysics, but nothing too advanced. These videos would be put on a future website as part of a bigger product.
 

@@ -1,0 +1,1 @@
+partiview ./data/milkyway.cf

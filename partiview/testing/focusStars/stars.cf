@@ -1,0 +1,46 @@
+# DIGITAL UNIVERSE ATLAS
+# American Museum of Natural History and Hayden Planetarium
+# http://www.haydenplanetarium.org/universe/
+#
+# Use of these data is subject to the terms of the License. Please see the license file.
+#
+# Config settings: AMNH Abridged Star Catalog version 7.8
+
+filepath +:./testing/focusStars
+
+include smallStars.speck
+include smallStars.label
+eval psize 25000
+#eval psize 100
+eval ptsize 0.05 2.5
+eval points on
+eval lum lum 0 1
+#eval slum 0.005
+eval slum 2.5
+eval cmap focusStars/colorbv.cmap
+eval color color -0.25 2.5
+eval polylumvar point-size area	
+#eval polysize 0.11
+eval polysize 0.0005
+eval polysides 4
+eval polymin 1 
+eval alpha 0.9
+eval poly on
+eval lsize 0.07
+eval labelmin 8
+eval textcment 1 .4 .4 .4
+eval laxes off
+eval label on
+
+warp -extrap U -z 0 -p 100 -seconds		# this command enables star motion in time
+
+# Selection expressions for the stars
+eval thresh color -2 0		# to see just the blue stars
+eval sel blue = thresh
+
+eval thresh color 0 4			# to see the red stars
+eval sel red = thresh
+
+eval see all			# start by seeing all the stars
+eval on				# data group is on at start-up
+
