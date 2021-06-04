@@ -1,5 +1,5 @@
 # Tell Partiview where the data files are...
-filepath +:.:./testing
+filepath +:.:./visualizationData
 
 
 ## AMNH's Stellar Catalog

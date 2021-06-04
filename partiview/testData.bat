@@ -1,1 +1,1 @@
-partiview ./testing/test.cf
+partiview ./visualizationData/test.cf
