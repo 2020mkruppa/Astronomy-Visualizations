@@ -1,0 +1,47 @@
+Summer Work Plan
+Michael Kruppa
+
+Goals:
+Since I am being hired and paid to do this work, my first goal is that I am able to produce quality deliverables for the research team based on what they require. 
+
+This is my first research internship, so I want to also develop general internship skills. For example, I want to learn about how research works in academia, which would help inform my choice of whether to go into pure research or industry in future employment. Additionally, working with a graduate student as a direct supervisor/mentor is a good introduction to future interaction with other people in a work setting. 
+
+I also want to develop some skills, new and old, primarily related to physics and CS, see Skills.
+
+Communication:
+So far, we have set up twice-weekly zoom meetings, with one of them on Monday, 1pm. In addition, we have a Slack channel and email.
+
+For long-form meetings and discussion, I think twice per week is good enough for now as a baseline. If I need more guidance or want to put final touches on something, I might want to ask for more meetings. I will generally always be around my computer, so I can definitely accommodate last-minute meetings. 
+
+For quick daily check-ins and small questions, Slack or email is fine.
+
+In the beginning, I imagine that a lot of the communication will be us exchanging ideas on what to make, and how best to divide work. I’m sure I’ll be asking questions related to astronomy if I don’t understand something technical. Once we are developing a product, there will be a lot of fine tuning and discussion, probably with Professor Schaufman, on how he likes the work.
+
+Besides work-related communication, I definitely welcome talking about anything else at all. 
+
+As a final note, as the pandemic is ending and I am fully vaccinated, and since Hopkins campus is not far away (1 hour drive), I can occasionally come to campus if need be.    
+
+
+Skills:
+I would like to develop skills specifically related to this internship, as well as skills broadly applicable in future internships/employment.
+
+I am interested in learning more about astronomy and astronomy research, both from a “hands on data” approach and a more general understanding of the bigger picture of how much we know, what is yet to be discovered, etc. Using astronomy software, such as Partiview, would be good practice for using other scientific visualization tools in the future. 
+
+I already know parts of the software package manim, and I would like to learn more, as this library is very versatile in producing precise animations for a variety of subjects. I’m sure I can find something useful to animate related to this internship, but it will also be a good opportunity to explore the library. 
+
+As a final presentation medium, I would like to develop either a mobile or web based app to be an accessible product for general public outreach. I have some experience in mobile app development, but I’m not sure how well certain presentations (a planetarium for example) would fit on a phone. I have essentially no experience with web development, but this is something I would like to learn, and I think making a web app would be much more useful in this case. 
+
+Furthermore, I would like to work on my interaction and “human” skills. Especially during this pandemic, I have had minimal interaction with other people, both professionally and socially, and even besides that, this is something I should work on anyway. This could be working on collaboration and teamwork in a small team, or presenting my work to a public audience, or having to do promotional work to advertise our product as part of the public outreach campaign.
+
+
+
+
+Preliminary Ideas:
+
+I know that we are supposed to make a planetarium presentation, probably using Partiview, that traces a path through the stars. 
+
+Since a lot of the outreach work is aimed at children or the general public, I think it would be interesting to make some educational videos about astrophysics, but nothing too advanced. These videos would be put on a future website as part of a bigger product.
+
+For example, there could be a video (made with manim) about the 2-body problem and Kepler Orbits; basically the content I learned in my Classical Mechanics II course. This would show a side by side view of some formulas and results and animations of planets, etc.
+
+In addition, there was a homework lab I did in the Special Relativity class, which derived a simplified model for SS433, a microquasar. We used emission lines and redshift data to produce a precessing model of the jets. I think it would be educational to try to animate a simplified version of the system and walk through the calculations. This would be more of an explanation of the scientific process as it relates to astrophysics, collecting data, processing it, and producing a simple model. 

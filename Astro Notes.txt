@@ -1,0 +1,12 @@
+Exoplanet Detection Methods
+
+Direct Imaging, good for close systems, (angular separation), and if planet reflects light or emits thermal itself. Easier if host star is further away or emission spectrum is different than planet
+
+Radial Velocity - periodic oscillation in velocity from doppler shift. Good for large planets in close orbits with smaller host stars.
+Drawbacks inclination angle only shows minimum mass, eccentricity in planet can make it harder too
+
+Transits - planet appears between star and observer, blocks a bit of light. System cannot be “perpendicular” to earth. Susceptible to other noise from 3rd parties. Easier with smaller star and larger planet, and better if fewer planets. 
+
+Astrometry - measure positions of stars over time and look for wobbles. Similar to RV.
+
+Gravitational Microlensing - deflection of light, creates a sort of lens effect. Can produce ring effects
