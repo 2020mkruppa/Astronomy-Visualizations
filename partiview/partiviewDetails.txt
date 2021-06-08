@@ -1,0 +1,62 @@
+To make a star have volume when you get close, you must include its data point twice ni the speck file.
+Without doing this, when the camera gets close, the point dissappears and only the halo is left over.
+
+To have the halo shape instead of texture, make sure datavar for texture is "linked" to the file to overlay
+
+Finding how partiView handles angles was quite complicated. First, the documentation was very brief about it, and only described it
+as Rx Ry Rz. The 0 0 0 config of the camera corresponds to facing parallel to the z axis, facnig the origin, with the x axis
+extending out to the right and y axis up. 
+Testing simple cases, I found that for single rotations about a coordinate axis, it made sense, but not when I composed rotations.
+Initially, I thought the system was to first rotate in the x-y plane and then up toward the z axis, similar to latitute longitude, but 
+that didn't work in many cases. 
+
+I went to the source code at https://git.ncsa.illinois.edu/slevy/partiview to see if I could find something there. Although partiView itself is 
+lightWeight, the source code is still too dense to just "read through". Certain partiView commands like "jump" take in rotation values, so 
+I tried to see how it was converted, but there was little code documentation, and I quickly got to hardcoded matrix formulas with no descriptive
+names. The file geometry.c seemed to contain most of the utility methods for these operations. However, I did find a comment nearby that described it as "azimuth, elevation, roll", and also YXZ. All along, I suspected that they were using some standard rotation system like Euler Angles, since all other systems require more information (still 3 degrees of freedom, but "spread out", like axis-angle form). 
+
+I found a rotation converter https://www.andre-gaschler.com/rotationconverter/ that I used to convet axis-angle to Euler Angles. Axis-angle
+is probably the easiest input data to create, since ultimately I would like to just specify the camera to look in a certain direction.
+I use the cross product between that vector and the default camera (0, 0, -1) to find a mutually orthogonal rotation axis, and the dot product
+to find the angle swept. 
+
+I also learned that Euler Angles come in many conventions, and 3D rotation in general has many conventions, such as if we use axes fixed in the
+body or the frame, or active and passive rotations, etc. However, this converter I found had convention choices permuting XYZ (as opposed to XZX
+which is another common convention), so I chose the YXZ that I saw earlier. To test this, I decided to "request" that the camera look along 
+<1, 0.5, -1>, and I calculated the axis-angle rotation by hand. I plugged into the converter and got the YXZ Euler Angles, and put them in 
+partiView. Luckily, there is a builtin command called "where", which prints out a lot of useful positional information including the camera's 
+"looking vector", and it matched my requested <1, 0.5, -1>, up to a very small numerical error. I tested this a couple more times with other
+vectors, and it worked correctly as well. 
+
+I also tested orienting myself in partiView randomly, and looking at the camera's direction vector. I again plugged that into axis-angle and then
+the converter, and found the calculated Euler Angles. The first 2 matched exactly with what partiView said, but the 3rd angle was about 15% off.
+I have no idea why, and I am fairly sure it was not a calculation mistake on my part. 
+
+Now I was pretty confident that the converter was correct, and so I looked at its source code (which was nicely provided in github). Unfortunately,
+it was very long and hard to read, and like partiView, the matrix math was all "baked in" and hard to reproduce. 
+
+At this point, I figured out that I would need to convert axis-angle (or some form produceable from axis-angle) to Euler, but most guides
+used the standard XYZ (roll pitch yaw) convention. Essentially the ordering of the axes determines the order of the multiplication of the 
+elementary rotation matricies. This was a good guide: http://danceswithcode.net/engineeringnotes/rotations_in_3d/rotations_in_3d_part1.html  though
+I refered to many other sources. These sources mainly used the composed rotation matrix form, so that's what I used.
+
+The composed rotation matrix I need is created from Ry(v)Rx(u)Rz(w), which of course matches the YXZ form. These matricies are the standard 3D rotations matricies. I used Mathematica to multiply them. To solve for each angle, one can divide carefully chosen elements of the composed matrix
+to isolate sin or cos of u, v, w. Just to make sure all my implicit conventions were correct, I testing this against the converter and it all
+worked out.   
+
+Finally, to get the rotation matrix from axis-angle I found a formula on wikipedia https://en.wikipedia.org/wiki/Rotation_matrix#In_three_dimensions and used that. There are no annoying conventions here, so it's a
+simple plug in. 
+
+I also investigated an alternative method of creating the rotation matrix, using a regular aziumth-elevation type rotation composition. Axis-angle
+works well, but it causes some rolling (as in pitch, yaw, roll), and I wanted to see if I could avoid that. Azimuth-elevation is very much like
+spherical polar coordinates, and a horizontal section rotated using this method would remain horizontal. I tried this, and it definately produced
+different results, but there were some "fun" barrel rolls for some reason, and it was a little disorienting. I decided to stick with axis-angle. 
+
+*Note this is a summary of my path to get the whole thing to work. There were several more dead ends than I mentioned and I also spent some time 
+reminding myself how 3D rotations worked in general.
+
+
+For the camera angles, I have 2 options, looking directly at the line of travel (similar to a rollar coaster), and fixating on a point. Switching between these options produces a smooth pan.
+
+
+
