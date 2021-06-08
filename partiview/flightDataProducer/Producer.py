@@ -7,7 +7,7 @@ SPEED_MULTIPLIER = 3       #Generally controls how fast the camera moves, specif
 BEZIER_TIGHTNESS = 1.2     #Global multiplier into how shrap to make each bezier, too large or too small will make a cusp.
 SUBDIVISIONS = 1500        #Number of steps when numerically calculating arc length and other bezier calculations
 CAM_HOME = [0, 0, -1]
-CAM_INTERP_START = 0.25    #The camera panning interpolation will only interpolate between these 2 values, greater or smaller than them,
+CAM_INTERP_START = 0.15    #The camera panning interpolation will only interpolate between these 2 values, greater or smaller than them,
 CAM_INTERP_END = 0.75      #it will be constant at either start or end
 
 '''
@@ -182,12 +182,12 @@ def printPathToFile(flatPathData):
 		f.write("%.4f %.4f %.4f %.4f %.4f %.4f 60\n" % (e[0], e[1], e[2], e[3], e[4], e[5]))
 
 def makeFramesFile(data):
-        f = open(FRAMES_OUT, "w")
-        f.write('filepath +:.:./visualizationData\n\n')
-        f.write('eval snapset frames -n 0\n\n')
-        for e in range(len(data)):
-                f.write('eval frame ' + str(e) + '\n')
-                f.write('eval snapshot frames\n')
+	f = open(FRAMES_OUT, "w")
+	f.write('filepath +:.:./visualizationData\n\n')
+	f.write('eval snapset frames%06d -n 0\n\n')
+	for e in range(len(data)):
+			f.write('eval frame ' + str(e) + '\n')
+			f.write('eval snapshot frames\n')
 
 def printPathToConsole(flatPathData): #Formated for Mathematica's ListPointPlot3D
 	s = ""
@@ -287,8 +287,18 @@ def getInterpolatedCam(startCam, endCam):
 			return endCam
 		if t < CAM_INTERP_START:
 			return startCam
-		return [getOriginalFromNormalized(startCam[i], endCam[i], (t - CAM_INTERP_START) / (CAM_INTERP_END - CAM_INTERP_START)) for i in range(3)]
+		return [polynomial_smoothing(CAM_INTERP_START, CAM_INTERP_END, startCam[i], endCam[i], t) for i in range(3)]
 	return function
+
+def polynomial_smoothing(start_t, end_t, start_y, end_y, t):
+	t_diff = end_t - start_t
+	y_diff = end_y - start_y
+	if t <= (start_t + end_t) / 2:
+		scale = 4 * y_diff / (t_diff**3)
+		return (scale * ((t - start_t)**3)) + start_y
+	else:
+		scale = 4 * y_diff * -1 / ((-1 * t_diff)**3)
+		return (scale * ((t - end_t) ** 3)) + end_y
 
 def calculateCameraAngles(inputData, outputCurveData, eulerFunction):
 	# s -> s is easy, just have it always along the tangent vector
@@ -322,7 +332,7 @@ def calculateCameraAngles(inputData, outputCurveData, eulerFunction):
 				endCamVector = vectorFromTo(outputCurveData[i + 1][0], inputData[i + 1][6:])
 				beginCamVector = vectorFromTo(outputCurveData[i][0], inputData[i][6:])
 
-			interpolatedCam = getInterpolatedCam(beginCamVector, endCamVector)
+			interpolatedCam = getInterpolatedCam(normalize(beginCamVector), normalize(endCamVector))
 			for posIndex in range(len(outputCurveData[i])):
 				outputCurveData[i][posIndex].extend(eulerFunction(interpolatedCam(posIndex / len(outputCurveData[i]))))
 
