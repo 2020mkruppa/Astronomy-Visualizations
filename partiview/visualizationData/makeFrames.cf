@@ -1,7 +1,5 @@
 filepath +:.:./visualizationData
 
-eval detach
-winsize 1920 1080
 eval snapset frames%06d -n 0
 
 eval frame 0
