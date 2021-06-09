@@ -10,3 +10,6 @@ Transits - planet appears between star and observer, blocks a bit of light. Syst
 Astrometry - measure positions of stars over time and look for wobbles. Similar to RV.
 
 Gravitational Microlensing - deflection of light, creates a sort of lens effect. Can produce ring effects
+
+
+Some of these techniques must also take into account relativistic effects and also earth's own orbital and rotational motion.
