@@ -58,5 +58,7 @@ reminding myself how 3D rotations worked in general.
 
 For the camera angles, I have 2 options, looking directly at the line of travel (similar to a rollar coaster), and fixating on a point. Switching between these options produces a smooth pan.
 
-
+In order to record a video, partiview will save screenshots after each frame in a path. Specifically, load in a flight path manually, then command 'read makeFrames.cf" this instructs partiview to move to frame 1, save a snapshot,
+move to frame 2, save, and so on. One can detach the viewing window using "detach" and also resize it using "winsize x y". This enables partiview to take screenshots at any resolution. Unfortunately it saves it directly into the main
+directory, not a new folder, but this isn't a huge deal. I then wrote a small python script using opncv to stitch the frames together at 60 fps. 
 

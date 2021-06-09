@@ -7,8 +7,8 @@ SPEED_MULTIPLIER = 3       #Generally controls how fast the camera moves, specif
 BEZIER_TIGHTNESS = 1.2     #Global multiplier into how shrap to make each bezier, too large or too small will make a cusp.
 SUBDIVISIONS = 1500        #Number of steps when numerically calculating arc length and other bezier calculations
 CAM_HOME = [0, 0, -1]
-CAM_INTERP_START = 0.15    #The camera panning interpolation will only interpolate between these 2 values, greater or smaller than them,
-CAM_INTERP_END = 0.75      #it will be constant at either start or end
+CAM_INTERP_START = 0.1    #The camera panning interpolation will only interpolate between these 2 values, greater or smaller than them,
+CAM_INTERP_END = 0.9      #it will be constant at either start or end
 
 '''
 Flight data is listed in rows. Format is [x y z] v [connection type]
@@ -213,7 +213,7 @@ def calculatePathData(eulerFunction):
 	if not inputData[0][4]:
 		raise Exception("First path not straight")
 	if not inputData[-1][4]:
-		raise Exception("First path not straight")
+		raise Exception("Last path not straight")
 
 	outputCurveData = [] #Each element corresponds to each connection and the element containts list of [x, y, x]
 	for element in range(len(inputData) - 1):
@@ -324,21 +324,29 @@ def calculateCameraAngles(inputData, outputCurveData, eulerFunction):
 		else:
 			if inputData[i][5] and (not inputData[i + 1][5]):  # s -> xyz
 				beginCamVector = vectorFromTo(outputCurveData[i][0], outputCurveData[i][1])
-				endCamVector = vectorFromTo(outputCurveData[i + 1][0], inputData[i + 1][6:])
+				endCamVector = vectorFromTo(outputCurveData[i][-1], inputData[i + 1][6:])
 			elif (not inputData[i][5]) and (inputData[i + 1][5]):  # xyz -> s
-				endCamVector = vectorFromTo(outputCurveData[i + 1][0], outputCurveData[i + 1][1])
+				endCamVector = vectorFromTo(outputCurveData[i][-2], outputCurveData[i][-1])
 				beginCamVector = vectorFromTo(outputCurveData[i][0], inputData[i][6:])
 			else:  # xyz ->xyz different coords
-				endCamVector = vectorFromTo(outputCurveData[i + 1][0], inputData[i + 1][6:])
-				beginCamVector = vectorFromTo(outputCurveData[i][0], inputData[i][6:])
+				#endCamVector = vectorFromTo(outputCurveData[i][-1], inputData[i + 1][6:])
+				#beginCamVector = vectorFromTo(outputCurveData[i][0], inputData[i][6:])
+				interpolatedVector = getInterpolatedCam(inputData[i][6:], inputData[i + 1][6:])
+				for posIndex in range(len(outputCurveData[i])):
+					scaled = posIndex / len(outputCurveData[i])
+					outputCurveData[i][posIndex].extend(eulerFunction(vectorFromTo(outputCurveData[i][posIndex], interpolatedVector(scaled))))
+				continue
 
 			interpolatedCam = getInterpolatedCam(normalize(beginCamVector), normalize(endCamVector))
 			for posIndex in range(len(outputCurveData[i])):
 				outputCurveData[i][posIndex].extend(eulerFunction(interpolatedCam(posIndex / len(outputCurveData[i]))))
 
 
+
+
+
 finalPathData = calculatePathData(getEulerAnglesAxisAngle)
-#printPathToConsole(finalPathData)
+printPathToConsole(finalPathData)
 #assessStride(finalPathData)
 printPathToFile(finalPathData)
 makeFramesFile(finalPathData)
