@@ -9,6 +9,9 @@ include focusStars/stars.cf
 object g2=BackgroundStars
 include backgroundStars/stars.cf
 
+object g3=MovingStars
+include movingStars/moving.cf
+
 
 ##########################################
 ## General Partiview commands

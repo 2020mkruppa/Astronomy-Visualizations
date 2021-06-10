@@ -186,8 +186,9 @@ def makeFramesFile(data):
 	f.write('filepath +:.:./visualizationData\n\n')
 	f.write('eval snapset frames%06d -n 0\n\n')
 	for e in range(len(data)):
-			f.write('eval frame ' + str(e) + '\n')
-			f.write('eval snapshot frames\n')
+		f.write('eval frame ' + str(e) + '\n') #Flight path next frame
+		f.write('eval step ' + str(e) + '\n')  #Time data next frame
+		f.write('eval snapshot frames\n')
 
 def printPathToConsole(flatPathData): #Formated for Mathematica's ListPointPlot3D
 	s = ""

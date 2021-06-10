@@ -62,3 +62,10 @@ In order to record a video, partiview will save screenshots after each frame in 
 move to frame 2, save, and so on. One can detach the viewing window using "detach" and also resize it using "winsize x y". This enables partiview to take screenshots at any resolution. Unfortunately it saves it directly into the main
 directory, not a new folder, but this isn't a huge deal. I then wrote a small python script using opncv to stitch the frames together at 60 fps. 
 
+
+In order to animate time-varying data, there are several options. One can specify velocity components for each star in the speck file, as a dataavar, and partiview will do a simple 
+linear extrapolation in time. This is only good for linear motion. Another option is using the 'datatime' keyword in the speck file. For every star you want to move, you can provide
+xyz coordinates for every step in time. There is no interpolation between these points, and so there has to be quite a few datatimes (several hundereds at least) to see smooth
+motion. With this method, any sort of path can be produced (for any number of stars concurrently). There is a final method I found with minimal documentation. One can combine the two
+previous methods, with linear interpolation between datatimes. However, unless there are many datatimes, this will produce choppy motion, and the velocities have to be updated
+appropriately for each data time to make sure the extrapolation hits the next coordinate point. This is cumbersome and one might as well use the "pure datatimes" method. 

@@ -10,3 +10,4 @@ Finished flight path modelling and figured out how camera angles work.
 Looked for software that converts regular video to be compatible with half-dome projection.
 Wrote script to have partiview save screenshots and stitch them together to form a video.
 Produced "Demo" flight video to practice camera movement.
+Figured out how to time evolving data and flight movement concurrently and record video of it.

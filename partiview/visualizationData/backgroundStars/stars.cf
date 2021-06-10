@@ -32,7 +32,7 @@ eval textcment 1 .4 .4 .4
 eval laxes off
 eval label on
 
-warp -extrap U -z 0 -p 100 -seconds		# this command enables star motion in time
+#warp -extrap U -z 0 -p 100 -seconds		# this command enables star motion in time
 
 # Selection expressions for the stars
 eval thresh color -2 0		# to see just the blue stars
