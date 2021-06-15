@@ -1,8 +1,10 @@
 import math
 
-DATA_SOURCE = 'inData.txt'
-DATA_OUT = '../visualizationData/outPath.wf'
-FRAMES_OUT = '../visualizationData/makeFrames.cf'
+SUB_DIRECTORY = 'radialVelocity'
+
+DATA_SOURCE = '../' + SUB_DIRECTORY + '/pathData.txt'
+DATA_OUT = '../' + SUB_DIRECTORY + '/outPath.wf'
+FRAMES_OUT = '../' + SUB_DIRECTORY + '/makeFrames.cf'
 SPEED_MULTIPLIER = 3       #Generally controls how fast the camera moves, specifically, multiplies globally into each iput speed
 BEZIER_TIGHTNESS = 1.2     #Global multiplier into how shrap to make each bezier, too large or too small will make a cusp.
 SUBDIVISIONS = 1500        #Number of steps when numerically calculating arc length and other bezier calculations
@@ -183,7 +185,7 @@ def printPathToFile(flatPathData):
 
 def makeFramesFile(data):
 	f = open(FRAMES_OUT, "w")
-	f.write('filepath +:.:./visualizationData\n\n')
+	f.write('filepath +:.:./' + SUB_DIRECTORY + '\n\n')
 	f.write('eval snapset frames%06d -n 0\n\n')
 	for e in range(len(data)):
 		f.write('eval frame ' + str(e) + '\n') #Flight path next frame

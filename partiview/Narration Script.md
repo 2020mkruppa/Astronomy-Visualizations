@@ -55,7 +55,7 @@ This technique has been used to successfully find many exoplanets, but it has so
 
 ## Introduce Transit Method
 In 1999, astronomers were able to confirm the existance of the exoplanet HD 209458b using a new detection technique, the transit method. This exoplanet
-is 159 light-years from us, and is a Hot Jupiter (?). This characteristic makes it a candidate for radial velocity detection, and indeed it was originally
+is 159 light-years from us, and is a Hot Jupiter. This characteristic makes it a candidate for radial velocity detection, and indeed it was originally
 discovered this way. However, it is also detectable using the transit method technique.
 
 Normally, the light intensity coming from a star is constant, at least on a month to month timescale. However, an orbiting exoplanet might periodically

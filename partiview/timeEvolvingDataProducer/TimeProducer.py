@@ -1,7 +1,8 @@
 import math
 
-DATA_SOURCE = 'inData.txt'
-DATA_OUT = '../visualizationData/movingStars/movingStars.SPECK'
+SUB_DIRECTORY = 'radialVelocity'
+DATA_SOURCE = '../' + SUB_DIRECTORY + '/timeData.txt'
+DATA_OUT = '../' + SUB_DIRECTORY + '/movingStars/movingStars.SPECK'
 
 SPEED_MULTIPLIER = 3       #Generally controls how fast the camera moves, specifically, multiplies globally into each iput speed
 SUBDIVISIONS = 1500        #Number of steps when numerically calculating arc length and other bezier calculations

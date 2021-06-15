@@ -1,5 +1,6 @@
-To make a star have volume when you get close, you must include its data point twice ni the speck file.
+To make a star have volume when you get close, you must include its data point twice in the speck file.
 Without doing this, when the camera gets close, the point dissappears and only the halo is left over.
+In addition, the color map color has to be be sufficiently bright (white) and have a large enough alpha.
 
 To have the halo shape instead of texture, make sure datavar for texture is "linked" to the file to overlay
 
@@ -69,3 +70,15 @@ xyz coordinates for every step in time. There is no interpolation between these 
 motion. With this method, any sort of path can be produced (for any number of stars concurrently). There is a final method I found with minimal documentation. One can combine the two
 previous methods, with linear interpolation between datatimes. However, unless there are many datatimes, this will produce choppy motion, and the velocities have to be updated
 appropriately for each data time to make sure the extrapolation hits the next coordinate point. This is cumbersome and one might as well use the "pure datatimes" method. 
+
+
+In addition to evolving position with time, one can also evolve other qualities with time, as long as they appear in the .SPECK file. This works best with continuous
+variables, such as luminosty. All you need to do is to have it print out a non-constant value through time, and partiview will update the quality accordingly.
+
+
+
+The only texture I was able to use was the one in the Digital Universe halo.pbm. I tried opening this file and modifying it using GIMP, but after I saved it, partiview had 
+trouble recognizing it. It displayed a large square instead of the texture, which is what it does when there are no textures at all. Looking at the raw data using
+a text editor, the data format was clearly different after I saved it using GIMP, so that might be the problem.
+
+
