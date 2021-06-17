@@ -34,7 +34,7 @@ The reason a planet is able to orbit a star is that the star exerts a gravitatio
 However, Newton's 3rd Law requires that the planet exerts the same force on the host star. Since the host star is commonly orders of magnitude greater
 in mass than the planet, the star's motion will be barely affected by the planet. However, the heavier and closer the planet is, the stronger the effect.
 This will cause the host star to also orbit the common center of mass of the system. We can use the star's motion to help predict the existance of an orbiting planet. 
-For someone observing our solar system edge-on, Jupiter causes a 12.4 m/s deviation in relative velocity, and Earth causes a 0.089 m/s deviation. Even though
+For someone observing our solar system edge-on, Jupiter causes a 12.4 m/s oscillation in relative velocity, and Earth causes a 0.089 m/s oscillation. Even though
 Jupiter is further away, it is much more massive than earth, which is why its effect is stronger.
 
 In order to find a star moving in a circle like this, we use a technique called Doppler Spectroscopy, commonly known as the Radial Velocity method. 
@@ -61,8 +61,10 @@ its volume, but its pitch was going up and down periodically. We would then assu
 This technique has been used to successfully find many exoplanets, but it has some drawbacks. If the orbit isn't "edge-on", then star's motion will be 
 a little bit more side-to-side instead of to or from you. The problem is, we can't figure out using RV alone if there is this inclination, so the RV method
 can's always give you an exact mass. In addition, not all orbits are circular, and the less circular it is, the harder it is to model the motion.
-Finally, the RV method is generally only effective and finding Hot Jupiters, because they produce the largest effect. Therefore this method of detection
+Finally, Hot Jupiters are the easiest type of exoplanets to detect, since they produce the largest effect. Therefore this method of detection
 skews the distribution of discovered planets - the true percentage of Hot Jupiters out of all exoplanets is smaller than it would appear from just using RV.
+Nevertheless, improvements in telescope design and data analysis have allowed astronomers to identifying planets with smaller mass and greater orbital radius
+than before.
 
 
 
