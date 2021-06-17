@@ -85,12 +85,6 @@ than the sun is, making it appear that much larger. When detecting exoplanets ho
 than the average orbital radius (light years versus light minutes). Therefore when we observe a transit on a distant star, we can only measure the overall 
 brightness of star. We cannot see the part of the star that is blocked, unlike with our own sun-moon system. 
 
-
-In 2009, NASA launched the Kepler telescope, which trailed the Earth for 9 years, looking for exoplanets, particularily Earth-sized exoplanets. 
-Kepler's primary method of detecting stars was using the transit method, and it found over 2,600 planets over its 9 years. In 2018, a follow-up mission
-was launched, called TESS, which will continue the search for exoplanets using the transit method.
-
-
 ## Transit Complications
 There are some complications with this technique. Multiplanet stars produce more complicated transit data and it is harder to resolve each planet individually.
 Furthermore, the transit method completely relies on a rather unlikely event of the planet blocking a bit of the star light. There could be other reasons that 
@@ -104,4 +98,15 @@ Radial velocity and transits are two complementary methods for finding exoplanet
 Hot Jupiters. Astronomers use these techniques to find exoplanets and develop our understanding of our universe. In recent years, special attention has 
 been given to researching planets that could support life. Of particular interest are terrestrial planets, planets which have similar size and mass to earth.
 Furthermore, we would like to find planets which are not too close or too far from their host star, as this would make the planet too hot or too cold for life. 
-Once we find a suitable planet, the next step would be to look for precursors to sustaining life, such as water and an atmosphere. 
+Specifically, we are interested in the Habitable Zone, which is a region around any star where the planet temperature can support liquid water. 
+Once we find a suitable planet, the next step would be to look for precursors to sustaining life, such as water traces and an atmosphere. 
+
+
+In 2009, NASA launched the Kepler telescope, which trailed the Earth for 9 years, looking for exoplanets, particularily Earth-sized exoplanets. 
+Kepler's primary method of detecting stars was using the transit method, and it found over 2,600 planets over its 9 years. 
+In 2018, a follow-up mission was launched, called TESS, which will continue the search for exoplanets using the transit method. Kepler observed a fixed section of sky for its 9 years,
+so it was able to look for more distant and dimmer stars. TESS will survey almost the entire sky, which is roughly 400 times more area than Kepler. Because 
+of that, TESS will only be able to focus on the brightest stars, which will facilitate further study from ground-based telescopes.
+
+Currently, we haven't found many Earth-sized planets in the habitable zone, but Kepler has fond several candidates orbiting dwarf stars, such as Kepler-438b and Kepler-452b. 
+
