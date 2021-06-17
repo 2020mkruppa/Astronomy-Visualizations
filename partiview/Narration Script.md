@@ -11,8 +11,10 @@ Before humans could put powerful telescopes in space, we had to work with relati
 launched in 1990, we were not aware of other planetary systems. Any models we made about planetary formation were therefore only based
 on our solar system. Our solar system has a number of characteristics that shaped our expectations for other planetary systems. For example, 
 we have 4 terrestrial planets closest to the sun, and then 4 gas giant outside of that. All of the orbits are nearly circular, and also lie nearly in the same plane. 
-As we discovered later, these properties are also commonly found in other planetary systems, so our models could be applied elsewhere. 
+For the past 25 years, scientists have investigated how representative our solar system is of all planetary systems, and whether our system's properties 
+are also commonly found in other planetary systems. 
  
+Reorder motivation with observation then conclusion
 
 ## Introduce Exoplanets
 Up until 1995, the only planets we could see were the ones in our own solar system. However, in 1995, the first planet outside our solar system was discovered,
@@ -21,7 +23,7 @@ and has a nearly circular orbit. 51 Peg has size and mass comparable to Jupiter,
 comparison here in planet radius and orbital radius**) Because of this, planets with these characteristics are described as Hot Jupiters. 
 
 ## Detection problem
-Since planet's don't normally produce their own light, detecting them is hard. However, the situation is much harder because planets appear extremely close
+Since planet's don't normally produce their own visible light, detecting them is hard. However, the situation is much harder because planets appear extremely close
 to their stars. The stars' light totally swamp out any reflected light from the planet. As an analogy, imagine if a street light represented a star, and a 
 firefly represented a planet. When the firefly is very close to the light, it becomes nearly impossible to distinguish it from the streetlight itself, and
 we might only see one apparent light source. When we look for exoplanets, which are many light years away, it is exceedingly rare to be able to directly
