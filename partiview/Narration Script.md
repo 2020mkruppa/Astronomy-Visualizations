@@ -13,14 +13,7 @@ on our solar system. Our solar system has a number of characteristics that shape
 we have 4 terrestrial planets closest to the sun, and then 4 gas giant outside of that. All of the orbits are nearly circular, and also lie nearly in the same plane. 
 For the past 25 years, scientists have investigated how representative our solar system is of all planetary systems, and whether our system's properties 
 are also commonly found in other planetary systems. 
- 
-Reorder motivation with observation then conclusion
 
-## Introduce Exoplanets
-Up until 1995, the only planets we could see were the ones in our own solar system. However, in 1995, the first planet outside our solar system was discovered,
-located 50 light-years away. It's called 51 Pegasi b, or simply 51 Peg. It is roughly 146 times earth's mass, has an orbital period of roughly 4 days, 
-and has a nearly circular orbit. 51 Peg has size and mass comparable to Jupiter, yet is about 7 times closer to its sun than mercury is to our sun. (**Visual
-comparison here in planet radius and orbital radius**) Because of this, planets with these characteristics are described as Hot Jupiters. 
 
 ## Detection problem
 Since planet's don't normally produce their own visible light, detecting them is hard. However, the situation is much harder because planets appear extremely close
@@ -29,34 +22,53 @@ firefly represented a planet. When the firefly is very close to the light, it be
 we might only see one apparent light source. When we look for exoplanets, which are many light years away, it is exceedingly rare to be able to directly
 observe them, partly due to this effect. Therefore we must indirectly observe them. 
 
-## Introduce Radial Velocity
-The reason a planet is able to orbit a star is that the star exerts a gravitational attractive force on the planet, keeping it in a bound orbit.  
-However, Newton's 3rd Law requires that the planet exerts the same force on the host star. Since the host star is commonly orders of magnitude greater
-in mass than the planet, the star's motion will be barely affected by the planet. However, the heavier and closer the planet is, the stronger the effect.
-This will cause the host star to also orbit the common center of mass of the system. We can use the star's motion to help predict the existance of an orbiting planet. 
-For someone observing our solar system edge-on, Jupiter causes a 12.4 m/s oscillation in relative velocity, and Earth causes a 0.089 m/s oscillation. Even though
+
+## Motivate RV
+In 1995, astronomers observed something interesting about the star 51 Peg. It seemed to be producing light that was changing color periodically. More accurately,
+scientists were analyzing the star light in a process called spectroscopy. Spectrospcopy, in general, splits light into separate frequencies, which can be interpreted as color,
+that can determine what sort of chemical elements helped produce the light. This is a little bit similar to using a prism to split a beam of white light
+into a rainbow. Each chemical element has a known spectroscopic "signature" that is fundamentally characteristic of the element. For example, 
+some streetlights have a distinctive orange-yellowish glow. This is due to the sodium vapor inside the light. 
+
+What the astronomers noticed, was that the entire spectrum seemed to shift to a higher frequency as time went on, then it shifted
+back toward the lower frequency direction, and repeated like that. The chemical composition of stars are essentially constant on this timescale, so something 
+else must have caused this shift.
+
+Astronomers concluded that the logical cause of this was due to the Doppler Effect. You might be familiar with this effect when it comes to sound waves, where
+it is most tangible. For example, think of the sirens on an ambulance or police car. When the car is approaching you, the apparent pitch increases, and when it is moing away from
+you, the pitch decreases (**actually play audio of this effect**). Electromagnetic radiation behaves in a very similar way, and we describe this effect in terms of 
+redshift and blueshift. When a light-emitting body moves toward an you, the observed frequency is higher than the emitted frequency, resulting in a shift "up" the EM 
+spectrum, toward the blue side of visible light. The shift in frequency is related to the relative velocity of the emitter and the observer.
+
+In general, isolated stars tend to move at constant speed in a constant direction (**don't say velocity?**); this is an application of Newton's First Law. However, such
+motion would produce a constant red or blue shift, not a periodic time-varying shift. 
+
+Now consider what would happen if a planet was orbiting the star. The reason the planet is able to orbit a star is that the star exerts a gravitational attractive force 
+on the planet, keeping it in a bound orbit. However, Newton's 3rd Law requires that the planet exerts the same force on the host star. Since the host star is commonly 
+orders of magnitude greater in mass than the planet, the star's motion will be barely affected by the planet. However, the heavier and closer the planet is, the stronger the effect.
+This will cause the host star to also orbit the common center of mass of the system. When an observer sees the motion of the star from edge on, they see the star getting closer, then
+farther away, then closer again. This is exactly what is needed to produce the oscillating Doppler Shift astronomers first observed. 
+For someone observing our own solar system edge-on, Jupiter causes a 12.4 m/s oscillation in relative velocity of the sun, and Earth causes a 0.089 m/s oscillation. Even though
 Jupiter is further away, it is much more massive than earth, which is why its effect is stronger.
 
-In order to find a star moving in a circle like this, we use a technique called Doppler Spectroscopy, commonly known as the Radial Velocity method. 
-This techniue combines spectroscopy and the Doppler effect, hence the name. Spectrospcopy, in general, splits light into colors that can determine 
-what sort of chemical elements helped produce the light. This is a little bit similar to using a prism to split a beam of white light
-into a rainbow. Each chemical element has a known spectroscopic "signature" that is fundamentally characteristic of the element. For example, 
-some streetlights have a distinctive orange-yellowish glow. This is due to the sodium vapor inside the light.
 
-Then we look at the spectrum of stars with exoplanets, we notice an interesting effect: The spectrum seems to shift to one side as time goes on, then it shifts
-back toward the other direction, and repeats like that. The chemical composition of the star is essentially constant on this timescale, so something 
-else must be causing this shift.
+This technique is sometimes called Doppler Spectroscopy, since it combines both topics, but it is most commonly known as the Radial Velocity method. Essentially, astronomers 
+can use a star's motion to help predict the existance of an orbiting planet, since it is easier to observe the planet's effects than the planet itself. Depending on the amplitude
+of the doppler shift, and the period of the osciallation, we can calculate the star's velocity change. Finally, using Kepler's 3rd Law, we can determine
+the mass ratio of the planet to its host star, as well as the orbital period. 
 
-This is where the Doppler effect comes in. The Doppler effect is most tangible with sirens on an ambulance or police car. When the car is approaching 
-you, the pitch increases, and when it is moing away from you, the pitch decreases. Electromagnetic radiation behaves in a very similar way, and we
-describe this effect in terms of redshift and blueshift. When a light-emitting body moves toward an you, the observed frequency is higher than
-the emitted frequency, resulting in a shift "up" the EM spectrum, toward the blue side of visible light. The shift in frequency is related to 
-the relative velocity of the emitter and the observer.
+As an analogy, imagine if we heard an ambulance siren that was roughly maintaining its volume, but its pitch was going up and down periodically. We would then assume that the 
+ambulance was continually going around a traffic circle, and we could calculate how large the circle was, and how fast the ambulance was moving.
 
-When we combine this knowledge with spectroscopic data, we can determine the star's velocity change. Finally, using Kepler's 3rd Law, we can determine
-the mass ratio of the planet to its host star, as well as the orbital period. As an analogy, imagine if we heard an ambulance siren that was roughly maintaining
-its volume, but its pitch was going up and down periodically. We would then assume that the ambulance was continually going around a traffic circle. 
- 
+
+## Introduce Exoplanets
+Up until 1995, the only planets we could see were the ones in our own solar system. However, in 1995, the first planet outside our solar system was discovered using the 
+Radial Velocity method. Located 50 light-years away, it's called 51 Pegasi b, or simply 51 Peg. It is roughly 146 times earth's mass, has an orbital period of roughly 4 days, 
+and has a nearly circular orbit. 51 Peg has size and mass comparable to Jupiter, yet is about 7 times closer to its sun than mercury is to our sun. (**Visual
+comparison here in planet radius and orbital radius**) Because of this, planets with these characteristics are described as Hot Jupiters. 
+
+
+
 ## RV Complications
 This technique has been used to successfully find many exoplanets, but it has some drawbacks. If the orbit isn't "edge-on", then star's motion will be 
 a little bit more side-to-side instead of to or from you. The problem is, we can't figure out using RV alone if there is this inclination, so the RV method
@@ -65,7 +77,6 @@ Finally, Hot Jupiters are the easiest type of exoplanets to detect, since they p
 skews the distribution of discovered planets - the true percentage of Hot Jupiters out of all exoplanets is smaller than it would appear from just using RV.
 Nevertheless, improvements in telescope design and data analysis have allowed astronomers to identifying planets with smaller mass and greater orbital radius
 than before.
-
 
 
 ## Introduce Transit Method
@@ -80,7 +91,6 @@ the star. The ratio of the planet's and star's radii determine how much light is
 For an observer far from the sun, Jupiter, when it is directly in the line of sight, blocks roughly 1% of the sun's light, and Earth blocks 0.008% of the light.
 By measuring the time between transits, we can find the orbital period, which we can relate to orbital distance through the stellar mass. In addition, with
 information on the stellar radius, we can also find the planet's radius.
-
 
 A very similar effect occurs during solar eclipses, when the moon is very close to being in between earth and the sun, and blocks some sunlight from 
 reaching earth. However, this effect is slightly different because of the relative distances. Although the sun is roughly 400 times greater in radius than
@@ -113,4 +123,10 @@ so it was able to look for more distant and dimmer stars. TESS will survey almos
 of that, TESS will only be able to focus on the brightest stars, which will facilitate further study from ground-based telescopes.
 
 Currently, we haven't found many Earth-sized planets in the habitable zone, but Kepler has fond several candidates orbiting dwarf stars, such as Kepler-438b and Kepler-452b. 
+Due to the way we find exoplanets, it is likely that we will find most of these exoplanets around dwarf stars. Finding a planet with orbital period similar to earth would take
+at least 2 years to confirm a 2nd transit, and that is somewhat infeasable. Therefore we want to find planets which are much closer to the star so that they produce transits
+faster. However, if such a planet was orbiting our own sun, this would be well outside of the habitable zone, so the star itself must be dimmer to move the habitable zone
+closer in. This is why we are finding many dwarf stars with such planets. Finally, since these stars are much dimmer, they must be close to our solar system for us to even 
+observe them.  
+
 
