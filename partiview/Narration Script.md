@@ -1,5 +1,5 @@
 # Script
-Regular text is narration, and bolded parenthesized text describes camera motion / view
+https://docs.google.com/document/d/1nEwkeU2n4K6enT7Giue2OxsaBS0E-5BNnByRcOGil9A/edit?usp=sharing
 
 ## Intro
 Have you ever looked into a clear night sky and been amazed at the number of lights you can see? Even standing on earth, with its light pollution, 
