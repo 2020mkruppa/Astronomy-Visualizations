@@ -1,13 +1,13 @@
 import math
 
-SUB_DIRECTORY = 'radialVelocity'
+SUB_DIRECTORY = 'scene1'
 
 DATA_SOURCE = '../' + SUB_DIRECTORY + '/pathData.txt'
 DATA_OUT = '../' + SUB_DIRECTORY + '/outPath.wf'
 FRAMES_OUT = '../' + SUB_DIRECTORY + '/makeFrames.cf'
-SPEED_MULTIPLIER = 3       #Generally controls how fast the camera moves, specifically, multiplies globally into each iput speed
+SPEED_MULTIPLIER = 2       #Generally controls how fast the camera moves, specifically, multiplies globally into each iput speed
 BEZIER_TIGHTNESS = 1.2     #Global multiplier into how shrap to make each bezier, too large or too small will make a cusp.
-SUBDIVISIONS = 1500        #Number of steps when numerically calculating arc length and other bezier calculations
+SUBDIVISIONS = 3500        #Number of steps when numerically calculating arc length and other bezier calculations
 CAM_HOME = [0, 0, -1]
 CAM_INTERP_START = 0.1    #The camera panning interpolation will only interpolate between these 2 values, greater or smaller than them,
 CAM_INTERP_END = 0.9      #it will be constant at either start or end
@@ -265,8 +265,8 @@ def getEulerAnglesAxisAngle(v): # vector to look at, this uses a straight rotati
 
 
 def getEulerAnglesAzimuthElevation(v): # vector to look at, based purely on azimuth and elevation. This produces some interesting
-	if lengthOfVector(v) == 0:                      #barrel-roll effects that are completely unintentional
-		raise Exception("Bad vector")
+	if lengthOfVector(v) == 0:                      #barrel-roll effects that are completely unintentional, but other times
+		raise Exception("Bad vector")           #works much better than axis-angle
 	v = normalize(v)
 
 	azimuth = -math.atan2(v[0], -v[2]) #Need negative so to get the direction correct since rotation is CW
@@ -348,7 +348,7 @@ def calculateCameraAngles(inputData, outputCurveData, eulerFunction):
 
 
 
-finalPathData = calculatePathData(getEulerAnglesAxisAngle)
+finalPathData = calculatePathData(getEulerAnglesAzimuthElevation)
 printPathToConsole(finalPathData)
 #assessStride(finalPathData)
 printPathToFile(finalPathData)

@@ -1,0 +1,39 @@
+# Tell Partiview where the data files are...
+filepath +:.:./scene1
+
+
+## AMNH's Stellar Catalog
+object g1=BackgroundStars
+include backgroundStars/stars.cf
+
+object g2=Orbits
+include orbitPaths/orbits.cf
+
+object g3=MovingStars
+include movingStars/moving.cf
+
+
+
+##########################################
+## General Partiview commands
+##########################################
+eval g1						# stars are the active group on start up
+
+#eval clip .1 10000000		# use this clip once you leave the Oort sphere (this is the default)
+eval clip 1e-5 1e4			# use this clip if you want to see the solar system when you start
+
+eval fov 60
+
+eval interest 0 0 0			# the Point of Interest is the Sun
+
+#eval jump 0.000001 0.000001 0 -20 80 30		# your position is the Sun at start up
+#eval home 0.000001 0.000001 0 -20 80 30		# this is where you go if you hit the Home button
+eval jump 0.3 0.1 0.05 -20 80 30
+eval home 0 0 0 -20 80 30
+#eval jump 0 0 0  0.173964 -89.9403 -90.2184
+
+eval censize 0.1			# Point of Interest marker size (invisible by default)
+#eval censize 0.106
+
+
+

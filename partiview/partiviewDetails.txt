@@ -81,4 +81,40 @@ The only texture I was able to use was the one in the Digital Universe halo.pbm.
 trouble recognizing it. It displayed a large square instead of the texture, which is what it does when there are no textures at all. Looking at the raw data using
 a text editor, the data format was clearly different after I saved it using GIMP, so that might be the problem.
 
+To fix this, one should use the .sgi format for images, which partiview also supports. When exporting this format from gimp, one can either select the "RLE compression" or
+"No compression option". There are several difficulties however within partiview. For one thing, textures are general shown always facing the camera head on. For star halos, this
+makes sense because we would not want to see a "flat" star, and the spherically symmetric enough. For showing detail on a planet however, it becomes impossible to oribt the planet,
+as the same thing is always shown! There is a way to specify the actual orientation of a texture using the polyorivar command, which accepts 2 orthonormal vectors that define the 
+plane of the texture. This is good to show disc galaxies, for example, but again for a planet it will appear flat when viewed edge-on. 
 
+Another difficulity arises when looking at the texture straight on, and that is that it can appear partially transparent. Again, when showing pictures of galaxies with stars "underneath it",
+it makes sense to have it be partially transparent. However, planets are not transparent, and it makes for quite an experience when one can see stars through the planet. Changing the 
+alpha value on the texture had some effect, though it never made it fully opaque. I experimented with the planet's point color's opaqueness, but that didn't work. One can stack several points
+on top of each other, with identical textures, and while that does improve the opaqueness, it never removes it, and the final image appears over-exposed and blurry.
+
+When declaring textures in the .cf file, there are flags to indicate the mode of drawing textures. For example, the standard star halo uses the -M flag, modulate, which treats the texture
+as a brightness channel, and respects the point's original color map color. There is another option, -O, over compost, which will obscure features behind it according to the alpha at each
+point on the texture. This does succeed in making the planet opaque, but now there are other problems. 
+
+It seems that when partiview says "obscure other features", they really meant that, regardless of depth. When I made a simple earth-sun system, and the sun was physically between the earth 
+and the camera, it was actually entirely blocked by the earth texture. In other words, the texture is always the last thing drawn, regardless of depth. Some of the other command flags for 
+adding textures did not have this problem, but of course, they made earth transparent. 
+
+Another problem with the -O option, was that it had black "leftovers" around the earth. The image of earth we are interested in is round, but the image file is square, and those 4 extra
+pieces showed up. I tried making them transparent in gimp, but then the star's baseline color was shown. Even when I tried to make that color transparent in the color file, it didn't work.
+One can mitigate this problem decently by using the polysides command, which controls the baseline texture shape. The default is 4, as that would make a square and is easiest to render. 
+The maximum allowed is 16, and this would make a regular 16-sided polygon, which is a more convincing circle than a square. Then, the earth texture is drawn onto this polygon, so there are
+now 16 much smaller leftovers. When one makes these parts black, its a pretty convincing effect. One should not zoom too closely if there is a bright object near the edge, as this will
+clearly highlight a sharp corner or straight. However, from far away, its decent enough. 
+
+As a final problem, eclipse-like effects cannot be easily produced. This is to be expected, since textures are always drawn at the same luminosity, or at least independant of the 
+depth-ordering of bright objects. Therefore when the earth passes in front of the sun, we see a fully illuminated face, as opposed to a silhouette. There is not much that can be
+done about this, other than manually changing the texture to a black circle at the right time, and then possibly using a crescent, and eventually the original. 
+
+
+When showing the orbit path of a planet, I had to use a mesh to create a circle. Partiview does have a ellipsoid command, but this produces an ellipsoid.
+One can set one of the dimensions to be 0, but it ends up looking like a wheel with spokes since there are still the longitude lines. One can control the number
+of longitude lines, but it wouldn't let me not show any of them. I ended up simply generating a mesh of 150 points in a circle and using that. 
+
+One must also add the planet group after the orbit path group in the master .cf file, or else the orbit path will appear "through" the planet (unless this is
+desired).

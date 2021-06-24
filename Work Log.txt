@@ -17,3 +17,7 @@ Week 3:
 Began filling out details on narration.
 Received feeback on first draft, and revising to have more qualitative detail and simpler language.
 Made a proof of concept sketch in partiview to show planet orbiting star.
+
+Week 4:
+Revise script
+Figure out how to show images and textures in partiview
