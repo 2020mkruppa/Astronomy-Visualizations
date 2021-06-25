@@ -1,8 +1,8 @@
 import cv2
 
-FPS = 30
-MAX_FRAME_NUM = 424
-MOVIE_NAME = 'outVideo3'
+FPS = 60
+MAX_FRAME_NUM = 3227
+MOVIE_NAME = 'scene1v1'
 
 #In seconds
 def getImage(img):
@@ -10,7 +10,7 @@ def getImage(img):
 	return img, (width, height)
 
 
-address = "frames.0000.png"
+address = "outFrames/frames.0000.png"
 img, size = getImage(cv2.imread(address))
 
 video_name = MOVIE_NAME +".mp4"
@@ -24,7 +24,7 @@ for x in range(1, MAX_FRAME_NUM + 1):
 for x in range(len(frame_list)):
 	if x % ((len(frame_list)) // 10) == 0 and x != 0:
 		print("Image " + frame_list[x] + " out of " + str(len(frame_list)))
-	address = "frames." + frame_list[x] + ".png"
+	address = "outFrames/frames." + frame_list[x] + ".png"
 	im = cv2.imread(address)
 	try:
 		img, size = getImage(im)

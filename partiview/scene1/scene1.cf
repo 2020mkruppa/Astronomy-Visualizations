@@ -32,7 +32,7 @@ eval jump 0.3 0.1 0.05 -20 80 30
 eval home 0 0 0 -20 80 30
 #eval jump 0 0 0  0.173964 -89.9403 -90.2184
 
-eval censize 0.1			# Point of Interest marker size (invisible by default)
+eval censize 0.0			# Point of Interest marker size (invisible by default)
 #eval censize 0.106
 
 

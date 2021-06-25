@@ -21,15 +21,3 @@ eval lsize 0.07
 eval labelmin 8
 eval textcment 1 .4 .4 .4
 eval laxes off
-
-
-# Selection expressions for the stars
-#eval thresh color -2 0		# to see just the blue stars
-#eval sel blue = thresh
-
-#eval thresh color 0 4			# to see the red stars
-#eval sel red = thresh
-
-eval see all			# start by seeing all the stars
-eval on				# data group is on at start-up
-

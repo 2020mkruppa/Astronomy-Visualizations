@@ -1,13 +1,10 @@
 import math
+#Values to be set by caller
+SPEED_MULTIPLIER = 0       #Generally controls how fast the camera moves, specifically, multiplies globally into each iput speed
+BEZIER_TIGHTNESS = 0     #Global multiplier into how sharp to make each bezier, too large or too small will make a cusp.
+SUBDIVISIONS = 0        #Number of steps when numerically calculating arc length and other bezier calculations
 
-SUB_DIRECTORY = 'scene1'
 
-DATA_SOURCE = '../' + SUB_DIRECTORY + '/pathData.txt'
-DATA_OUT = '../' + SUB_DIRECTORY + '/outPath.wf'
-FRAMES_OUT = '../' + SUB_DIRECTORY + '/makeFrames.cf'
-SPEED_MULTIPLIER = 2       #Generally controls how fast the camera moves, specifically, multiplies globally into each iput speed
-BEZIER_TIGHTNESS = 1.2     #Global multiplier into how shrap to make each bezier, too large or too small will make a cusp.
-SUBDIVISIONS = 3500        #Number of steps when numerically calculating arc length and other bezier calculations
 CAM_HOME = [0, 0, -1]
 CAM_INTERP_START = 0.1    #The camera panning interpolation will only interpolate between these 2 values, greater or smaller than them,
 CAM_INTERP_END = 0.9      #it will be constant at either start or end
@@ -41,8 +38,7 @@ From 4 5 6 to 7 7 6, it will pan back so that as we get to 7 7 6, we are looking
 '''
 
 
-def readInPathData():
-	file = open(DATA_SOURCE, "r")
+def readInPathData(file):
 	data = []
 	for line in file.readlines():
 		parts = line.strip().split()
@@ -52,7 +48,7 @@ def readInPathData():
 			raise Exception("Speed cannot be 0")
 		if len(parts) == 6: #Look straight
 			if parts[5] != "s":
-				raise Exception("Bad straight synbol for camera")
+				raise Exception("Bad straight symbol for camera")
 			data.append([float(parts[0]), float(parts[1]), float(parts[2]), float(parts[3]) * SPEED_MULTIPLIER, parts[4] == "s", True])
 		elif len(parts) == 8: #Look at x y z
 			data.append([float(parts[0]), float(parts[1]), float(parts[2]), float(parts[3]) * SPEED_MULTIPLIER, parts[4] == "s", False,
@@ -178,19 +174,20 @@ def calculateLengthOfPath(b):
 		l += distanceBetweenPoints(b(i / SUBDIVISIONS), b((i + 1) / SUBDIVISIONS))
 	return l
 
-def printPathToFile(flatPathData):
-	f = open(DATA_OUT, "w")
+def printPathToFile(flatPathData, f):
 	for e in flatPathData:
 		f.write("%.4f %.4f %.4f %.4f %.4f %.4f 60\n" % (e[0], e[1], e[2], e[3], e[4], e[5]))
 
-def makeFramesFile(data):
-	f = open(FRAMES_OUT, "w")
-	f.write('filepath +:.:./' + SUB_DIRECTORY + '\n\n')
-	f.write('eval snapset frames%06d -n 0\n\n')
+def makeFramesFile(data, f, singleCommands, timeOffset):
+	f.write('eval snapset outFrames/frames%06d -n 0\n\n')
 	for e in range(len(data)):
+		if e in singleCommands.keys():
+			f.write(singleCommands[e] + '\n')
+
 		f.write('eval frame ' + str(e) + '\n') #Flight path next frame
-		f.write('eval step ' + str(e) + '\n')  #Time data next frame
-		f.write('eval snapshot frames\n')
+		if e >= timeOffset:
+			f.write('eval step ' + str(e - timeOffset) + '\n')  #Time data next frame
+		f.write('eval snapshot outFrames/frames\n')
 
 def printPathToConsole(flatPathData): #Formated for Mathematica's ListPointPlot3D
 	s = ""
@@ -208,8 +205,8 @@ def assessStride(flatPathData):
 		print("%.4f" % distanceBetweenPoints(flatPathData[i][0:2], flatPathData[i + 1][0:2]))
 
 
-def calculatePathData(eulerFunction):
-	inputData = readInPathData() #generally contains list [x, y, z, speed, straight (bool), camera straight ahead (bool), x, y, z]
+def calculatePathData(eulerFunction, file):
+	inputData = readInPathData(file) #generally contains list [x, y, z, speed, straight (bool), camera straight ahead (bool), x, y, z]
 	for i in range(len(inputData) - 1):                                                                                  #Optional camera coords
 		if (not inputData[i][4]) and (not inputData[i + 1][4]):
 			raise Exception("Consecutive curves")
@@ -346,10 +343,16 @@ def calculateCameraAngles(inputData, outputCurveData, eulerFunction):
 
 
 
+def producePath(dataFileIn, pathFileOut, framesFileOut, speedMultiplier, bezierTightness, numericalSteps, timeOffset, singleCommands, angleFunction):
+	global SPEED_MULTIPLIER
+	global BEZIER_TIGHTNESS
+	global SUBDIVISIONS
+	SPEED_MULTIPLIER = speedMultiplier
+	BEZIER_TIGHTNESS = bezierTightness
+	SUBDIVISIONS = numericalSteps
 
-
-finalPathData = calculatePathData(getEulerAnglesAzimuthElevation)
-printPathToConsole(finalPathData)
-#assessStride(finalPathData)
-printPathToFile(finalPathData)
-makeFramesFile(finalPathData)
+	finalPathData = calculatePathData(angleFunction, dataFileIn)
+	printPathToConsole(finalPathData)
+	#assessStride(finalPathData)
+	printPathToFile(finalPathData,pathFileOut)
+	makeFramesFile(finalPathData, framesFileOut, singleCommands, timeOffset)
