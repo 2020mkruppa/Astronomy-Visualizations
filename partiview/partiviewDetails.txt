@@ -118,3 +118,9 @@ of longitude lines, but it wouldn't let me not show any of them. I ended up simp
 
 One must also add the planet group after the orbit path group in the master .cf file, or else the orbit path will appear "through" the planet (unless this is
 desired).
+
+To achieve a color change effect, possibly for blueshift and redshift, one has to change the color datavar in the .cf file,
+which corresponds to an index in the cmap file. However, it seems that when the brightness of a points reaches a certain level,
+it will be drawn completely as white. In addition, the intensity of a color somehow "adds" with its base texture. I had the problem
+that when changing colors, the radius of the star would change. One has to modify the base texture to have a clear star center and
+a distinct halo, so that the center is always nearly white, and the halo is free to change color.

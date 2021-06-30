@@ -1,7 +1,7 @@
 DATA_SOURCE = 'stars.speck'
 DATA_OUT = 'starsOut.speck'
 
-MIN_RADIUS = 50
+MIN_RADIUS = 10
 
 def shouldInclude(x, y, z):
 	return x**2 + y**2 + z**2 > MIN_RADIUS**2

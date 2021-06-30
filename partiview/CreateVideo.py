@@ -1,8 +1,8 @@
 import cv2
 
 FPS = 60
-MAX_FRAME_NUM = 3112
-MOVIE_NAME = 'scene1v2'
+MAX_FRAME_NUM = 3478
+MOVIE_NAME = 'scene2v1'
 
 #In seconds
 def getImage(img):

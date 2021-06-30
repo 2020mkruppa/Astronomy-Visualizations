@@ -21,3 +21,9 @@ Made a proof of concept sketch in partiview to show planet orbiting star.
 Week 4:
 Revise script
 Figure out how to show images and textures in partiview
+Redo first scene to have less camera movement
+Optimize texture display in partiview
+Start 2nd scene
+
+Week 5:
+Continue scene 2, receive more feedback on camera script

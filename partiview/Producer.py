@@ -300,6 +300,25 @@ def polynomial_smoothing(start_t, end_t, start_y, end_y, t):
 		scale = 4 * y_diff * -1 / ((-1 * t_diff)**3)
 		return (scale * ((t - end_t) ** 3)) + end_y
 
+def fadeIn(group, start, maxAlpha):
+	frameStep = 3
+	commands = dict()
+	commands[start] = 'eval ' + group
+	commands[start + frameStep] = 'eval on\neval alpha 0.01'
+	for i in range(2, int(maxAlpha * 100) + 1):
+		commands[start + (frameStep * i)] = 'eval alpha %.2f' % (i / 100)
+	return commands
+
+def fadeOut(group, start, startAlpha):
+	frameStep = 3
+	commands = dict()
+	for i in range(int(startAlpha * 100), -1, -1):
+		commands[start + (frameStep * (int(startAlpha * 100) - i))] = 'eval alpha %.2f' % (i / 100)
+	commands[start] = 'eval ' + group + '\n' + commands[start]
+	commands[start + (frameStep * int(startAlpha * 100))] = 'eval alpha 0.00\neval off'
+	return commands
+
+
 def calculateCameraAngles(inputData, outputCurveData, eulerFunction):
 	# s -> s is easy, just have it always along the tangent vector
 	# s -> xyz, interpolate the initial vector direction and the ending vector direction
