@@ -15,7 +15,7 @@ eval polylumvar point-size area
 eval polysize 0.0005
 eval polysides 16
 eval polymin 1 
-eval alpha 0.9
+eval alpha 0.98
 eval poly on
 eval lsize 0.07
 eval labelmin 8

@@ -178,9 +178,9 @@ def printPathToFile(flatPathData, f):
 	for e in flatPathData:
 		f.write("%.4f %.4f %.4f %.4f %.4f %.4f 60\n" % (e[0], e[1], e[2], e[3], e[4], e[5]))
 
-def makeFramesFile(data, f, singleCommands, timeOffset):
+def makeFramesFile(data, f, singleCommands, timeOffset, startFrame):
 	f.write('eval snapset outFrames/frames%06d -n 0\n\n')
-	for e in range(len(data)):
+	for e in range(startFrame, len(data)):
 		if e in singleCommands.keys():
 			f.write(singleCommands[e] + '\n')
 
@@ -362,7 +362,7 @@ def calculateCameraAngles(inputData, outputCurveData, eulerFunction):
 
 
 
-def producePath(dataFileIn, pathFileOut, framesFileOut, speedMultiplier, bezierTightness, numericalSteps, timeOffset, singleCommands, angleFunction):
+def producePath(dataFileIn, pathFileOut, framesFileOut, speedMultiplier, bezierTightness, numericalSteps, timeOffset, singleCommands, angleFunction, startFrame):
 	global SPEED_MULTIPLIER
 	global BEZIER_TIGHTNESS
 	global SUBDIVISIONS
@@ -374,4 +374,4 @@ def producePath(dataFileIn, pathFileOut, framesFileOut, speedMultiplier, bezierT
 	printPathToConsole(finalPathData)
 	#assessStride(finalPathData)
 	printPathToFile(finalPathData,pathFileOut)
-	makeFramesFile(finalPathData, framesFileOut, singleCommands, timeOffset)
+	makeFramesFile(finalPathData, framesFileOut, singleCommands, timeOffset, startFrame)

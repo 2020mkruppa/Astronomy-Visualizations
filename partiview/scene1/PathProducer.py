@@ -14,6 +14,6 @@ producePath(dataFileIn=open('pathData.txt', "r"), pathFileOut=open('outPath.wf',
 								   2412: 'eval alpha 0.42', 2420: 'eval alpha 0.45', 2428: 'eval alpha 0.48', 2436: 'eval alpha 0.51',
 								   2444: 'eval alpha 0.54', 2452: 'eval alpha 0.57', 2460: 'eval alpha 0.60', 2468: 'eval alpha 0.63',
 								   2476: 'eval alpha 0.66'},
-			angleFunction=getEulerAnglesAzimuthElevation)
+			angleFunction=getEulerAnglesAzimuthElevation, startFrame=0)
 
 shutil.rmtree('../__pycache__')

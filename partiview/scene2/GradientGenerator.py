@@ -17,7 +17,8 @@ for pos in range(40):
 		data.append("%.5f %.5f %.5f %.5f\n" % (r, g, b, 1.0))
 
 fileOut = open(DATA_OUT, "w")
-fileOut.write(str(len(data) + 1) + '\n')
+fileOut.write(str(len(data) + 2) + '\n')
 for d in data:
 	fileOut.write(d)
-fileOut.write("1.0 1.0 0.5 1.0")
+fileOut.write("1.0 1.0 0.5 1.0\n")
+fileOut.write("1.0 1.0 1.0 1.0")

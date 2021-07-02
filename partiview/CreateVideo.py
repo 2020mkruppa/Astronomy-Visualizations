@@ -1,7 +1,7 @@
 import cv2
 
 FPS = 60
-MAX_FRAME_NUM = 3478
+MAX_FRAME_NUM = 3072
 MOVIE_NAME = 'scene2v1'
 
 #In seconds
