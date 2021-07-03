@@ -1,4 +1,4 @@
-filepath +:./scene2/orbitPaths
+filepath +:./scene3/orbitPaths
 
 include orbits.speck
 eval psize 25000

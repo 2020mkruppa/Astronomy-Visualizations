@@ -6,7 +6,7 @@
 #
 # Config settings: AMNH Abridged Star Catalog version 7.8
 
-filepath +:./scene2/backgroundStars
+filepath +:./scene3/backgroundStars
 
 include stars.speck
 #include stars.label

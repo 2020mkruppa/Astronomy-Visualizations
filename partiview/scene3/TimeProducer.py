@@ -2,25 +2,24 @@ import math
 
 DATA_OUT = 'movingStars/movingStars.SPECK'
 ORBIT_OUT = 'orbitPaths/orbits.SPECK'
-omega = 0.8       #Generally controls how fast the points move, specifically, multiplies globally into each input speed
+EARTH_ORBIT_OUT = 'earthOrbit/orbits.SPECK'
+omega = 1.2       #Generally controls how fast the points move, specifically, multiplies globally into each input speed
 
 
 def writeColorChanger(pos, color, lum): #Motion along x-z plane
 	for n in range(2):
-		f.write("%.4f %.4f 0 %d %d 2\n" % (pos[0], pos[1], color, lum))
+		f.write("%.4f 0 %.4f %d %d 2\n" % (pos[0], pos[1], color, lum))
 
 def writePeg51(pos, lum):
 	for n in range(2):
-		f.write("%.4f %.4f 0 0 %.2f 4\n" % (pos[0], pos[1], lum))
+		f.write("%.4f 0 %.4f 0 %.2f 4\n" % (pos[0], pos[1], lum))
 
-
-def writeDarkPlanet(pos, lum):
-	for n in range(2):
-		f.write("%.4f 0 %.4f 0 %.4f 1\n" % (pos[0], pos[1], lum))
-
-def writeStar(pos, color, lum):
-	for n in range(2):
-		f.write("%.4f 0 %.4f %d %d 3\n" % (pos[0], pos[1], color, lum))
+def orbitAmplitude(t):
+	if t < START_ORBIT_RADIUS:
+		return 0
+	if t > END_ORBIT_RADIUS:
+		return radii[0]
+	return radii[0] * (t - START_ORBIT_RADIUS) / (END_ORBIT_RADIUS - START_ORBIT_RADIUS)
 
 def getPosition(radius, time, period, offset):
 	argument = ((6.28 / period) * time) - offset
@@ -43,8 +42,16 @@ for r in radii:
 	orbit.write('mesh -c 0 -s wire {\n1 ' + str(resolution + 1) + '\n')
 	for i in range(resolution + 1):
 		pos = getPosition(r, i, resolution, 0)
-		orbit.write("%.4f %.4f 0\n" % (pos[0], pos[1]))
+		orbit.write("%.4f 0 %.4f\n" % (pos[0], pos[1]))
 	orbit.write('}\n\n')
+
+earth = open(EARTH_ORBIT_OUT, "w")
+resolution = 150
+earth.write('mesh -c 0 -s wire {\n1 ' + str(resolution + 1) + '\n')
+for i in range(resolution + 1):
+	pos = getPosition(19, i, resolution, 0)
+	earth.write("%.4f 0 %.4f\n" % (pos[0], pos[1]))
+earth.write('}\n\n')
 
 
 f = open(DATA_OUT, "w")
@@ -58,21 +65,21 @@ f.write('texture  -M 3  halo.pbm\n')
 f.write('texture  -O 4  peg51.sgi\n')
 f.write('texturevar 2\n\n')
 
-START_COLOR_CHANGE = 2300
-END_COLOR_CHANGE = 2800
+START_COLOR_CHANGE = 1000
+END_COLOR_CHANGE = 1500
 
-HIDDEN = [[2802, 2813], [3041, 3052], [3280, 3291]] #Inclusive
+START_ORBIT_RADIUS = 400
+END_ORBIT_RADIUS = 500
+
+HIDDEN = [[0, 1001], [2802, 2813]] #Inclusive
 
 for i in range(4800):
 	f.write('datatime ' + str(i) + '\n')
 	t = 6.28 * (i / 1200) * omega
 
-	writeStar([150.5, 0], 42, 500)
-	writeDarkPlanet([151, 0], 0.02)
+	amplitude = 20 - 20 * (min(END_COLOR_CHANGE, max(START_COLOR_CHANGE, i)) - START_COLOR_CHANGE) / (END_COLOR_CHANGE - START_COLOR_CHANGE)
 
-	amplitude = 20 * (min(END_COLOR_CHANGE, max(START_COLOR_CHANGE, i)) - START_COLOR_CHANGE) / (END_COLOR_CHANGE - START_COLOR_CHANGE)
-
-	writeColorChanger(getPosition(radii[0], t, periods[0], offsets[0]), int(-amplitude * math.cos(6.28 * (t / periods[0])) + 19), 2500)
+	writeColorChanger(getPosition(orbitAmplitude(i), t, periods[0], offsets[0]), int(amplitude * math.cos(6.28 * (t / periods[0])) + 19), 2500)
 
 	if canShow(i):
 		writePeg51(getPosition(radii[1], t, periods[1], offsets[1]), 0.1)

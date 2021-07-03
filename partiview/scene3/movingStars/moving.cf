@@ -1,4 +1,4 @@
-filepath +:./scene2/movingStars
+filepath +:./scene3/movingStars
 
 include movingStars.speck
 eval psize 25000

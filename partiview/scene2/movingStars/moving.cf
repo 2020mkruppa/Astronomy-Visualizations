@@ -7,7 +7,7 @@ eval ptsize 0.05 2.5
 eval points off
 eval lum lum 0 1
 #eval slum 0.005
-eval slum 2.5
+eval slum 1.5
 eval cmap movingStars/colors.cmap
 eval color color exact
 eval polylumvar point-size area	
