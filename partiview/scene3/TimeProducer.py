@@ -1,4 +1,7 @@
 import math
+import sys
+sys.path.append("..")
+from Interpolator import getInterpolator
 
 DATA_OUT = 'movingStars/movingStars.SPECK'
 ORBIT_OUT = 'orbitPaths/orbits.SPECK'
@@ -14,12 +17,6 @@ def writePeg51(pos, lum):
 	for n in range(2):
 		f.write("%.4f 0 %.4f 0 %.2f 4\n" % (pos[0], pos[1], lum))
 
-def orbitAmplitude(t):
-	if t < START_ORBIT_RADIUS:
-		return 0
-	if t > END_ORBIT_RADIUS:
-		return radii[0]
-	return radii[0] * (t - START_ORBIT_RADIUS) / (END_ORBIT_RADIUS - START_ORBIT_RADIUS)
 
 def getPosition(radius, time, period, offset):
 	argument = ((6.28 / period) * time) - offset
@@ -31,7 +28,7 @@ def canShow(i):
 			return False
 	return True
 
-radii   = [0.15, 1]
+radii   = [0.05, 1.05]
 periods = [1, 1]
 offsets = [0, 3.14]
 
@@ -65,11 +62,8 @@ f.write('texture  -M 3  halo.pbm\n')
 f.write('texture  -O 4  peg51.sgi\n')
 f.write('texturevar 2\n\n')
 
-START_COLOR_CHANGE = 1000
-END_COLOR_CHANGE = 1500
-
-START_ORBIT_RADIUS = 400
-END_ORBIT_RADIUS = 500
+colorAmplitude = getInterpolator(start_x=1000, end_x=1500, power=1, y_lists=[[20, 0]])
+orbitRadius = getInterpolator(start_x=400, end_x=500, power=1, y_lists=[[0, radii[0]]])
 
 HIDDEN = [[0, 1001], [2802, 2813]] #Inclusive
 
@@ -77,9 +71,7 @@ for i in range(4800):
 	f.write('datatime ' + str(i) + '\n')
 	t = 6.28 * (i / 1200) * omega
 
-	amplitude = 20 - 20 * (min(END_COLOR_CHANGE, max(START_COLOR_CHANGE, i)) - START_COLOR_CHANGE) / (END_COLOR_CHANGE - START_COLOR_CHANGE)
-
-	writeColorChanger(getPosition(orbitAmplitude(i), t, periods[0], offsets[0]), int(amplitude * math.cos(6.28 * (t / periods[0])) + 19), 2500)
+	writeColorChanger(getPosition(orbitRadius(i)[0], t, periods[0], offsets[0]), int(colorAmplitude(i)[0] * math.cos(6.28 * (t / periods[0])) + 19), 2500)
 
 	if canShow(i):
 		writePeg51(getPosition(radii[1], t, periods[1], offsets[1]), 0.1)

@@ -124,3 +124,8 @@ which corresponds to an index in the cmap file. However, it seems that when the 
 it will be drawn completely as white. In addition, the intensity of a color somehow "adds" with its base texture. I had the problem
 that when changing colors, the radius of the star would change. One has to modify the base texture to have a clear star center and
 a distinct halo, so that the center is always nearly white, and the halo is free to change color.
+
+To achieve a dimming effect, specifically when it comes to transits, it is best to use the texture mentioned above. Specifically,
+One should make 2 versions, a "dark" and a "light" version. The dark version will be the same as the light except the star halo
+will be smaller and less bright (but the star center will be identical). The given star color should remain the same. If one tries
+to modify the star color, we have the same problem as before, that the star radius will change noticeably. 
