@@ -20,7 +20,7 @@ include movingStars/moving.cf
 eval g1						# stars are the active group on start up
 
 #eval clip .1 10000000		# use this clip once you leave the Oort sphere (this is the default)
-eval clip 1e-5 1e4			# use this clip if you want to see the solar system when you start
+eval clip 1e-2 1e4			# use this clip if you want to see the solar system when you start
 
 eval fov 60
 

@@ -129,3 +129,9 @@ To achieve a dimming effect, specifically when it comes to transits, it is best 
 One should make 2 versions, a "dark" and a "light" version. The dark version will be the same as the light except the star halo
 will be smaller and less bright (but the star center will be identical). The given star color should remain the same. If one tries
 to modify the star color, we have the same problem as before, that the star radius will change noticeably. 
+
+I had also given up on a bug related to stars blinking. When viewing "background stars" every time the camera shifted, certain
+stars would "blink into existence" and also blink out, almost randomly. Upon reading the manual closer, I found that this is 
+an artifact from having a very close near-clippiing plane. I had set it as 1e-5, with the far-plane at 1e5. This is a very large
+ratio that apparently gives the engine a problem; this is a known bug. I set the near-plane to 1e-2, which doesn't cost be anything
+since I never view points closer than 0.05, and the blinking stopped!
