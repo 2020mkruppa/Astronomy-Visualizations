@@ -15,6 +15,14 @@ include earthOrbit/orbits.cf
 object g4=MovingStars
 include movingStars/moving.cf
 
+object g5=Constellation
+include constellation/constellation.cf
+
+object g6=Horse
+include horse/horse.cf
+
+object g7=ConstellationLines
+include constellationLines/constellationLines.cf
 
 
 ##########################################

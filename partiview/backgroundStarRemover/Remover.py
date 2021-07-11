@@ -1,15 +1,19 @@
 DATA_SOURCE = 'stars.speck'
 DATA_OUT = 'starsOut.speck'
 
-HOLES = [(10, [0, 0 ,0]), (10, [250, 0, 0])] #List of (radius, [origin])
-COPY_SHIFT = [320, 0, 0] #None if no shift
+HOLES = [(10, [0, 0 ,0])] #List of (radius, [origin])
+
+#COPY_SHIFT = [320, 0, 0] #None if no shift
+COPY_SHIFT = None
 
 def shouldInclude(x, y, z):
 	for radius, origin in HOLES:
 		if (x - origin[0])**2 + (y - origin[1])**2 + (z - origin[2])**2 < radius**2:
 			return False
-	return True
 
+	if 40 < z < 150 and (x**2 + y**2 < 2000):
+		return False
+	return True
 
 outfile = open(DATA_OUT, "w")
 outfile.write('# MODIFIED TO OMIT STARS\n\n')

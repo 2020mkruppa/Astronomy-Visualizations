@@ -302,26 +302,19 @@ def polynomial_smoothing(start_t, end_t, start_y, end_y, t):
 
 def fadeIn(group, start, maxAlpha, frameStep):
 	commands = dict()
-	commands[start] = 'eval ' + group
-	commands[start + int(frameStep)] = defaultCommand(commands, start + int(frameStep)) + '\neval on\neval alpha 0.01'
+	commands[start + int(frameStep)] = 'eval ' + group + '\neval on\neval alpha 0.01'
 	for i in range(2, int(maxAlpha * 100) + 1):
-		commands[start + int(frameStep * i)] = (defaultCommand(commands, start + int(frameStep * i)) + '\neval alpha %.2f') % (i / 100)
+		commands[start + int(frameStep * i)] = ('eval ' + group + '\neval on\neval alpha %.2f') % (i / 100)
 	return commands
 
 def fadeOut(group, start, startAlpha, frameStep):
 	commands = dict()
 	for i in range(int(startAlpha * 100), -1, -1):
 		index = start + int(frameStep * (int(startAlpha * 100) - i))
-		commands[index] = defaultCommand(commands, index) + '\neval alpha %.2f' % (i / 100)
-	commands[start] = 'eval ' + group + '\n' + commands[start]
+		commands[index] = 'eval ' + group + '\neval alpha %.2f' % (i / 100)
 	index = start + int(frameStep * int(startAlpha * 100))
-	commands[index] = defaultCommand(commands, index) + '\neval alpha 0.00\neval off'
+	commands[index] = 'eval ' + group + '\neval alpha 0.00\neval off'
 	return commands
-
-def defaultCommand(dic, index):
-	if index in dic.keys():
-		return dic[index]
-	return ""
 
 def calculateCameraAngles(inputData, outputCurveData, eulerFunction):
 	# s -> s is easy, just have it always along the tangent vector
