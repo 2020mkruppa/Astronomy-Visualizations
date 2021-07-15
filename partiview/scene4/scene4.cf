@@ -9,7 +9,10 @@ include backgroundStars/stars.cf
 object g2=Orbits
 include orbitPaths/orbits.cf
 
-object g3=MovingStars
+object g3=MultiOrbits
+include multiPlanetOrbits/orbits.cf
+
+object g4=MovingStars
 include movingStars/moving.cf
 
 

@@ -1,0 +1,19 @@
+filepath +:./scene4/multiPlanetOrbits
+
+include orbits.speck
+eval psize 25000
+#eval psize 100
+eval ptsize 0.05 2.5
+eval points off
+eval cmap multiPlanetOrbits/colors.cmap
+eval color color exact
+eval polylumvar point-size area	
+#eval polysize 0.11
+eval polysize 0.0005
+eval polysides 16
+eval polymin 1 
+eval alpha 0.9
+
+eval off
+
+
