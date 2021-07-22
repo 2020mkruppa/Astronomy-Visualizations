@@ -15,6 +15,8 @@ def shouldInclude(x, y, z):
 		return False
 	if -40 < y < 150 and (x**2 + z**2 < 2800):
 		return False
+	if -45 < x < 90 and -8 < y < 180 and -60 < z < 60:
+		return False
 	return True
 
 outfile = open(DATA_OUT, "w")

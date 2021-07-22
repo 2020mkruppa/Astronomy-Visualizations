@@ -33,3 +33,5 @@ Reordered script to better match camera shots
 Week 6:
 Produced first version of scene 4
 Updated script a bit
+Revised scene 4 to match script
+Starting scene 5
