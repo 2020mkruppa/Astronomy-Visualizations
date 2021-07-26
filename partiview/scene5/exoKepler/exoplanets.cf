@@ -6,7 +6,7 @@ eval psize 25000
 eval ptsize 0.05 2.5
 eval points on
 eval lum const 10
-eval cmap exoKepler/colors.cmap
+eval cmap exoKepler/colorsKepler.cmap
 eval color method exact
 eval polylumvar point-size area	
 #eval polysize 0.11
@@ -15,7 +15,4 @@ eval polysides 4
 eval polymin 1 
 eval alpha 0.99
 eval poly on
-
-eval only= telescope 1
-
-
+eval off

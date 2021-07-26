@@ -18,10 +18,20 @@ include exoK2/exoplanets.cf
 object g5=ExoOther
 include exoOther/exoplanets.cf
 
-object g6=MultiOrbits
-include multiPlanetOrbits/orbits.cf
+object g6=tessSphere
+include tessSphere/tessSphere.cf
 
+object g7=EclipticSphere
+include eclipticSphere/sphere.cf
 
+object g8=keplerSphere
+include keplerSphere/keplerSphere.cf
+
+object g9=keplerSphereStatic
+include keplerSphereStatic/keplerSphereStatic.cf
+
+object g10=tessSphereStatic
+include tessSphereStatic/tessSphereStatic.cf
 
 ##########################################
 ## General Partiview commands

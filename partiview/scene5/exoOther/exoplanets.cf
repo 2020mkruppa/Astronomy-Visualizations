@@ -15,7 +15,5 @@ eval polysides 4
 eval polymin 1 
 eval alpha 0.99
 eval poly on
-
-eval only= telescope 3
-
+eval off
 

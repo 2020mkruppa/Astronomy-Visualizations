@@ -83,6 +83,9 @@ for line in infile.readlines():
 		badDataPoints += 1
 		continue
 
+	if telescopeCode != 3:
+		continue
+
 	if name not in nameSet:
 		nameSet.add(name)
 		for i in range(2):
@@ -102,3 +105,7 @@ print("Missing Data Points: " + str(badDataPoints) +"\n")
 
 printSortedDict(methodSet)
 printSortedDict(telescopeSet)
+
+for code in range(5):
+	for i in range(2):
+		outfile.write("10000 10000 10000 2000 %d 1 1\n" % (code))

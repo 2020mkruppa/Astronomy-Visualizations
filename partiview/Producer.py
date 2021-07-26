@@ -1,4 +1,5 @@
 import math
+import numpy as np
 #Values to be set by caller
 SPEED_MULTIPLIER = 0       #Generally controls how fast the camera moves, specifically, multiplies globally into each iput speed
 BEZIER_TIGHTNESS = 0     #Global multiplier into how sharp to make each bezier, too large or too small will make a cusp.
@@ -280,6 +281,51 @@ def getEulerAnglesAzimuthElevation(v): # vector to look at, based purely on azim
 	R22 = math.cos(elevation)
 	#Conversion comes from the YXZ rotation matrix
 	return [math.degrees(math.asin(-R23)), math.degrees(math.atan2(R13, R33)), math.degrees(math.atan2(R21, R22))]
+
+
+def getEulerAnglesAzimuthElevationRot90(v): # vector to look at, based purely on azimuth and elevation. This produces some interesting
+	if lengthOfVector(v) == 0:                      #barrel-roll effects that are completely unintentional, but other times
+		raise Exception("Bad vector")           #works much better than axis-angle
+	v = normalize(v)
+
+	azimuth = -math.atan2(v[0], -v[2]) #Need negative so to get the direction correct since rotation is CW
+	elevation = math.asin(v[1])
+
+	#Use intrinsic rotations to get elevation instead of rotation around x
+	#totalRotation = Ry(azimuth) x Rx(elevation)
+
+	Rx = np.array([[1, 0, 0],
+				   [0, math.cos(elevation), -math.sin(elevation)],
+				   [0, math.sin(elevation), math.cos(elevation)]])
+
+	Ry = np.array([[math.cos(azimuth), 0, math.sin(azimuth)],
+				   [0, 1, 0],
+				   [-math.sin(azimuth), 0, math.cos(azimuth)]])
+
+	a = -1 * ((3.1415 / 2) - elevation)
+
+	Rz = np.array([[math.cos(a), -math.sin(a), 0],
+				   [math.sin(a), math.cos(a), 0],
+				   [0, 0, 1]])
+
+
+	Roll = np.array([[math.cos(a) + (1 - math.cos(a))*v[0]*v[0], -v[2]*math.sin(a) + (1 - math.cos(a))*v[0]*v[1], v[1]*math.sin(a) + (1 - math.cos(a))*v[0]*v[2]],
+					 [v[2]*math.sin(a) + (1 - math.cos(a))*v[0]*v[1], math.cos(a) + (1 - math.cos(a))*v[1]*v[1], -v[0]*math.sin(a) + (1 - math.cos(a))*v[1]*v[2]],
+					 [-v[1]*math.sin(a) + (1 - math.cos(a))*v[0]*v[2], v[0]*math.sin(a) + (1 - math.cos(a))*v[1]*v[2], math.cos(a) + (1 - math.cos(a))*v[2]*v[2]]])
+
+
+	product = np.matmul(Ry, Rx)
+
+	R23 = product[1,2]
+	R13 = product[0,2]
+	R33 = product[2,2]
+	R21 = product[1,0]
+	R22 = product[1,1]
+
+	#Conversion comes from the YXZ rotation matrix
+	return [math.degrees(math.asin(-R23)), math.degrees(math.atan2(R13, R33)), math.degrees(math.atan2(R21, R22))]
+
+
 
 def getInterpolatedCam(startCam, endCam):
 	def function(t):

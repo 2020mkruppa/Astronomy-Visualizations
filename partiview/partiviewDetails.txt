@@ -135,3 +135,23 @@ stars would "blink into existence" and also blink out, almost randomly. Upon rea
 an artifact from having a very close near-clippiing plane. I had set it as 1e-5, with the far-plane at 1e5. This is a very large
 ratio that apparently gives the engine a problem; this is a known bug. I set the near-plane to 1e-2, which doesn't cost be anything
 since I never view points closer than 0.05, and the blinking stopped!
+
+I also encountered a very annoying bug when it came to mapping colors to stars. This was when I was using data pulled from NASA's
+exoplanet archive, and I wanted to highlight different subsets of data within partiview. Specifically, I wanted to divide the data
+into planets discovered by Kepler, TESS, K2, and others. Initially, I had each partiview group have the same raw data, and then I
+specified an "only=" clause to select the appropriate subset. This worked fine for the color mapping, though there were other problems
+when it came to doing a time series animation. It seems that having multiple only= clauses messes something up. I know there are only- and
+only+ clauses, but those didn't work either. I then decided that the best way to solve this problem was to seperate the subsets to begin with,
+and so I would avoid having the only= clause to select the telescope. For example, the Kepler group would have about 2300 data points,
+whereas the TESS file would only have 100 or so. However, I found that the color mapping was wrong, nearly all the stars were always blue,
+which was color index 2. I spent a very long time trying to figure out what was wrong and I eventually figured out that it was due
+to "residue" color indexes. For basic usage, one might declare 4 colors in the .cmap file, and then use those 4 colors (indexes 0-3)
+in the .speck file declaring a color datavar. However, by spliting the data, most files didn't use all of the colors. I was coloring
+by detection method (radial velocity, transit, etc.), and when I filtered to only have TESS-found stars, there wasn't going to be any
+radial velocity stars. However, the color map file still had indexes for radial velocity. In other words, the color map had indicies 0-3
+available, but I only used indicies 1 and 2. Theoretically this is totally fine, but partiview syas otherwise. It appears to somehow try to
+reindex everything, and it drops a couple of the first color map indicies. This is why everything was blue, because stars that were meant
+to be red defaulted to the only available index. Once I figured this out, I fixed this with an appropriately gimmicky solution, I simply
+created dummy stars far away from the areas of interest that used all of the color indicies, so every index had at least 1 star using it.
+Essentially, make sure there are no extra "declared" colors (and of course no "request" for non-existant colors). 
+

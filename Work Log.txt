@@ -35,3 +35,10 @@ Produced first version of scene 4
 Updated script a bit
 Revised scene 4 to match script
 Starting scene 5
+
+Week 7:
+Updating script a little
+Figured out how to pull and ofrmat data from NASA Exoplanet Archive
+Continuing scene 5
+
+
