@@ -33,6 +33,9 @@ include keplerSphereStatic/keplerSphereStatic.cf
 object g10=tessSphereStatic
 include tessSphereStatic/tessSphereStatic.cf
 
+object g11=tessSphereHighlight
+include tessSphereHighlight/tessSphereHighlight.cf
+
 ##########################################
 ## General Partiview commands
 ##########################################

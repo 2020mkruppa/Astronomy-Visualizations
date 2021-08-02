@@ -155,3 +155,52 @@ to be red defaulted to the only available index. Once I figured this out, I fixe
 created dummy stars far away from the areas of interest that used all of the color indicies, so every index had at least 1 star using it.
 Essentially, make sure there are no extra "declared" colors (and of course no "request" for non-existant colors). 
 
+
+At this point, looking at some of the orbit lines, I was rather bothered by the aliasing on them. Specifically, one could clearly see
+the "staircase" pattern on these lines especially with parts of the curve that were nearly vertical or horizontal. Partiview does not have
+an easy option to antialias this, and initially thought I was stuck with it. However, there are several options to consider. Initially, I
+researched some antialiasing methods that I could do given an image. Since I was already using opencv and ffmpeg, I tried to find some
+tool that they might have. As can be expected, they didn't have much, since it is much easier to mitigate antialiasing in the production
+of an image than after it. Then I ran across supersampling, which sounded promising. Partiview is nice in that it allows you to render videos
+in any reasonable resolution (takes proportionally more time of course) and so I started with double width and double height. I then scaled
+it back to 1080p using ffmpeg. When I looked at the video, it seemed that it barely helped, and that the orbit lines were now gray instead
+of white. I eventually realized that partiview's ability to render at any resolution wasn't quite "honest". When it draws its mesh lines,
+it **always** draws them as 1 pixel thick, no matter the frame size. Thus when I tried to rener at higher resolution, the line itself stayed
+the same resolution. In addition, the final line appeared gray because I now had 1 white pixel per 3840 instead of 1 white pixel per 1920,
+so it averaged to "half a white" per 1920, or in other words, gray. 
+
+I then considered trying to do some simple cv to draw over the lines correctly. I could render the video with only the orbit lines (and
+with still the correct motion and angles of the camera), and this would effectively tell opencv where the orbits are with no noise. 
+Theoretically opencv could then draw over the lines using properly antialiased lines, and then I could somehow take that information and
+put it on top of the full video. However, it seemed pretty difficult and I don't have much experience with this part of opencv, so I decided 
+not to try.
+
+However, I took another look at the source code. The best solution would be to modify the source code, recompile it, and use my own version
+of partiview. If I could get this to work, then potentially I could fix many other problems with partiview, like that fact that the max
+sized polygon has only 16 sides. However, as I took a deeper look at the source code, just to look for where I could try to fix antialiasing,
+I was once again reminded how hard it would be. Personally I think the code is more convoluted than it needs to be, and there weren't enough
+comments to be helpful. I was hoping to find a "drawLine" method, that I could hopefully pass an antialiasing flag, but I never found such
+a thing (it might be there though). I did find a generic draw method which seemed to draw everything, and I could set a property of openGL
+at the beginning of the method to enable antialiasing.
+
+The biggest problem now was getting the code to compile. I have a windows computer, and because I have not declared a CS major/minor as of
+now, I don't have access to undergrad linux computers. Therefore I had to try and compile everything on windows. partiview does have a limited
+guide in its manual to compile itself, and I followed that. I had to get Microsoft Visual Studio for the compiliation of FLTK, and I also
+installed cygwin to emulate some linux functionality. It was all going fine until the end. From what I can understand, I needed to run
+a ./configure script, which would produce "ready to use" header files and the makefile. This wasn't explicitly mentioned in the windows
+compilation steps, but it was in the linux one. I tried to compile it without running ./configure, and I just got a bunch of "file not found"
+errors. ./configure scripts have to be run on linux, so I used cygwin for that, but there were some syntax problems. I ran a dos2unix conversion
+on the configure file, just to make sure it wasn't the /r/n vs /n problem, but that didn't work. I had already spent the better part of a day
+working on this, so I have up on this attempt. 
+
+Luckily, while I was hunting through the source code, I came upon the method that parsed the mesh command, which I used to draw my lines. 
+To my amazement, there was hidden flag to control line width: -w. This was not in any of the documentation I had ever read, and I only found it
+by looking at the code. Apparently, this feature was added in 2009, so they had 12 years to update the documentation. Nevertheless, I tried
+out this flag and it worked. This allowed me to go back to supersampling, because now when I try to increase resolution, I can proportionally
+scale up the line thickness, so it is a true upscale. I tried it out and it worked quite nicely. I soon found out that lines weren't the only
+things that were pixel-bound; stars' halos and points were also drawn by-pixel instead of by-proportion. This meant that I had to 
+increase the ptsize and polysize as well, or else the downscaled star would be basically just a smudge of color. I had to play with 
+the numbers a bit to find a good compromise, but I ended up with rendering at 4800x2700 (2.5 times 1080p), with line thickness 3,
+and also commanding ptsize 0.15 4, and polysize 0.0015. Even with these modifications, it doesn't look exactly like the 1080p video, but
+its close enough, and most importantly, the antialiasing is much improved. 
+  

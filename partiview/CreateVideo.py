@@ -2,10 +2,10 @@ import cv2
 from Interpolator import getInterpolator
 
 FPS = 60
-MAX_FRAME_NUM = 8444
-MOVIE_NAME = 'scene5v1'
+MAX_FRAME_NUM = 4698
+MOVIE_NAME = 'scene6v2'
 
-ADD_YEAR_TEXT = True
+ADD_YEAR_TEXT = False
 FADE_START = 530
 YEAR_START = 600
 YEAR_END = 2700
@@ -13,7 +13,6 @@ FADE_END = 2770
 
 YEAR_INTERP = getInterpolator(start_x=YEAR_START, end_x=YEAR_END, power=1, y_lists=[[1995, 2021]])
 WHITE = 255
-
 def getFadeMultiplier(frameNum):
 	if frameNum <= YEAR_START:
 		return getInterpolator(start_x=FADE_START, end_x=YEAR_START, power=1, y_lists=[[0, 1]])(frameNum)[0]
@@ -27,7 +26,6 @@ def addText(image, frameNum):
 		year = int(YEAR_INTERP(frameNum)[0])
 		fadeWhite = fade * WHITE
 
-		#cv2.rectangle(image, (x, y), (x + BOX_WIDTH, y - BOX_HEIGHT), (boxColor, boxColor, boxColor), -1)
 		cv2.putText(image, str(year), (15, 870), cv2.FONT_HERSHEY_DUPLEX, 1.5, (fadeWhite, fadeWhite, fadeWhite), 2)
 		cv2.rectangle(image, (25, 920), (40, 935), (0, 0, fadeWhite), -1)
 		cv2.putText(image, "Doppler Spectroscopy", (55, 935), cv2.FONT_HERSHEY_DUPLEX, 1, (fadeWhite, fadeWhite, fadeWhite), 2)
@@ -45,6 +43,13 @@ def getImage(img):
 	return img, (width, height)
 
 
+def processFrame(frame):
+	blurred = cv2.GaussianBlur(frame, [3, 3], 0)
+	#fin = cv2.resize(blurred, [19, 10])
+	return blurred
+
+
+
 address = "outFrames/frames.0000.png"
 img, size = getImage(cv2.imread(address))
 
@@ -57,7 +62,7 @@ for x in range(1, MAX_FRAME_NUM + 1):
 	frame_list.append("{:04d}".format(x))
 
 for x in range(len(frame_list)):
-	if x % ((len(frame_list)) // 10) == 0 and x != 0:
+	if x % ((len(frame_list)) // 20) == 0 and x != 0:
 		print("Image " + frame_list[x] + " out of " + str(len(frame_list)))
 	address = "outFrames/frames." + frame_list[x] + ".png"
 	im = cv2.imread(address)

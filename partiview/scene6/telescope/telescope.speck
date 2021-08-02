@@ -1,0 +1,7 @@
+datavar  0  color
+datavar  1  lum
+datavar  2  texture
+texture  -M 1  telescopeFront.sgi
+texturevar 2
+
+0 1 0 0 60 1

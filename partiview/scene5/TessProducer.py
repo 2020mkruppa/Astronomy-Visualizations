@@ -13,12 +13,14 @@ from Interpolator import getInterpolator
 MESH_OUT = 'tessSphere/tessSphere.speck'
 SPHERE_OUT = 'eclipticSphere/sphere.speck'
 STATIC_OUT = 'tessSphereStatic/tessSphereStatic.speck'
+HIGHLIGHT_OUT = 'tessSphereHighlight/tessSphereHighlight.speck'
+
 
 TILE_ANGLE = 23.45
 RADIUS = 20
 TILE_SECTORS = 8
 START_TIME = 7200
-END_TIME = 8000
+END_TIME = 8500
 STARTING_EXPONENT = 2
 TILE_ANIM_LENGTH = 50
 OUTLINE_INTERP = getInterpolator(start_x=0, end_x=1, power=2, y_lists=[[0, 4]])
@@ -189,6 +191,7 @@ for long_num in range(4, -9, -1):
 
 meshes = open(MESH_OUT, "w")
 static = open(STATIC_OUT, "w")
+highlight = open(HIGHLIGHT_OUT, "w")
 miniTiles, edges = computeMasterTile()
 
 completedPanels = []
@@ -259,3 +262,21 @@ for pointList in rotatedLines:
 #STATIC WRITING
 for tiles, edges, start in completedPanels:
 	drawNormedSector(tiles, edges, 1, static)
+
+
+
+
+####HIGHLIGHT WRITING
+HIGHLIGHT_OUT_START = 9400
+HIGHLIGHT_OUT_END = 9950
+
+position_interp = getInterpolator(start_x=HIGHLIGHT_OUT_START, end_x=HIGHLIGHT_OUT_END, power=1, y_lists=[[0, (len(completedPanels) / 4) - 1]])
+
+for t in range(HIGHLIGHT_OUT_START, HIGHLIGHT_OUT_END + 22):
+	if t % 20 == 0:
+		print(t)
+	highlight.write('datatime ' + str(t) + '\n')
+
+	for i in range(4):
+		tiles, edges, start = completedPanels[(4 * int(position_interp(t)[0])) + i]
+		drawNormedSector(tiles, edges, 1, highlight)

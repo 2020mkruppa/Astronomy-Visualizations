@@ -41,4 +41,14 @@ Updating script a little
 Figured out how to pull and ofrmat data from NASA Exoplanet Archive
 Continuing scene 5
 
+Week 8:
+Finished scene 5
+Finished scene 6
+Trying to compile source code of partiview to make modifications
+Figured out how to accomplish antialiasing with supersampling
+Got Google Earth Studio account to work on last scene
+
+Week 9:
+Produced a preliminary scene 7
+
 

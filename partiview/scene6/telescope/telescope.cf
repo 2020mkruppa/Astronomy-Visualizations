@@ -1,0 +1,24 @@
+filepath +:./scene6/telescope
+
+include telescope.speck
+eval psize 25000
+#eval psize 100
+eval ptsize 0.05 2.5
+eval points off
+eval lum lum 0 1
+#eval slum 0.005
+eval slum 2.5
+eval cmap telescope/colors.cmap
+eval color color exact
+eval polylumvar point-size area
+#eval polysize 0.11
+eval polysize 0.0005
+eval polysides 4
+eval polymin 1
+eval alpha 0.98
+eval poly on
+eval off
+
+
+
+

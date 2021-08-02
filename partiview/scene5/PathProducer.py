@@ -45,6 +45,13 @@ def polygons(frame, group, parity):
 	return {frame: 'eval ' + group + '\neval polygons ' + parity + '\n'}
 
 
+def fadeOutPartly(group, start, startAlpha, endAlpha, frameStep):
+	commands = dict()
+	for i in range(int(startAlpha * 100), int(endAlpha * 100) -1, -1):
+		index = start + int(frameStep * (int(startAlpha * 100) - i))
+		commands[index] = 'eval ' + group + '\neval alpha %.2f' % (i / 100)
+	return commands
+
 FIRST_HIGHLIGHT_START = 4200
 FIRST_HIGHLIGHT_END = 4270
 FIRST_HIGHLIGHT_SELECT = 4340
@@ -73,23 +80,26 @@ producePath(dataFileIn=open('pathData.txt', "r"), pathFileOut=open('outPath.wf',
 			polygons(frame=4500, group='g2', parity='off'),
 
 
-			fadeIn(group='g7', start=5050, maxAlpha=0.15, frameStep=0.0015),
+			fadeIn(group='g7', start=5050, maxAlpha=0.15, frameStep=2),
 
 			flip(frame=5571, group='g8', parity='off'),
 			flip(frame=5571, group='g9', parity='on'),
 
 
-			fadeOut(group='g9', start=6600, startAlpha=0.15, frameStep=0.015),
+			fadeOut(group='g9', start=6600, startAlpha=0.15, frameStep=2),
 			changeStarBrightness(startLum=1, endLum=0.02, startFrame=SECOND_FADE_START, endFrame=SECOND_FADE_END, group='g2'),
 
 
 			polygons(frame=THIRD_FADE_START, group='g3', parity='on'),
-			changeStarBrightness(startLum=0.02, endLum=1.5, startFrame=THIRD_FADE_START, endFrame=THIRD_FADE_END, group='g3'),
-			changeStarBrightness(startLum=1.5, endLum=0.02, startFrame=THIRD_FADE_END, endFrame=THIRD_FADE_SELECT, group='g3'),
+			changeStarBrightness(startLum=0.02, endLum=1.8, startFrame=THIRD_FADE_START, endFrame=THIRD_FADE_END, group='g3'),
+			changeStarBrightness(startLum=1.8, endLum=0.02, startFrame=THIRD_FADE_END, endFrame=THIRD_FADE_SELECT, group='g3'),
 			polygons(frame=THIRD_FADE_SELECT, group='g3', parity='off'),
 
-		    flip(frame=8051, group='g6', parity='off'),
-		    flip(frame=8051, group='g10', parity='on'),
+		    flip(frame=8551, group='g6', parity='off'),
+		    flip(frame=8551, group='g10', parity='on'),
+
+			fadeOutPartly(group='g10', start=9300, startAlpha=0.15, endAlpha=0.05, frameStep=4),
+
 									  ]),
 
 			angleFunction=getEulerAnglesAzimuthElevation, startFrame=0)
