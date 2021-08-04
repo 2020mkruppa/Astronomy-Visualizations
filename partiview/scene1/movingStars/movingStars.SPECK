@@ -7,7 +7,7 @@ texture  -O 4  jupiter.sgi
 texture  -M 5  weakHalo.sgi
 texture  -O 6  mercury.sgi
 texture  -O 7  venus.sgi
-texture  -O 2  earth.sgi
+texture  -O 2  earthFinal.sgi
 texturevar 2
 
 datatime 0

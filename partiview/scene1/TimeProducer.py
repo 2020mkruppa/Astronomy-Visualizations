@@ -40,7 +40,7 @@ f.write('texture  -O 4  jupiter.sgi\n')
 f.write('texture  -M 5  weakHalo.sgi\n')
 f.write('texture  -O 6  mercury.sgi\n')
 f.write('texture  -O 7  venus.sgi\n')
-f.write('texture  -O 2  earth.sgi\n')   #Last to be front-most
+f.write('texture  -O 2  earthFinal.sgi\n')   #Last to be front-most
 f.write('texturevar 2\n\n')
 
 for i in range(4800):

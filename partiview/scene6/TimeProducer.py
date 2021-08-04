@@ -76,14 +76,14 @@ movingTrap.write('texture  -O 4  planet4.sgi\n')
 movingTrap.write('texture  -O 5  planet5.sgi\n')
 movingTrap.write('texturevar 2\n\n')
 
-SUN_RADIUS = getInterpolator(start_x=3100, end_x=3200, power=2, y_lists=[[800, 2]])
+SUN = getInterpolator(start_x=3100, end_x=3200, power=2, y_lists=[[800, 2], [3, 42]])
 
 for i in range(6000):
 	movingSolar.write('datatime ' + str(i) + '\n')
 	movingTrap.write('datatime ' + str(i) + '\n')
 	t = 6.28 * (i / 1200) * omega
 
-	writePoint([0, 0], 0, SUN_RADIUS(i)[0] /4, 1, movingSolar, True) #Sun
+	writePoint([0, 0], int(SUN(i)[1]), SUN(i)[0] /4, 1, movingSolar, True) #Sun
 
 	if i < 3300:
 		writeTexture(getPosition(radii[0][0], t, periods[0][0], offsets[0][0]), 1.6, 6, movingSolar) #Mercury
@@ -91,9 +91,9 @@ for i in range(6000):
 		writeTexture(getPosition(radii[0][2], t, periods[0][2], offsets[0][2]), 2.2, 2, movingSolar) #Earth
 		writeTexture(getPosition(radii[0][3], t, periods[0][3], offsets[0][3]), 3.0, 3, movingSolar) #Mars
 		writeTexture(getPosition(radii[0][4], t, periods[0][4], offsets[0][4]), 60, 4, movingSolar) #Jupiter
-		writePoint(getPosition(radii[0][5], t, periods[0][5], offsets[0][5]), 3, 350, 5, movingSolar, False) #Saturn
-		writePoint(getPosition(radii[0][6], t, periods[0][6], offsets[0][6]), 4, 350, 5, movingSolar, False) #Uranus
-		writePoint(getPosition(radii[0][7], t, periods[0][7], offsets[0][7]), 5, 350, 5, movingSolar, False) #Neptune
+		writePoint(getPosition(radii[0][5], t, periods[0][5], offsets[0][5]), 0, 350, 5, movingSolar, False) #Saturn
+		writePoint(getPosition(radii[0][6], t, periods[0][6], offsets[0][6]), 1, 350, 5, movingSolar, False) #Uranus
+		writePoint(getPosition(radii[0][7], t, periods[0][7], offsets[0][7]), 2, 350, 5, movingSolar, False) #Neptune
 
 	writeTexture(getPosition(radii[1][0], t, periods[1][0], offsets[1][0]), 0.015, 1, movingTrap)
 	writeTexture(getPosition(radii[1][1], t, periods[1][1], offsets[1][1]), 0.015, 2, movingTrap)
