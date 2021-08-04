@@ -23,7 +23,7 @@ offsets = [2.6, 2.6, 0, 0.55, 1.335, 3, 2, 0]
 orbit = open(ORBIT_OUT, "w")
 resolution = 150
 for r in radii:
-	orbit.write('mesh -c 0 -s wire {\n1 ' + str(resolution + 1) + '\n')
+	orbit.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
 	for i in range(resolution + 1):
 		pos = getPosition(r, i, resolution, 0)
 		orbit.write("%.4f 0 %.4f\n" % (pos[0], pos[1]))

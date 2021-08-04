@@ -17,6 +17,6 @@ producePath(dataFileIn=open('pathData.txt', "r"), pathFileOut=open('outPath.wf',
 							**fadeOut(group='g3', start=8140, startAlpha=0.99, frameStep=0.6),
 							**fadeIn(group='g3', start=8350, maxAlpha=0.99, frameStep=0.6)
 							},
-			angleFunction=getEulerAnglesAzimuthElevation, startFrame=0)
+			angleFunction=getEulerAnglesAzimuthElevation, startFrame=0, framesFolder="scene2Frames")
 
 shutil.rmtree('../__pycache__')

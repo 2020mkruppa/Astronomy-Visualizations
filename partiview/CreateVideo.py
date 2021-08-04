@@ -26,15 +26,15 @@ def addText(image, frameNum):
 		year = int(YEAR_INTERP(frameNum)[0])
 		fadeWhite = fade * WHITE
 
-		cv2.putText(image, str(year), (15, 870), cv2.FONT_HERSHEY_DUPLEX, 1.5, (fadeWhite, fadeWhite, fadeWhite), 2)
+		cv2.putText(image, str(year), (15, 870), cv2.FONT_HERSHEY_DUPLEX, 1.5, (fadeWhite, fadeWhite, fadeWhite), 2, cv2.LINE_AA)
 		cv2.rectangle(image, (25, 920), (40, 935), (0, 0, fadeWhite), -1)
-		cv2.putText(image, "Doppler Spectroscopy", (55, 935), cv2.FONT_HERSHEY_DUPLEX, 1, (fadeWhite, fadeWhite, fadeWhite), 2)
+		cv2.putText(image, "Doppler Spectroscopy", (55, 935), cv2.FONT_HERSHEY_DUPLEX, 1, (fadeWhite, fadeWhite, fadeWhite), 2, cv2.LINE_AA)
 
 		cv2.rectangle(image, (25, 970), (40, 985), (fadeWhite, fadeWhite, 0), -1)
-		cv2.putText(image, "Transit", (55, 985), cv2.FONT_HERSHEY_DUPLEX, 1, (fadeWhite, fadeWhite, fadeWhite), 2)
+		cv2.putText(image, "Transit", (55, 985), cv2.FONT_HERSHEY_DUPLEX, 1, (fadeWhite, fadeWhite, fadeWhite), 2, cv2.LINE_AA)
 
 		cv2.rectangle(image, (25, 1020), (40, 1035), (0, fadeWhite, fadeWhite), -1)
-		cv2.putText(image, "Other", (55, 1035), cv2.FONT_HERSHEY_DUPLEX, 1, (fadeWhite, fadeWhite, fadeWhite), 2)
+		cv2.putText(image, "Other", (55, 1035), cv2.FONT_HERSHEY_DUPLEX, 1, (fadeWhite, fadeWhite, fadeWhite), 2, cv2.LINE_AA)
 
 	return image
 

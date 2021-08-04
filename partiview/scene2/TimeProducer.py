@@ -29,7 +29,7 @@ def writeSun(pos):
 
 def writeSunOrbit(r):
 	resolution = 100
-	orbit.write('mesh -c 0 -s wire {\n1 ' + str(resolution + 1) + '\n')
+	orbit.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
 	for i in range(resolution + 1):
 		pos = getPosition(r, ((6.28 / resolution) * i))
 		orbit.write("%.4f 0 %.4f\n" % (pos[0], pos[1]))
@@ -37,7 +37,7 @@ def writeSunOrbit(r):
 
 def writeRadius(r):
 	resolution = 100
-	orbit.write('mesh -c 0 -s wire {\n1 ' + str(resolution + 1) + '\n')
+	orbit.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
 	for i in range(resolution + 1):
 		pos = getPosition(r, ((6.28 / resolution) * i))
 		orbit.write("%.4f %.4f 0\n" % (pos[0], pos[1]))

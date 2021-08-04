@@ -102,6 +102,6 @@ producePath(dataFileIn=open('pathData.txt', "r"), pathFileOut=open('outPath.wf',
 
 									  ]),
 
-			angleFunction=getEulerAnglesAzimuthElevation, startFrame=0)
+			angleFunction=getEulerAnglesAzimuthElevation, startFrame=0, frameFolder="scene5Frames")
 
 shutil.rmtree('../__pycache__')

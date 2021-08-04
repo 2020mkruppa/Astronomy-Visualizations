@@ -3,6 +3,13 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/partiview/outFrames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene0Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene1Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene2Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene3Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene4Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene5Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene6Frames" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
