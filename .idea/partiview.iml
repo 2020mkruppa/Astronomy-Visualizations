@@ -5,11 +5,19 @@
       <excludeFolder url="file://$MODULE_DIR$/partiview/outFrames" />
       <excludeFolder url="file://$MODULE_DIR$/partiview/scene0Frames" />
       <excludeFolder url="file://$MODULE_DIR$/partiview/scene1Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene1FramesComp" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene1FramesRaw" />
       <excludeFolder url="file://$MODULE_DIR$/partiview/scene2Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene2FramesRaw" />
       <excludeFolder url="file://$MODULE_DIR$/partiview/scene3Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene3FramesRaw" />
       <excludeFolder url="file://$MODULE_DIR$/partiview/scene4Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene4FramesRaw" />
       <excludeFolder url="file://$MODULE_DIR$/partiview/scene5Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene5FramesRaw" />
       <excludeFolder url="file://$MODULE_DIR$/partiview/scene6Frames" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene6FramesRaw" />
+      <excludeFolder url="file://$MODULE_DIR$/partiview/scene7Frames" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

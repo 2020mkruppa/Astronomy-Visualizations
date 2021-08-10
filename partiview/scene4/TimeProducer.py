@@ -31,7 +31,7 @@ def inRange(i, ranges):
 
 def writeOrbit(file, r):
 	resolution = 150
-	file.write('mesh -c 0 -s wire {\n1 ' + str(resolution + 1) + '\n')
+	file.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
 	for i in range(resolution + 1):
 		pos = getPosition(r, i, resolution, 0)
 		file.write("%.4f 0 %.4f\n" % (pos[0], pos[1]))

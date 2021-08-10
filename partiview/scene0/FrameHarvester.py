@@ -8,9 +8,9 @@ IN_STARS = "stars.png"
 IN_MOVIE = "Scene0.mp4"
 
 BLACK = [50, 20, 5] #Threshold of black
-LAST_EASY_FRAME = 893
+LAST_EASY_FRAME = 1148
 DIAGONAL = getInterpolator(start_x=0, end_x=1, power=1, y_lists=[[0, 960], [0, 540]]) #Absolute x and absolute y
-ATTRIBUTION_FADE = getInterpolator(start_x=1020, end_x=1080, power=1, y_lists=[[1, 0]])
+ATTRIBUTION_FADE = getInterpolator(start_x=1380, end_x=1440, power=1, y_lists=[[1, 0]])
 
 def isBlack(norm, image):
 	x, y = diagonalMap(norm)

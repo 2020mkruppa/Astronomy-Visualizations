@@ -39,7 +39,7 @@ def writeLines(norm):
 		writeMesh(start, end)
 
 def writeMesh(start, end):
-	lines.write('mesh -c 1 -s wire {\n1 2\n')
+	lines.write('mesh -c 1 -w 4 -s wire {\n1 2\n')
 	lines.write("%.4f %.4f 0\n" % (start[0], start[1]))
 	lines.write("%.4f %.4f 0\n}\n" % (end[0], end[1]))
 

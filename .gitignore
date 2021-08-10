@@ -5,3 +5,7 @@ partiview/ffmpeg.exe
 partiview/scene5/tessSphere/tessSphere.speck
 myPartiview/
 fltk-1.3.7/
+*.mp3
+partiview/AudioMaster_data
+partiview/AudioMaster.aup
+partiview/scene6/habitableZoneMoving/habitableZoneMoving.speck

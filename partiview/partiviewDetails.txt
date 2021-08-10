@@ -201,6 +201,6 @@ scale up the line thickness, so it is a true upscale. I tried it out and it work
 things that were pixel-bound; stars' halos and points were also drawn by-pixel instead of by-proportion. This meant that I had to 
 increase the ptsize and polysize as well, or else the downscaled star would be basically just a smudge of color. I had to play with 
 the numbers a bit to find a good compromise, but I ended up with rendering at 4800x2700 (2.5 times 1080p), with line thickness 3,
-and also commanding ptsize 0.15 4, and polysize 0.0015. Even with these modifications, it doesn't look exactly like the 1080p video, but
+and also commanding ptsize 0.05 5, slum 40, and polysize 0.0001. With these modifications, it looks fairly close to the 1080p video, but
 its close enough, and most importantly, the antialiasing is much improved. 
   

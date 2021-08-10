@@ -78,7 +78,7 @@ movingTrap.write('texturevar 2\n\n')
 
 SUN = getInterpolator(start_x=3100, end_x=3200, power=2, y_lists=[[800, 2], [3, 42]])
 
-for i in range(6000):
+for i in range(6300):
 	movingSolar.write('datatime ' + str(i) + '\n')
 	movingTrap.write('datatime ' + str(i) + '\n')
 	t = 6.28 * (i / 1200) * omega
