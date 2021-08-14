@@ -62,9 +62,9 @@ const.write('datavar  2  texture\n')
 const.write('texture  -M 1  halo.pbm\n')
 const.write('texturevar 2\n\n')
 
-luminosityUp = getInterpolator(start_x=960, end_x=1000, power=1, y_lists=[[500, 14000]])
-luminosityDown = getInterpolator(start_x=1400, end_x=1490, power=1, y_lists=[[14000, 500]])
-drawingProgress = getInterpolator(start_x=1050, end_x=1150, power=2, y_lists=[[0, 1]])
+luminosityUp = getInterpolator(start_x=1180, end_x=1220, power=1, y_lists=[[500, 14000]])
+luminosityDown = getInterpolator(start_x=1650, end_x=1740, power=1, y_lists=[[14000, 500]])
+drawingProgress = getInterpolator(start_x=1290, end_x=1400, power=2, y_lists=[[0, 1]])
 
 for i in range(9000):
 	const.write('datatime ' + str(i) + '\n')
@@ -72,7 +72,7 @@ for i in range(9000):
 	lines.write('datatime ' + str(i) + '\n')
 
 	lum = luminosityUp(i)[0]
-	if i >= 1200:
+	if i >= 1220:
 		lum = luminosityDown(i)[0]
 
 	for tup in STARS:

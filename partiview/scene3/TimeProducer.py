@@ -2,6 +2,7 @@ import math
 import sys
 sys.path.append("..")
 from Interpolator import getInterpolator
+from OrbitDrawer import drawOrbitXZ
 
 DATA_OUT = 'movingStars/movingStars.SPECK'
 ORBIT_OUT = 'orbitPaths/orbits.SPECK'
@@ -19,7 +20,7 @@ def writePeg51(pos, lum):
 
 
 def getPosition(radius, time, period, offset):
-	argument = ((6.28 / period) * time) - offset
+	argument = ((math.pi * 2 / period) * time) - offset
 	return [radius * math.cos(argument), radius * math.sin(argument)]
 
 def canShow(i):
@@ -33,18 +34,13 @@ def drawOrbit(eccentricity):
 	baseRadius = radii[1] * 19
 	earth.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
 	for i in range(resolution + 1):
-		arg = (6.28 * i / resolution)
+		arg = (math.pi * 2 * i / resolution)
 		r = baseRadius * (1 - eccentricity**2) / (1 - eccentricity * math.cos(arg))
 		earth.write("%.4f 0 %.4f\n" % (r * math.cos(arg - (3.14 / 2)), r * math.sin(arg - (3.14 / 2))))
 	earth.write('}\n\n')
 
 def drawSmallOrbit(r):
-	resolution = 150
-	orbit.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
-	for i in range(resolution + 1):
-		pos = getPosition(r, i, resolution, 0)
-		orbit.write("%.4f 0 %.4f\n" % (pos[0], pos[1]))
-	orbit.write('}\n\n')
+	drawOrbitXZ(r, orbit)
 
 
 radii   = [0.05, 2]
@@ -64,38 +60,39 @@ f.write('texture  -O 1  darkPlanet.sgi\n')
 f.write('texture  -M 2  colorChanger.sgi\n')
 f.write('texture  -M 3  halo.pbm\n')
 f.write('texture  -O 4  peg51.sgi\n')
+f.write('texture  -O 5  earthFinal.sgi\n')
 f.write('texturevar 2\n\n')
 
-colorAmplitude1 = getInterpolator(start_x=3150, end_x=4300, power=1, y_lists=[[20, 5]])
-colorAmplitude2 = getInterpolator(start_x=4750, end_x=6500, power=1, y_lists=[[5, 20]])
-colorAmplitude3 = getInterpolator(start_x=6500, end_x=9000, power=1, y_lists=[[20, 0]])
+colorAmplitude1 = getInterpolator(start_x=3800, end_x=4500, power=1, y_lists=[[20, 5]])
+colorAmplitude2 = getInterpolator(start_x=4500, end_x=6100, power=1, y_lists=[[5, 20]])
+colorAmplitude3 = getInterpolator(start_x=6100, end_x=8500, power=1, y_lists=[[20, 0]])
 
-orbitRadius = getInterpolator(start_x=1150, end_x=1250, power=1, y_lists=[[0, radii[0]]])
-pegOrbitRadius = getInterpolator(start_x=9500, end_x=9600, power=2, y_lists=[[radii[1], 10]])
+orbitRadius = getInterpolator(start_x=2200, end_x=2400, power=1, y_lists=[[0, radii[0]]])
+pegOrbitRadius = getInterpolator(start_x=9030, end_x=9130, power=2, y_lists=[[radii[1], 10]])
 
-orbitColorOffset = getInterpolator(start_x=3200, end_x=4100, power=2, y_lists=[[0, -3.14 / 2]])
+orbitColorOffset = getInterpolator(start_x=3650, end_x=4600, power=2, y_lists=[[0, -3.14 / 2]])
 
-eccentricityUp = getInterpolator(start_x=8200, end_x=8300, power=2, y_lists=[[0, 0.7]])
-eccentricityDown = getInterpolator(start_x=8350, end_x=8450, power=2, y_lists=[[0.7, 0]])
+eccentricityUp = getInterpolator(start_x=7570, end_x=7670, power=2, y_lists=[[0, 0.7]])
+eccentricityDown = getInterpolator(start_x=7730, end_x=7830, power=2, y_lists=[[0.7, 0]])
 
 
-HIDDEN = [[0, 3071], [3220, 3231], [3379, 3388]] #Inclusive
+HIDDEN = [[0, 3630], [3778, 3788]] #Inclusive
 
-for i in range(11000):
+for i in range(10000):
 	f.write('datatime ' + str(i) + '\n')
 	earth.write('datatime ' + str(i) + '\n')
 	orbit.write('datatime ' + str(i) + '\n')
 
-	t = 6.28 * (i / 1200) * omega
+	t = math.pi * 2 * ((i + 75) / 1200) * omega
 
-	if i > 3050:
+	if i > 3600:
 		drawSmallOrbit(pegOrbitRadius(i)[0])
 
-	arg = (6.28 * (t / periods[0])) - orbitColorOffset(i)[0]
+	arg = (math.pi * 2 * (t / periods[0])) - orbitColorOffset(i)[0]
 	amp = colorAmplitude1(i)[0]
-	if i > 4750:
+	if i > 4500:
 		amp = colorAmplitude2(i)[0]
-	if i > 6500:
+	if i > 6100:
 		amp = colorAmplitude3(i)[0]
 
 	writeColorChanger(getPosition(orbitRadius(i)[0], t, periods[0], offsets[0]), int(amp * math.cos(arg) + 19), 9000)
@@ -103,9 +100,14 @@ for i in range(11000):
 	if canShow(i):
 		writePeg51(getPosition(radii[1], t, periods[1], offsets[1]), 0.24)
 
-	if i >= 5700:
+	if i >= 5600:
 		e = eccentricityUp(i)[0]
-		if i > 8350:
+		if i > 7700:
 			e = eccentricityDown(i)[0]
 		drawOrbit(e)
+
+	if 7550 > i > 5620:
+		radi = radii[1] * 19
+		angle = math.radians(42)
+		f.write("%.4f 0 %.4f 0 %.2f 5\n" % (radi * math.cos(angle), radi * math.sin(angle), 20))
 

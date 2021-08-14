@@ -17,6 +17,7 @@ eval polysides 16
 eval polymin 1 
 eval alpha 0.9
 eval poly on
+eval polyorivar 3
 eval lsize 0.07
 eval labelmin 8
 eval textcment 1 .4 .4 .4

@@ -3747,333 +3747,168 @@ eval snapshot scene3FramesRaw/frame
 eval frame 1249
 eval step 1249
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.01
 eval frame 1250
 eval step 1250
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.03
 eval frame 1251
 eval step 1251
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.04
 eval frame 1252
 eval step 1252
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.06
 eval frame 1253
 eval step 1253
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.08
 eval frame 1254
 eval step 1254
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.09
 eval frame 1255
 eval step 1255
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.11
 eval frame 1256
 eval step 1256
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.13
 eval frame 1257
 eval step 1257
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.14
 eval frame 1258
 eval step 1258
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.16
 eval frame 1259
 eval step 1259
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.18
 eval frame 1260
 eval step 1260
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.19
 eval frame 1261
 eval step 1261
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.21
 eval frame 1262
 eval step 1262
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.23
 eval frame 1263
 eval step 1263
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.24
 eval frame 1264
 eval step 1264
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.26
 eval frame 1265
 eval step 1265
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.28
 eval frame 1266
 eval step 1266
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.29
 eval frame 1267
 eval step 1267
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.31
 eval frame 1268
 eval step 1268
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.33
 eval frame 1269
 eval step 1269
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.34
 eval frame 1270
 eval step 1270
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.36
 eval frame 1271
 eval step 1271
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.38
 eval frame 1272
 eval step 1272
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.39
 eval frame 1273
 eval step 1273
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.41
 eval frame 1274
 eval step 1274
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.43
 eval frame 1275
 eval step 1275
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.44
 eval frame 1276
 eval step 1276
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.46
 eval frame 1277
 eval step 1277
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.48
 eval frame 1278
 eval step 1278
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.49
 eval frame 1279
 eval step 1279
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.51
 eval frame 1280
 eval step 1280
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.53
 eval frame 1281
 eval step 1281
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.54
 eval frame 1282
 eval step 1282
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.56
 eval frame 1283
 eval step 1283
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.58
 eval frame 1284
 eval step 1284
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.59
 eval frame 1285
 eval step 1285
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.61
 eval frame 1286
 eval step 1286
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.63
 eval frame 1287
 eval step 1287
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.64
 eval frame 1288
 eval step 1288
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.66
 eval frame 1289
 eval step 1289
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.68
 eval frame 1290
 eval step 1290
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.69
 eval frame 1291
 eval step 1291
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.71
 eval frame 1292
 eval step 1292
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.73
 eval frame 1293
 eval step 1293
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.74
 eval frame 1294
 eval step 1294
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.76
 eval frame 1295
 eval step 1295
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.78
 eval frame 1296
 eval step 1296
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.79
 eval frame 1297
 eval step 1297
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.81
 eval frame 1298
 eval step 1298
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.83
 eval frame 1299
 eval step 1299
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.84
 eval frame 1300
 eval step 1300
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.86
 eval frame 1301
 eval step 1301
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.88
 eval frame 1302
 eval step 1302
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.89
 eval frame 1303
 eval step 1303
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval on
-eval alpha 0.90
 eval frame 1304
 eval step 1304
 eval snapshot scene3FramesRaw/frame
@@ -4362,420 +4197,186 @@ eval snapshot scene3FramesRaw/frame
 eval frame 1399
 eval step 1399
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.89
-eval g7
-eval alpha 0.99
 eval frame 1400
 eval step 1400
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.87
-eval g7
-eval alpha 0.97
 eval frame 1401
 eval step 1401
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.86
-eval g7
-eval alpha 0.96
 eval frame 1402
 eval step 1402
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.84
-eval g7
-eval alpha 0.94
 eval frame 1403
 eval step 1403
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.82
-eval g7
-eval alpha 0.92
 eval frame 1404
 eval step 1404
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.81
-eval g7
-eval alpha 0.91
 eval frame 1405
 eval step 1405
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.79
-eval g7
-eval alpha 0.89
 eval frame 1406
 eval step 1406
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.77
-eval g7
-eval alpha 0.87
 eval frame 1407
 eval step 1407
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.76
-eval g7
-eval alpha 0.86
 eval frame 1408
 eval step 1408
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.74
-eval g7
-eval alpha 0.84
 eval frame 1409
 eval step 1409
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.72
-eval g7
-eval alpha 0.82
 eval frame 1410
 eval step 1410
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.71
-eval g7
-eval alpha 0.81
 eval frame 1411
 eval step 1411
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.69
-eval g7
-eval alpha 0.79
 eval frame 1412
 eval step 1412
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.67
-eval g7
-eval alpha 0.77
 eval frame 1413
 eval step 1413
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.66
-eval g7
-eval alpha 0.76
 eval frame 1414
 eval step 1414
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.64
-eval g7
-eval alpha 0.74
 eval frame 1415
 eval step 1415
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.62
-eval g7
-eval alpha 0.72
 eval frame 1416
 eval step 1416
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.61
-eval g7
-eval alpha 0.71
 eval frame 1417
 eval step 1417
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.59
-eval g7
-eval alpha 0.69
 eval frame 1418
 eval step 1418
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.57
-eval g7
-eval alpha 0.67
 eval frame 1419
 eval step 1419
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.56
-eval g7
-eval alpha 0.66
 eval frame 1420
 eval step 1420
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.54
-eval g7
-eval alpha 0.64
 eval frame 1421
 eval step 1421
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.52
-eval g7
-eval alpha 0.62
 eval frame 1422
 eval step 1422
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.51
-eval g7
-eval alpha 0.61
 eval frame 1423
 eval step 1423
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.49
-eval g7
-eval alpha 0.59
 eval frame 1424
 eval step 1424
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.47
-eval g7
-eval alpha 0.57
 eval frame 1425
 eval step 1425
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.46
-eval g7
-eval alpha 0.56
 eval frame 1426
 eval step 1426
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.44
-eval g7
-eval alpha 0.54
 eval frame 1427
 eval step 1427
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.42
-eval g7
-eval alpha 0.52
 eval frame 1428
 eval step 1428
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.41
-eval g7
-eval alpha 0.51
 eval frame 1429
 eval step 1429
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.39
-eval g7
-eval alpha 0.49
 eval frame 1430
 eval step 1430
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.37
-eval g7
-eval alpha 0.47
 eval frame 1431
 eval step 1431
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.36
-eval g7
-eval alpha 0.46
 eval frame 1432
 eval step 1432
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.34
-eval g7
-eval alpha 0.44
 eval frame 1433
 eval step 1433
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.32
-eval g7
-eval alpha 0.42
 eval frame 1434
 eval step 1434
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.31
-eval g7
-eval alpha 0.41
 eval frame 1435
 eval step 1435
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.29
-eval g7
-eval alpha 0.39
 eval frame 1436
 eval step 1436
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.27
-eval g7
-eval alpha 0.37
 eval frame 1437
 eval step 1437
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.26
-eval g7
-eval alpha 0.36
 eval frame 1438
 eval step 1438
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.24
-eval g7
-eval alpha 0.34
 eval frame 1439
 eval step 1439
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.22
-eval g7
-eval alpha 0.32
 eval frame 1440
 eval step 1440
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.21
-eval g7
-eval alpha 0.31
 eval frame 1441
 eval step 1441
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.19
-eval g7
-eval alpha 0.29
 eval frame 1442
 eval step 1442
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.17
-eval g7
-eval alpha 0.27
 eval frame 1443
 eval step 1443
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.16
-eval g7
-eval alpha 0.26
 eval frame 1444
 eval step 1444
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.14
-eval g7
-eval alpha 0.24
 eval frame 1445
 eval step 1445
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.12
-eval g7
-eval alpha 0.22
 eval frame 1446
 eval step 1446
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.11
-eval g7
-eval alpha 0.21
 eval frame 1447
 eval step 1447
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.09
-eval g7
-eval alpha 0.19
 eval frame 1448
 eval step 1448
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.07
-eval g7
-eval alpha 0.17
 eval frame 1449
 eval step 1449
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.06
-eval g7
-eval alpha 0.16
 eval frame 1450
 eval step 1450
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.04
-eval g7
-eval alpha 0.14
 eval frame 1451
 eval step 1451
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.02
-eval g7
-eval alpha 0.12
 eval frame 1452
 eval step 1452
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.01
-eval g7
-eval alpha 0.11
 eval frame 1453
 eval step 1453
 eval snapshot scene3FramesRaw/frame
-eval g6
-eval alpha 0.00
-eval off
-eval g7
-eval alpha 0.09
 eval frame 1454
 eval step 1454
 eval snapshot scene3FramesRaw/frame
-eval g7
-eval alpha 0.07
 eval frame 1455
 eval step 1455
 eval snapshot scene3FramesRaw/frame
-eval g7
-eval alpha 0.06
 eval frame 1456
 eval step 1456
 eval snapshot scene3FramesRaw/frame
-eval g7
-eval alpha 0.04
 eval frame 1457
 eval step 1457
 eval snapshot scene3FramesRaw/frame
-eval g7
-eval alpha 0.02
 eval frame 1458
 eval step 1458
 eval snapshot scene3FramesRaw/frame
-eval g7
-eval alpha 0.01
 eval frame 1459
 eval step 1459
 eval snapshot scene3FramesRaw/frame
-eval g7
-eval alpha 0.00
-eval off
 eval frame 1460
 eval step 1460
 eval snapshot scene3FramesRaw/frame
@@ -4806,168 +4407,333 @@ eval snapshot scene3FramesRaw/frame
 eval frame 1469
 eval step 1469
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.01
 eval frame 1470
 eval step 1470
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.03
 eval frame 1471
 eval step 1471
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.04
 eval frame 1472
 eval step 1472
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.06
 eval frame 1473
 eval step 1473
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.08
 eval frame 1474
 eval step 1474
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.09
 eval frame 1475
 eval step 1475
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.11
 eval frame 1476
 eval step 1476
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.13
 eval frame 1477
 eval step 1477
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.14
 eval frame 1478
 eval step 1478
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.16
 eval frame 1479
 eval step 1479
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.18
 eval frame 1480
 eval step 1480
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.19
 eval frame 1481
 eval step 1481
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.21
 eval frame 1482
 eval step 1482
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.23
 eval frame 1483
 eval step 1483
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.24
 eval frame 1484
 eval step 1484
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.26
 eval frame 1485
 eval step 1485
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.28
 eval frame 1486
 eval step 1486
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.29
 eval frame 1487
 eval step 1487
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.31
 eval frame 1488
 eval step 1488
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.33
 eval frame 1489
 eval step 1489
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.34
 eval frame 1490
 eval step 1490
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.36
 eval frame 1491
 eval step 1491
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.38
 eval frame 1492
 eval step 1492
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.39
 eval frame 1493
 eval step 1493
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.41
 eval frame 1494
 eval step 1494
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.43
 eval frame 1495
 eval step 1495
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.44
 eval frame 1496
 eval step 1496
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.46
 eval frame 1497
 eval step 1497
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.48
 eval frame 1498
 eval step 1498
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.49
 eval frame 1499
 eval step 1499
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.51
 eval frame 1500
 eval step 1500
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.53
 eval frame 1501
 eval step 1501
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.54
 eval frame 1502
 eval step 1502
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.56
 eval frame 1503
 eval step 1503
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.58
 eval frame 1504
 eval step 1504
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.59
 eval frame 1505
 eval step 1505
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.61
 eval frame 1506
 eval step 1506
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.63
 eval frame 1507
 eval step 1507
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.64
 eval frame 1508
 eval step 1508
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.66
 eval frame 1509
 eval step 1509
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.68
 eval frame 1510
 eval step 1510
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.69
 eval frame 1511
 eval step 1511
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.71
 eval frame 1512
 eval step 1512
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.73
 eval frame 1513
 eval step 1513
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.74
 eval frame 1514
 eval step 1514
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.76
 eval frame 1515
 eval step 1515
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.78
 eval frame 1516
 eval step 1516
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.79
 eval frame 1517
 eval step 1517
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.81
 eval frame 1518
 eval step 1518
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.83
 eval frame 1519
 eval step 1519
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.84
 eval frame 1520
 eval step 1520
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.86
 eval frame 1521
 eval step 1521
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.88
 eval frame 1522
 eval step 1522
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.89
 eval frame 1523
 eval step 1523
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval on
+eval alpha 0.90
 eval frame 1524
 eval step 1524
 eval snapshot scene3FramesRaw/frame
@@ -5346,186 +5112,420 @@ eval snapshot scene3FramesRaw/frame
 eval frame 1649
 eval step 1649
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.89
+eval g7
+eval alpha 0.99
 eval frame 1650
 eval step 1650
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.87
+eval g7
+eval alpha 0.97
 eval frame 1651
 eval step 1651
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.86
+eval g7
+eval alpha 0.96
 eval frame 1652
 eval step 1652
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.84
+eval g7
+eval alpha 0.94
 eval frame 1653
 eval step 1653
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.82
+eval g7
+eval alpha 0.92
 eval frame 1654
 eval step 1654
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.81
+eval g7
+eval alpha 0.91
 eval frame 1655
 eval step 1655
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.79
+eval g7
+eval alpha 0.89
 eval frame 1656
 eval step 1656
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.77
+eval g7
+eval alpha 0.87
 eval frame 1657
 eval step 1657
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.76
+eval g7
+eval alpha 0.86
 eval frame 1658
 eval step 1658
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.74
+eval g7
+eval alpha 0.84
 eval frame 1659
 eval step 1659
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.72
+eval g7
+eval alpha 0.82
 eval frame 1660
 eval step 1660
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.71
+eval g7
+eval alpha 0.81
 eval frame 1661
 eval step 1661
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.69
+eval g7
+eval alpha 0.79
 eval frame 1662
 eval step 1662
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.67
+eval g7
+eval alpha 0.77
 eval frame 1663
 eval step 1663
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.66
+eval g7
+eval alpha 0.76
 eval frame 1664
 eval step 1664
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.64
+eval g7
+eval alpha 0.74
 eval frame 1665
 eval step 1665
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.62
+eval g7
+eval alpha 0.72
 eval frame 1666
 eval step 1666
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.61
+eval g7
+eval alpha 0.71
 eval frame 1667
 eval step 1667
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.59
+eval g7
+eval alpha 0.69
 eval frame 1668
 eval step 1668
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.57
+eval g7
+eval alpha 0.67
 eval frame 1669
 eval step 1669
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.56
+eval g7
+eval alpha 0.66
 eval frame 1670
 eval step 1670
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.54
+eval g7
+eval alpha 0.64
 eval frame 1671
 eval step 1671
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.52
+eval g7
+eval alpha 0.62
 eval frame 1672
 eval step 1672
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.51
+eval g7
+eval alpha 0.61
 eval frame 1673
 eval step 1673
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.49
+eval g7
+eval alpha 0.59
 eval frame 1674
 eval step 1674
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.47
+eval g7
+eval alpha 0.57
 eval frame 1675
 eval step 1675
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.46
+eval g7
+eval alpha 0.56
 eval frame 1676
 eval step 1676
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.44
+eval g7
+eval alpha 0.54
 eval frame 1677
 eval step 1677
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.42
+eval g7
+eval alpha 0.52
 eval frame 1678
 eval step 1678
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.41
+eval g7
+eval alpha 0.51
 eval frame 1679
 eval step 1679
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.39
+eval g7
+eval alpha 0.49
 eval frame 1680
 eval step 1680
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.37
+eval g7
+eval alpha 0.47
 eval frame 1681
 eval step 1681
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.36
+eval g7
+eval alpha 0.46
 eval frame 1682
 eval step 1682
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.34
+eval g7
+eval alpha 0.44
 eval frame 1683
 eval step 1683
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.32
+eval g7
+eval alpha 0.42
 eval frame 1684
 eval step 1684
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.31
+eval g7
+eval alpha 0.41
 eval frame 1685
 eval step 1685
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.29
+eval g7
+eval alpha 0.39
 eval frame 1686
 eval step 1686
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.27
+eval g7
+eval alpha 0.37
 eval frame 1687
 eval step 1687
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.26
+eval g7
+eval alpha 0.36
 eval frame 1688
 eval step 1688
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.24
+eval g7
+eval alpha 0.34
 eval frame 1689
 eval step 1689
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.22
+eval g7
+eval alpha 0.32
 eval frame 1690
 eval step 1690
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.21
+eval g7
+eval alpha 0.31
 eval frame 1691
 eval step 1691
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.19
+eval g7
+eval alpha 0.29
 eval frame 1692
 eval step 1692
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.17
+eval g7
+eval alpha 0.27
 eval frame 1693
 eval step 1693
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.16
+eval g7
+eval alpha 0.26
 eval frame 1694
 eval step 1694
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.14
+eval g7
+eval alpha 0.24
 eval frame 1695
 eval step 1695
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.12
+eval g7
+eval alpha 0.22
 eval frame 1696
 eval step 1696
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.11
+eval g7
+eval alpha 0.21
 eval frame 1697
 eval step 1697
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.09
+eval g7
+eval alpha 0.19
 eval frame 1698
 eval step 1698
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.07
+eval g7
+eval alpha 0.17
 eval frame 1699
 eval step 1699
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.06
+eval g7
+eval alpha 0.16
 eval frame 1700
 eval step 1700
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.04
+eval g7
+eval alpha 0.14
 eval frame 1701
 eval step 1701
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.02
+eval g7
+eval alpha 0.12
 eval frame 1702
 eval step 1702
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.01
+eval g7
+eval alpha 0.11
 eval frame 1703
 eval step 1703
 eval snapshot scene3FramesRaw/frame
+eval g6
+eval alpha 0.00
+eval off
+eval g7
+eval alpha 0.09
 eval frame 1704
 eval step 1704
 eval snapshot scene3FramesRaw/frame
+eval g7
+eval alpha 0.07
 eval frame 1705
 eval step 1705
 eval snapshot scene3FramesRaw/frame
+eval g7
+eval alpha 0.06
 eval frame 1706
 eval step 1706
 eval snapshot scene3FramesRaw/frame
+eval g7
+eval alpha 0.04
 eval frame 1707
 eval step 1707
 eval snapshot scene3FramesRaw/frame
+eval g7
+eval alpha 0.02
 eval frame 1708
 eval step 1708
 eval snapshot scene3FramesRaw/frame
+eval g7
+eval alpha 0.01
 eval frame 1709
 eval step 1709
 eval snapshot scene3FramesRaw/frame
+eval g7
+eval alpha 0.00
+eval off
 eval frame 1710
 eval step 1710
 eval snapshot scene3FramesRaw/frame
@@ -9828,9 +9828,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3102
 eval step 3102
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.01
 eval frame 3103
 eval step 3103
 eval snapshot scene3FramesRaw/frame
@@ -9840,9 +9837,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3105
 eval step 3105
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.02
 eval frame 3106
 eval step 3106
 eval snapshot scene3FramesRaw/frame
@@ -9852,9 +9846,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3108
 eval step 3108
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.03
 eval frame 3109
 eval step 3109
 eval snapshot scene3FramesRaw/frame
@@ -9864,9 +9855,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3111
 eval step 3111
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.04
 eval frame 3112
 eval step 3112
 eval snapshot scene3FramesRaw/frame
@@ -9876,9 +9864,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3114
 eval step 3114
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.05
 eval frame 3115
 eval step 3115
 eval snapshot scene3FramesRaw/frame
@@ -9888,9 +9873,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3117
 eval step 3117
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.06
 eval frame 3118
 eval step 3118
 eval snapshot scene3FramesRaw/frame
@@ -9900,9 +9882,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3120
 eval step 3120
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.07
 eval frame 3121
 eval step 3121
 eval snapshot scene3FramesRaw/frame
@@ -9912,9 +9891,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3123
 eval step 3123
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.08
 eval frame 3124
 eval step 3124
 eval snapshot scene3FramesRaw/frame
@@ -9924,9 +9900,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3126
 eval step 3126
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.09
 eval frame 3127
 eval step 3127
 eval snapshot scene3FramesRaw/frame
@@ -9936,9 +9909,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3129
 eval step 3129
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.10
 eval frame 3130
 eval step 3130
 eval snapshot scene3FramesRaw/frame
@@ -9948,9 +9918,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3132
 eval step 3132
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.11
 eval frame 3133
 eval step 3133
 eval snapshot scene3FramesRaw/frame
@@ -9960,9 +9927,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3135
 eval step 3135
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.12
 eval frame 3136
 eval step 3136
 eval snapshot scene3FramesRaw/frame
@@ -9972,9 +9936,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3138
 eval step 3138
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.13
 eval frame 3139
 eval step 3139
 eval snapshot scene3FramesRaw/frame
@@ -9984,9 +9945,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3141
 eval step 3141
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.14
 eval frame 3142
 eval step 3142
 eval snapshot scene3FramesRaw/frame
@@ -9996,9 +9954,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3144
 eval step 3144
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.15
 eval frame 3145
 eval step 3145
 eval snapshot scene3FramesRaw/frame
@@ -10008,9 +9963,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3147
 eval step 3147
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.16
 eval frame 3148
 eval step 3148
 eval snapshot scene3FramesRaw/frame
@@ -10020,9 +9972,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3150
 eval step 3150
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.17
 eval frame 3151
 eval step 3151
 eval snapshot scene3FramesRaw/frame
@@ -10032,9 +9981,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3153
 eval step 3153
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.18
 eval frame 3154
 eval step 3154
 eval snapshot scene3FramesRaw/frame
@@ -10044,9 +9990,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3156
 eval step 3156
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.19
 eval frame 3157
 eval step 3157
 eval snapshot scene3FramesRaw/frame
@@ -10056,9 +9999,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3159
 eval step 3159
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.20
 eval frame 3160
 eval step 3160
 eval snapshot scene3FramesRaw/frame
@@ -10068,9 +10008,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3162
 eval step 3162
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.21
 eval frame 3163
 eval step 3163
 eval snapshot scene3FramesRaw/frame
@@ -10080,9 +10017,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3165
 eval step 3165
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.22
 eval frame 3166
 eval step 3166
 eval snapshot scene3FramesRaw/frame
@@ -10092,9 +10026,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3168
 eval step 3168
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.23
 eval frame 3169
 eval step 3169
 eval snapshot scene3FramesRaw/frame
@@ -10104,9 +10035,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3171
 eval step 3171
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.24
 eval frame 3172
 eval step 3172
 eval snapshot scene3FramesRaw/frame
@@ -10116,9 +10044,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3174
 eval step 3174
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.25
 eval frame 3175
 eval step 3175
 eval snapshot scene3FramesRaw/frame
@@ -10128,9 +10053,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3177
 eval step 3177
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.26
 eval frame 3178
 eval step 3178
 eval snapshot scene3FramesRaw/frame
@@ -10140,9 +10062,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3180
 eval step 3180
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.27
 eval frame 3181
 eval step 3181
 eval snapshot scene3FramesRaw/frame
@@ -10152,9 +10071,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3183
 eval step 3183
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.28
 eval frame 3184
 eval step 3184
 eval snapshot scene3FramesRaw/frame
@@ -10164,9 +10080,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3186
 eval step 3186
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.29
 eval frame 3187
 eval step 3187
 eval snapshot scene3FramesRaw/frame
@@ -10176,9 +10089,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3189
 eval step 3189
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.30
 eval frame 3190
 eval step 3190
 eval snapshot scene3FramesRaw/frame
@@ -10188,9 +10098,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3192
 eval step 3192
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.31
 eval frame 3193
 eval step 3193
 eval snapshot scene3FramesRaw/frame
@@ -10200,9 +10107,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3195
 eval step 3195
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.32
 eval frame 3196
 eval step 3196
 eval snapshot scene3FramesRaw/frame
@@ -10212,9 +10116,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3198
 eval step 3198
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.33
 eval frame 3199
 eval step 3199
 eval snapshot scene3FramesRaw/frame
@@ -10224,9 +10125,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3201
 eval step 3201
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.34
 eval frame 3202
 eval step 3202
 eval snapshot scene3FramesRaw/frame
@@ -10236,9 +10134,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3204
 eval step 3204
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.35
 eval frame 3205
 eval step 3205
 eval snapshot scene3FramesRaw/frame
@@ -10248,9 +10143,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3207
 eval step 3207
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.36
 eval frame 3208
 eval step 3208
 eval snapshot scene3FramesRaw/frame
@@ -10260,9 +10152,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3210
 eval step 3210
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.37
 eval frame 3211
 eval step 3211
 eval snapshot scene3FramesRaw/frame
@@ -10272,9 +10161,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3213
 eval step 3213
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.38
 eval frame 3214
 eval step 3214
 eval snapshot scene3FramesRaw/frame
@@ -10284,9 +10170,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3216
 eval step 3216
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.39
 eval frame 3217
 eval step 3217
 eval snapshot scene3FramesRaw/frame
@@ -10296,9 +10179,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3219
 eval step 3219
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.40
 eval frame 3220
 eval step 3220
 eval snapshot scene3FramesRaw/frame
@@ -10308,9 +10188,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3222
 eval step 3222
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.41
 eval frame 3223
 eval step 3223
 eval snapshot scene3FramesRaw/frame
@@ -10320,9 +10197,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3225
 eval step 3225
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.42
 eval frame 3226
 eval step 3226
 eval snapshot scene3FramesRaw/frame
@@ -10332,9 +10206,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3228
 eval step 3228
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.43
 eval frame 3229
 eval step 3229
 eval snapshot scene3FramesRaw/frame
@@ -10344,9 +10215,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3231
 eval step 3231
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.44
 eval frame 3232
 eval step 3232
 eval snapshot scene3FramesRaw/frame
@@ -10356,9 +10224,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3234
 eval step 3234
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.45
 eval frame 3235
 eval step 3235
 eval snapshot scene3FramesRaw/frame
@@ -10368,9 +10233,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3237
 eval step 3237
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.46
 eval frame 3238
 eval step 3238
 eval snapshot scene3FramesRaw/frame
@@ -10380,9 +10242,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3240
 eval step 3240
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.47
 eval frame 3241
 eval step 3241
 eval snapshot scene3FramesRaw/frame
@@ -10392,9 +10251,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3243
 eval step 3243
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.48
 eval frame 3244
 eval step 3244
 eval snapshot scene3FramesRaw/frame
@@ -10404,9 +10260,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3246
 eval step 3246
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.49
 eval frame 3247
 eval step 3247
 eval snapshot scene3FramesRaw/frame
@@ -10416,9 +10269,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3249
 eval step 3249
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.50
 eval frame 3250
 eval step 3250
 eval snapshot scene3FramesRaw/frame
@@ -10428,9 +10278,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3252
 eval step 3252
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.51
 eval frame 3253
 eval step 3253
 eval snapshot scene3FramesRaw/frame
@@ -10440,9 +10287,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3255
 eval step 3255
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.52
 eval frame 3256
 eval step 3256
 eval snapshot scene3FramesRaw/frame
@@ -10452,9 +10296,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3258
 eval step 3258
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.53
 eval frame 3259
 eval step 3259
 eval snapshot scene3FramesRaw/frame
@@ -10464,9 +10305,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3261
 eval step 3261
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.54
 eval frame 3262
 eval step 3262
 eval snapshot scene3FramesRaw/frame
@@ -10476,9 +10314,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3264
 eval step 3264
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.55
 eval frame 3265
 eval step 3265
 eval snapshot scene3FramesRaw/frame
@@ -10488,9 +10323,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3267
 eval step 3267
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.56
 eval frame 3268
 eval step 3268
 eval snapshot scene3FramesRaw/frame
@@ -10500,9 +10332,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3270
 eval step 3270
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.57
 eval frame 3271
 eval step 3271
 eval snapshot scene3FramesRaw/frame
@@ -10512,9 +10341,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3273
 eval step 3273
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.58
 eval frame 3274
 eval step 3274
 eval snapshot scene3FramesRaw/frame
@@ -10524,9 +10350,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3276
 eval step 3276
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.59
 eval frame 3277
 eval step 3277
 eval snapshot scene3FramesRaw/frame
@@ -10536,9 +10359,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3279
 eval step 3279
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.60
 eval frame 3280
 eval step 3280
 eval snapshot scene3FramesRaw/frame
@@ -10548,9 +10368,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3282
 eval step 3282
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.61
 eval frame 3283
 eval step 3283
 eval snapshot scene3FramesRaw/frame
@@ -10560,9 +10377,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3285
 eval step 3285
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.62
 eval frame 3286
 eval step 3286
 eval snapshot scene3FramesRaw/frame
@@ -10572,9 +10386,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3288
 eval step 3288
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.63
 eval frame 3289
 eval step 3289
 eval snapshot scene3FramesRaw/frame
@@ -10584,9 +10395,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3291
 eval step 3291
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.64
 eval frame 3292
 eval step 3292
 eval snapshot scene3FramesRaw/frame
@@ -10596,9 +10404,6 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3294
 eval step 3294
 eval snapshot scene3FramesRaw/frame
-eval g2
-eval on
-eval alpha 0.65
 eval frame 3295
 eval step 3295
 eval snapshot scene3FramesRaw/frame
@@ -11607,408 +11412,678 @@ eval snapshot scene3FramesRaw/frame
 eval frame 3630
 eval step 3630
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.01
 eval frame 3631
 eval step 3631
 eval snapshot scene3FramesRaw/frame
 eval frame 3632
 eval step 3632
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.02
 eval frame 3633
 eval step 3633
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.03
 eval frame 3634
 eval step 3634
 eval snapshot scene3FramesRaw/frame
 eval frame 3635
 eval step 3635
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.04
 eval frame 3636
 eval step 3636
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.05
 eval frame 3637
 eval step 3637
 eval snapshot scene3FramesRaw/frame
 eval frame 3638
 eval step 3638
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.06
 eval frame 3639
 eval step 3639
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.07
 eval frame 3640
 eval step 3640
 eval snapshot scene3FramesRaw/frame
 eval frame 3641
 eval step 3641
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.08
 eval frame 3642
 eval step 3642
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.09
 eval frame 3643
 eval step 3643
 eval snapshot scene3FramesRaw/frame
 eval frame 3644
 eval step 3644
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.10
 eval frame 3645
 eval step 3645
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.11
 eval frame 3646
 eval step 3646
 eval snapshot scene3FramesRaw/frame
 eval frame 3647
 eval step 3647
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.12
 eval frame 3648
 eval step 3648
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.13
 eval frame 3649
 eval step 3649
 eval snapshot scene3FramesRaw/frame
 eval frame 3650
 eval step 3650
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.14
 eval frame 3651
 eval step 3651
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.15
 eval frame 3652
 eval step 3652
 eval snapshot scene3FramesRaw/frame
 eval frame 3653
 eval step 3653
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.16
 eval frame 3654
 eval step 3654
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.17
 eval frame 3655
 eval step 3655
 eval snapshot scene3FramesRaw/frame
 eval frame 3656
 eval step 3656
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.18
 eval frame 3657
 eval step 3657
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.19
 eval frame 3658
 eval step 3658
 eval snapshot scene3FramesRaw/frame
 eval frame 3659
 eval step 3659
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.20
 eval frame 3660
 eval step 3660
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.21
 eval frame 3661
 eval step 3661
 eval snapshot scene3FramesRaw/frame
 eval frame 3662
 eval step 3662
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.22
 eval frame 3663
 eval step 3663
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.23
 eval frame 3664
 eval step 3664
 eval snapshot scene3FramesRaw/frame
 eval frame 3665
 eval step 3665
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.24
 eval frame 3666
 eval step 3666
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.25
 eval frame 3667
 eval step 3667
 eval snapshot scene3FramesRaw/frame
 eval frame 3668
 eval step 3668
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.26
 eval frame 3669
 eval step 3669
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.27
 eval frame 3670
 eval step 3670
 eval snapshot scene3FramesRaw/frame
 eval frame 3671
 eval step 3671
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.28
 eval frame 3672
 eval step 3672
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.29
 eval frame 3673
 eval step 3673
 eval snapshot scene3FramesRaw/frame
 eval frame 3674
 eval step 3674
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.30
 eval frame 3675
 eval step 3675
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.31
 eval frame 3676
 eval step 3676
 eval snapshot scene3FramesRaw/frame
 eval frame 3677
 eval step 3677
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.32
 eval frame 3678
 eval step 3678
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.33
 eval frame 3679
 eval step 3679
 eval snapshot scene3FramesRaw/frame
 eval frame 3680
 eval step 3680
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.34
 eval frame 3681
 eval step 3681
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.35
 eval frame 3682
 eval step 3682
 eval snapshot scene3FramesRaw/frame
 eval frame 3683
 eval step 3683
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.36
 eval frame 3684
 eval step 3684
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.37
 eval frame 3685
 eval step 3685
 eval snapshot scene3FramesRaw/frame
 eval frame 3686
 eval step 3686
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.38
 eval frame 3687
 eval step 3687
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.39
 eval frame 3688
 eval step 3688
 eval snapshot scene3FramesRaw/frame
 eval frame 3689
 eval step 3689
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.40
 eval frame 3690
 eval step 3690
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.41
 eval frame 3691
 eval step 3691
 eval snapshot scene3FramesRaw/frame
 eval frame 3692
 eval step 3692
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.42
 eval frame 3693
 eval step 3693
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.43
 eval frame 3694
 eval step 3694
 eval snapshot scene3FramesRaw/frame
 eval frame 3695
 eval step 3695
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.44
 eval frame 3696
 eval step 3696
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.45
 eval frame 3697
 eval step 3697
 eval snapshot scene3FramesRaw/frame
 eval frame 3698
 eval step 3698
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.46
 eval frame 3699
 eval step 3699
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.47
 eval frame 3700
 eval step 3700
 eval snapshot scene3FramesRaw/frame
 eval frame 3701
 eval step 3701
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.48
 eval frame 3702
 eval step 3702
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.49
 eval frame 3703
 eval step 3703
 eval snapshot scene3FramesRaw/frame
 eval frame 3704
 eval step 3704
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.50
 eval frame 3705
 eval step 3705
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.51
 eval frame 3706
 eval step 3706
 eval snapshot scene3FramesRaw/frame
 eval frame 3707
 eval step 3707
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.52
 eval frame 3708
 eval step 3708
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.53
 eval frame 3709
 eval step 3709
 eval snapshot scene3FramesRaw/frame
 eval frame 3710
 eval step 3710
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.54
 eval frame 3711
 eval step 3711
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.55
 eval frame 3712
 eval step 3712
 eval snapshot scene3FramesRaw/frame
 eval frame 3713
 eval step 3713
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.56
 eval frame 3714
 eval step 3714
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.57
 eval frame 3715
 eval step 3715
 eval snapshot scene3FramesRaw/frame
 eval frame 3716
 eval step 3716
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.58
 eval frame 3717
 eval step 3717
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.59
 eval frame 3718
 eval step 3718
 eval snapshot scene3FramesRaw/frame
 eval frame 3719
 eval step 3719
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.60
 eval frame 3720
 eval step 3720
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.61
 eval frame 3721
 eval step 3721
 eval snapshot scene3FramesRaw/frame
 eval frame 3722
 eval step 3722
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.62
 eval frame 3723
 eval step 3723
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.63
 eval frame 3724
 eval step 3724
 eval snapshot scene3FramesRaw/frame
 eval frame 3725
 eval step 3725
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.64
 eval frame 3726
 eval step 3726
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.65
 eval frame 3727
 eval step 3727
 eval snapshot scene3FramesRaw/frame
 eval frame 3728
 eval step 3728
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.66
 eval frame 3729
 eval step 3729
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.67
 eval frame 3730
 eval step 3730
 eval snapshot scene3FramesRaw/frame
 eval frame 3731
 eval step 3731
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.68
 eval frame 3732
 eval step 3732
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.69
 eval frame 3733
 eval step 3733
 eval snapshot scene3FramesRaw/frame
 eval frame 3734
 eval step 3734
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.70
 eval frame 3735
 eval step 3735
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.71
 eval frame 3736
 eval step 3736
 eval snapshot scene3FramesRaw/frame
 eval frame 3737
 eval step 3737
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.72
 eval frame 3738
 eval step 3738
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.73
 eval frame 3739
 eval step 3739
 eval snapshot scene3FramesRaw/frame
 eval frame 3740
 eval step 3740
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.74
 eval frame 3741
 eval step 3741
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.75
 eval frame 3742
 eval step 3742
 eval snapshot scene3FramesRaw/frame
 eval frame 3743
 eval step 3743
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.76
 eval frame 3744
 eval step 3744
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.77
 eval frame 3745
 eval step 3745
 eval snapshot scene3FramesRaw/frame
 eval frame 3746
 eval step 3746
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.78
 eval frame 3747
 eval step 3747
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.79
 eval frame 3748
 eval step 3748
 eval snapshot scene3FramesRaw/frame
 eval frame 3749
 eval step 3749
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.80
 eval frame 3750
 eval step 3750
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.81
 eval frame 3751
 eval step 3751
 eval snapshot scene3FramesRaw/frame
 eval frame 3752
 eval step 3752
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.82
 eval frame 3753
 eval step 3753
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.83
 eval frame 3754
 eval step 3754
 eval snapshot scene3FramesRaw/frame
 eval frame 3755
 eval step 3755
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.84
 eval frame 3756
 eval step 3756
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.85
 eval frame 3757
 eval step 3757
 eval snapshot scene3FramesRaw/frame
 eval frame 3758
 eval step 3758
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.86
 eval frame 3759
 eval step 3759
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.87
 eval frame 3760
 eval step 3760
 eval snapshot scene3FramesRaw/frame
 eval frame 3761
 eval step 3761
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.88
 eval frame 3762
 eval step 3762
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.89
 eval frame 3763
 eval step 3763
 eval snapshot scene3FramesRaw/frame
 eval frame 3764
 eval step 3764
 eval snapshot scene3FramesRaw/frame
+eval g2
+eval on
+eval alpha 0.90
 eval frame 3765
 eval step 3765
 eval snapshot scene3FramesRaw/frame
@@ -17517,408 +17592,678 @@ eval snapshot scene3FramesRaw/frame
 eval frame 5600
 eval step 5600
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.01
 eval frame 5601
 eval step 5601
 eval snapshot scene3FramesRaw/frame
 eval frame 5602
 eval step 5602
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.02
 eval frame 5603
 eval step 5603
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.03
 eval frame 5604
 eval step 5604
 eval snapshot scene3FramesRaw/frame
 eval frame 5605
 eval step 5605
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.04
 eval frame 5606
 eval step 5606
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.05
 eval frame 5607
 eval step 5607
 eval snapshot scene3FramesRaw/frame
 eval frame 5608
 eval step 5608
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.06
 eval frame 5609
 eval step 5609
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.07
 eval frame 5610
 eval step 5610
 eval snapshot scene3FramesRaw/frame
 eval frame 5611
 eval step 5611
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.08
 eval frame 5612
 eval step 5612
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.09
 eval frame 5613
 eval step 5613
 eval snapshot scene3FramesRaw/frame
 eval frame 5614
 eval step 5614
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.10
 eval frame 5615
 eval step 5615
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.11
 eval frame 5616
 eval step 5616
 eval snapshot scene3FramesRaw/frame
 eval frame 5617
 eval step 5617
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.12
 eval frame 5618
 eval step 5618
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.13
 eval frame 5619
 eval step 5619
 eval snapshot scene3FramesRaw/frame
 eval frame 5620
 eval step 5620
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.14
 eval frame 5621
 eval step 5621
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.15
 eval frame 5622
 eval step 5622
 eval snapshot scene3FramesRaw/frame
 eval frame 5623
 eval step 5623
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.16
 eval frame 5624
 eval step 5624
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.17
 eval frame 5625
 eval step 5625
 eval snapshot scene3FramesRaw/frame
 eval frame 5626
 eval step 5626
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.18
 eval frame 5627
 eval step 5627
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.19
 eval frame 5628
 eval step 5628
 eval snapshot scene3FramesRaw/frame
 eval frame 5629
 eval step 5629
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.20
 eval frame 5630
 eval step 5630
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.21
 eval frame 5631
 eval step 5631
 eval snapshot scene3FramesRaw/frame
 eval frame 5632
 eval step 5632
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.22
 eval frame 5633
 eval step 5633
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.23
 eval frame 5634
 eval step 5634
 eval snapshot scene3FramesRaw/frame
 eval frame 5635
 eval step 5635
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.24
 eval frame 5636
 eval step 5636
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.25
 eval frame 5637
 eval step 5637
 eval snapshot scene3FramesRaw/frame
 eval frame 5638
 eval step 5638
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.26
 eval frame 5639
 eval step 5639
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.27
 eval frame 5640
 eval step 5640
 eval snapshot scene3FramesRaw/frame
 eval frame 5641
 eval step 5641
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.28
 eval frame 5642
 eval step 5642
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.29
 eval frame 5643
 eval step 5643
 eval snapshot scene3FramesRaw/frame
 eval frame 5644
 eval step 5644
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.30
 eval frame 5645
 eval step 5645
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.31
 eval frame 5646
 eval step 5646
 eval snapshot scene3FramesRaw/frame
 eval frame 5647
 eval step 5647
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.32
 eval frame 5648
 eval step 5648
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.33
 eval frame 5649
 eval step 5649
 eval snapshot scene3FramesRaw/frame
 eval frame 5650
 eval step 5650
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.34
 eval frame 5651
 eval step 5651
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.35
 eval frame 5652
 eval step 5652
 eval snapshot scene3FramesRaw/frame
 eval frame 5653
 eval step 5653
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.36
 eval frame 5654
 eval step 5654
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.37
 eval frame 5655
 eval step 5655
 eval snapshot scene3FramesRaw/frame
 eval frame 5656
 eval step 5656
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.38
 eval frame 5657
 eval step 5657
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.39
 eval frame 5658
 eval step 5658
 eval snapshot scene3FramesRaw/frame
 eval frame 5659
 eval step 5659
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.40
 eval frame 5660
 eval step 5660
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.41
 eval frame 5661
 eval step 5661
 eval snapshot scene3FramesRaw/frame
 eval frame 5662
 eval step 5662
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.42
 eval frame 5663
 eval step 5663
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.43
 eval frame 5664
 eval step 5664
 eval snapshot scene3FramesRaw/frame
 eval frame 5665
 eval step 5665
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.44
 eval frame 5666
 eval step 5666
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.45
 eval frame 5667
 eval step 5667
 eval snapshot scene3FramesRaw/frame
 eval frame 5668
 eval step 5668
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.46
 eval frame 5669
 eval step 5669
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.47
 eval frame 5670
 eval step 5670
 eval snapshot scene3FramesRaw/frame
 eval frame 5671
 eval step 5671
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.48
 eval frame 5672
 eval step 5672
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.49
 eval frame 5673
 eval step 5673
 eval snapshot scene3FramesRaw/frame
 eval frame 5674
 eval step 5674
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.50
 eval frame 5675
 eval step 5675
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.51
 eval frame 5676
 eval step 5676
 eval snapshot scene3FramesRaw/frame
 eval frame 5677
 eval step 5677
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.52
 eval frame 5678
 eval step 5678
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.53
 eval frame 5679
 eval step 5679
 eval snapshot scene3FramesRaw/frame
 eval frame 5680
 eval step 5680
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.54
 eval frame 5681
 eval step 5681
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.55
 eval frame 5682
 eval step 5682
 eval snapshot scene3FramesRaw/frame
 eval frame 5683
 eval step 5683
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.56
 eval frame 5684
 eval step 5684
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.57
 eval frame 5685
 eval step 5685
 eval snapshot scene3FramesRaw/frame
 eval frame 5686
 eval step 5686
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.58
 eval frame 5687
 eval step 5687
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.59
 eval frame 5688
 eval step 5688
 eval snapshot scene3FramesRaw/frame
 eval frame 5689
 eval step 5689
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.60
 eval frame 5690
 eval step 5690
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.61
 eval frame 5691
 eval step 5691
 eval snapshot scene3FramesRaw/frame
 eval frame 5692
 eval step 5692
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.62
 eval frame 5693
 eval step 5693
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.63
 eval frame 5694
 eval step 5694
 eval snapshot scene3FramesRaw/frame
 eval frame 5695
 eval step 5695
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.64
 eval frame 5696
 eval step 5696
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.65
 eval frame 5697
 eval step 5697
 eval snapshot scene3FramesRaw/frame
 eval frame 5698
 eval step 5698
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.66
 eval frame 5699
 eval step 5699
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.67
 eval frame 5700
 eval step 5700
 eval snapshot scene3FramesRaw/frame
 eval frame 5701
 eval step 5701
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.68
 eval frame 5702
 eval step 5702
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.69
 eval frame 5703
 eval step 5703
 eval snapshot scene3FramesRaw/frame
 eval frame 5704
 eval step 5704
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.70
 eval frame 5705
 eval step 5705
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.71
 eval frame 5706
 eval step 5706
 eval snapshot scene3FramesRaw/frame
 eval frame 5707
 eval step 5707
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.72
 eval frame 5708
 eval step 5708
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.73
 eval frame 5709
 eval step 5709
 eval snapshot scene3FramesRaw/frame
 eval frame 5710
 eval step 5710
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.74
 eval frame 5711
 eval step 5711
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.75
 eval frame 5712
 eval step 5712
 eval snapshot scene3FramesRaw/frame
 eval frame 5713
 eval step 5713
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.76
 eval frame 5714
 eval step 5714
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.77
 eval frame 5715
 eval step 5715
 eval snapshot scene3FramesRaw/frame
 eval frame 5716
 eval step 5716
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.78
 eval frame 5717
 eval step 5717
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.79
 eval frame 5718
 eval step 5718
 eval snapshot scene3FramesRaw/frame
 eval frame 5719
 eval step 5719
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.80
 eval frame 5720
 eval step 5720
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.81
 eval frame 5721
 eval step 5721
 eval snapshot scene3FramesRaw/frame
 eval frame 5722
 eval step 5722
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.82
 eval frame 5723
 eval step 5723
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.83
 eval frame 5724
 eval step 5724
 eval snapshot scene3FramesRaw/frame
 eval frame 5725
 eval step 5725
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.84
 eval frame 5726
 eval step 5726
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.85
 eval frame 5727
 eval step 5727
 eval snapshot scene3FramesRaw/frame
 eval frame 5728
 eval step 5728
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.86
 eval frame 5729
 eval step 5729
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.87
 eval frame 5730
 eval step 5730
 eval snapshot scene3FramesRaw/frame
 eval frame 5731
 eval step 5731
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.88
 eval frame 5732
 eval step 5732
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.89
 eval frame 5733
 eval step 5733
 eval snapshot scene3FramesRaw/frame
 eval frame 5734
 eval step 5734
 eval snapshot scene3FramesRaw/frame
+eval g3
+eval on
+eval alpha 0.90
 eval frame 5735
 eval step 5735
 eval snapshot scene3FramesRaw/frame
@@ -17970,630 +18315,420 @@ eval snapshot scene3FramesRaw/frame
 eval frame 5751
 eval step 5751
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.01
 eval frame 5752
 eval step 5752
 eval snapshot scene3FramesRaw/frame
 eval frame 5753
 eval step 5753
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.02
 eval frame 5754
 eval step 5754
 eval snapshot scene3FramesRaw/frame
 eval frame 5755
 eval step 5755
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.03
 eval frame 5756
 eval step 5756
 eval snapshot scene3FramesRaw/frame
 eval frame 5757
 eval step 5757
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.04
 eval frame 5758
 eval step 5758
 eval snapshot scene3FramesRaw/frame
 eval frame 5759
 eval step 5759
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.05
 eval frame 5760
 eval step 5760
 eval snapshot scene3FramesRaw/frame
 eval frame 5761
 eval step 5761
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.06
 eval frame 5762
 eval step 5762
 eval snapshot scene3FramesRaw/frame
 eval frame 5763
 eval step 5763
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.07
 eval frame 5764
 eval step 5764
 eval snapshot scene3FramesRaw/frame
 eval frame 5765
 eval step 5765
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.08
 eval frame 5766
 eval step 5766
 eval snapshot scene3FramesRaw/frame
 eval frame 5767
 eval step 5767
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.09
 eval frame 5768
 eval step 5768
 eval snapshot scene3FramesRaw/frame
 eval frame 5769
 eval step 5769
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.10
 eval frame 5770
 eval step 5770
 eval snapshot scene3FramesRaw/frame
 eval frame 5771
 eval step 5771
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.11
 eval frame 5772
 eval step 5772
 eval snapshot scene3FramesRaw/frame
 eval frame 5773
 eval step 5773
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.12
 eval frame 5774
 eval step 5774
 eval snapshot scene3FramesRaw/frame
 eval frame 5775
 eval step 5775
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.13
 eval frame 5776
 eval step 5776
 eval snapshot scene3FramesRaw/frame
 eval frame 5777
 eval step 5777
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.14
 eval frame 5778
 eval step 5778
 eval snapshot scene3FramesRaw/frame
 eval frame 5779
 eval step 5779
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.15
 eval frame 5780
 eval step 5780
 eval snapshot scene3FramesRaw/frame
 eval frame 5781
 eval step 5781
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.16
 eval frame 5782
 eval step 5782
 eval snapshot scene3FramesRaw/frame
 eval frame 5783
 eval step 5783
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.17
 eval frame 5784
 eval step 5784
 eval snapshot scene3FramesRaw/frame
 eval frame 5785
 eval step 5785
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.18
 eval frame 5786
 eval step 5786
 eval snapshot scene3FramesRaw/frame
 eval frame 5787
 eval step 5787
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.19
 eval frame 5788
 eval step 5788
 eval snapshot scene3FramesRaw/frame
 eval frame 5789
 eval step 5789
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.20
 eval frame 5790
 eval step 5790
 eval snapshot scene3FramesRaw/frame
 eval frame 5791
 eval step 5791
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.21
 eval frame 5792
 eval step 5792
 eval snapshot scene3FramesRaw/frame
 eval frame 5793
 eval step 5793
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.22
 eval frame 5794
 eval step 5794
 eval snapshot scene3FramesRaw/frame
 eval frame 5795
 eval step 5795
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.23
 eval frame 5796
 eval step 5796
 eval snapshot scene3FramesRaw/frame
 eval frame 5797
 eval step 5797
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.24
 eval frame 5798
 eval step 5798
 eval snapshot scene3FramesRaw/frame
 eval frame 5799
 eval step 5799
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.25
 eval frame 5800
 eval step 5800
 eval snapshot scene3FramesRaw/frame
 eval frame 5801
 eval step 5801
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.26
 eval frame 5802
 eval step 5802
 eval snapshot scene3FramesRaw/frame
 eval frame 5803
 eval step 5803
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.27
 eval frame 5804
 eval step 5804
 eval snapshot scene3FramesRaw/frame
 eval frame 5805
 eval step 5805
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.28
 eval frame 5806
 eval step 5806
 eval snapshot scene3FramesRaw/frame
 eval frame 5807
 eval step 5807
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.29
 eval frame 5808
 eval step 5808
 eval snapshot scene3FramesRaw/frame
 eval frame 5809
 eval step 5809
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.30
 eval frame 5810
 eval step 5810
 eval snapshot scene3FramesRaw/frame
 eval frame 5811
 eval step 5811
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.31
 eval frame 5812
 eval step 5812
 eval snapshot scene3FramesRaw/frame
 eval frame 5813
 eval step 5813
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.32
 eval frame 5814
 eval step 5814
 eval snapshot scene3FramesRaw/frame
 eval frame 5815
 eval step 5815
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.33
 eval frame 5816
 eval step 5816
 eval snapshot scene3FramesRaw/frame
 eval frame 5817
 eval step 5817
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.34
 eval frame 5818
 eval step 5818
 eval snapshot scene3FramesRaw/frame
 eval frame 5819
 eval step 5819
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.35
 eval frame 5820
 eval step 5820
 eval snapshot scene3FramesRaw/frame
 eval frame 5821
 eval step 5821
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.36
 eval frame 5822
 eval step 5822
 eval snapshot scene3FramesRaw/frame
 eval frame 5823
 eval step 5823
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.37
 eval frame 5824
 eval step 5824
 eval snapshot scene3FramesRaw/frame
 eval frame 5825
 eval step 5825
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.38
 eval frame 5826
 eval step 5826
 eval snapshot scene3FramesRaw/frame
 eval frame 5827
 eval step 5827
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.39
 eval frame 5828
 eval step 5828
 eval snapshot scene3FramesRaw/frame
 eval frame 5829
 eval step 5829
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.40
 eval frame 5830
 eval step 5830
 eval snapshot scene3FramesRaw/frame
 eval frame 5831
 eval step 5831
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.41
 eval frame 5832
 eval step 5832
 eval snapshot scene3FramesRaw/frame
 eval frame 5833
 eval step 5833
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.42
 eval frame 5834
 eval step 5834
 eval snapshot scene3FramesRaw/frame
 eval frame 5835
 eval step 5835
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.43
 eval frame 5836
 eval step 5836
 eval snapshot scene3FramesRaw/frame
 eval frame 5837
 eval step 5837
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.44
 eval frame 5838
 eval step 5838
 eval snapshot scene3FramesRaw/frame
 eval frame 5839
 eval step 5839
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.45
 eval frame 5840
 eval step 5840
 eval snapshot scene3FramesRaw/frame
 eval frame 5841
 eval step 5841
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.46
 eval frame 5842
 eval step 5842
 eval snapshot scene3FramesRaw/frame
 eval frame 5843
 eval step 5843
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.47
 eval frame 5844
 eval step 5844
 eval snapshot scene3FramesRaw/frame
 eval frame 5845
 eval step 5845
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.48
 eval frame 5846
 eval step 5846
 eval snapshot scene3FramesRaw/frame
 eval frame 5847
 eval step 5847
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.49
 eval frame 5848
 eval step 5848
 eval snapshot scene3FramesRaw/frame
 eval frame 5849
 eval step 5849
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.50
 eval frame 5850
 eval step 5850
 eval snapshot scene3FramesRaw/frame
 eval frame 5851
 eval step 5851
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.51
 eval frame 5852
 eval step 5852
 eval snapshot scene3FramesRaw/frame
 eval frame 5853
 eval step 5853
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.52
 eval frame 5854
 eval step 5854
 eval snapshot scene3FramesRaw/frame
 eval frame 5855
 eval step 5855
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.53
 eval frame 5856
 eval step 5856
 eval snapshot scene3FramesRaw/frame
 eval frame 5857
 eval step 5857
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.54
 eval frame 5858
 eval step 5858
 eval snapshot scene3FramesRaw/frame
 eval frame 5859
 eval step 5859
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.55
 eval frame 5860
 eval step 5860
 eval snapshot scene3FramesRaw/frame
 eval frame 5861
 eval step 5861
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.56
 eval frame 5862
 eval step 5862
 eval snapshot scene3FramesRaw/frame
 eval frame 5863
 eval step 5863
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.57
 eval frame 5864
 eval step 5864
 eval snapshot scene3FramesRaw/frame
 eval frame 5865
 eval step 5865
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.58
 eval frame 5866
 eval step 5866
 eval snapshot scene3FramesRaw/frame
 eval frame 5867
 eval step 5867
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.59
 eval frame 5868
 eval step 5868
 eval snapshot scene3FramesRaw/frame
 eval frame 5869
 eval step 5869
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.60
 eval frame 5870
 eval step 5870
 eval snapshot scene3FramesRaw/frame
 eval frame 5871
 eval step 5871
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.61
 eval frame 5872
 eval step 5872
 eval snapshot scene3FramesRaw/frame
 eval frame 5873
 eval step 5873
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.62
 eval frame 5874
 eval step 5874
 eval snapshot scene3FramesRaw/frame
 eval frame 5875
 eval step 5875
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.63
 eval frame 5876
 eval step 5876
 eval snapshot scene3FramesRaw/frame
 eval frame 5877
 eval step 5877
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.64
 eval frame 5878
 eval step 5878
 eval snapshot scene3FramesRaw/frame
 eval frame 5879
 eval step 5879
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.65
 eval frame 5880
 eval step 5880
 eval snapshot scene3FramesRaw/frame
 eval frame 5881
 eval step 5881
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.66
 eval frame 5882
 eval step 5882
 eval snapshot scene3FramesRaw/frame
 eval frame 5883
 eval step 5883
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.67
 eval frame 5884
 eval step 5884
 eval snapshot scene3FramesRaw/frame
 eval frame 5885
 eval step 5885
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.68
 eval frame 5886
 eval step 5886
 eval snapshot scene3FramesRaw/frame
 eval frame 5887
 eval step 5887
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.69
 eval frame 5888
 eval step 5888
 eval snapshot scene3FramesRaw/frame
 eval frame 5889
 eval step 5889
 eval snapshot scene3FramesRaw/frame
-eval g3
-eval on
-eval alpha 0.70
 eval frame 5890
 eval step 5890
 eval snapshot scene3FramesRaw/frame
@@ -29729,2665 +29864,4 @@ eval step 9600
 eval snapshot scene3FramesRaw/frame
 eval frame 9601
 eval step 9601
-eval snapshot scene3FramesRaw/frame
-eval frame 9602
-eval step 9602
-eval snapshot scene3FramesRaw/frame
-eval frame 9603
-eval step 9603
-eval snapshot scene3FramesRaw/frame
-eval frame 9604
-eval step 9604
-eval snapshot scene3FramesRaw/frame
-eval frame 9605
-eval step 9605
-eval snapshot scene3FramesRaw/frame
-eval frame 9606
-eval step 9606
-eval snapshot scene3FramesRaw/frame
-eval frame 9607
-eval step 9607
-eval snapshot scene3FramesRaw/frame
-eval frame 9608
-eval step 9608
-eval snapshot scene3FramesRaw/frame
-eval frame 9609
-eval step 9609
-eval snapshot scene3FramesRaw/frame
-eval frame 9610
-eval step 9610
-eval snapshot scene3FramesRaw/frame
-eval frame 9611
-eval step 9611
-eval snapshot scene3FramesRaw/frame
-eval frame 9612
-eval step 9612
-eval snapshot scene3FramesRaw/frame
-eval frame 9613
-eval step 9613
-eval snapshot scene3FramesRaw/frame
-eval frame 9614
-eval step 9614
-eval snapshot scene3FramesRaw/frame
-eval frame 9615
-eval step 9615
-eval snapshot scene3FramesRaw/frame
-eval frame 9616
-eval step 9616
-eval snapshot scene3FramesRaw/frame
-eval frame 9617
-eval step 9617
-eval snapshot scene3FramesRaw/frame
-eval frame 9618
-eval step 9618
-eval snapshot scene3FramesRaw/frame
-eval frame 9619
-eval step 9619
-eval snapshot scene3FramesRaw/frame
-eval frame 9620
-eval step 9620
-eval snapshot scene3FramesRaw/frame
-eval frame 9621
-eval step 9621
-eval snapshot scene3FramesRaw/frame
-eval frame 9622
-eval step 9622
-eval snapshot scene3FramesRaw/frame
-eval frame 9623
-eval step 9623
-eval snapshot scene3FramesRaw/frame
-eval frame 9624
-eval step 9624
-eval snapshot scene3FramesRaw/frame
-eval frame 9625
-eval step 9625
-eval snapshot scene3FramesRaw/frame
-eval frame 9626
-eval step 9626
-eval snapshot scene3FramesRaw/frame
-eval frame 9627
-eval step 9627
-eval snapshot scene3FramesRaw/frame
-eval frame 9628
-eval step 9628
-eval snapshot scene3FramesRaw/frame
-eval frame 9629
-eval step 9629
-eval snapshot scene3FramesRaw/frame
-eval frame 9630
-eval step 9630
-eval snapshot scene3FramesRaw/frame
-eval frame 9631
-eval step 9631
-eval snapshot scene3FramesRaw/frame
-eval frame 9632
-eval step 9632
-eval snapshot scene3FramesRaw/frame
-eval frame 9633
-eval step 9633
-eval snapshot scene3FramesRaw/frame
-eval frame 9634
-eval step 9634
-eval snapshot scene3FramesRaw/frame
-eval frame 9635
-eval step 9635
-eval snapshot scene3FramesRaw/frame
-eval frame 9636
-eval step 9636
-eval snapshot scene3FramesRaw/frame
-eval frame 9637
-eval step 9637
-eval snapshot scene3FramesRaw/frame
-eval frame 9638
-eval step 9638
-eval snapshot scene3FramesRaw/frame
-eval frame 9639
-eval step 9639
-eval snapshot scene3FramesRaw/frame
-eval frame 9640
-eval step 9640
-eval snapshot scene3FramesRaw/frame
-eval frame 9641
-eval step 9641
-eval snapshot scene3FramesRaw/frame
-eval frame 9642
-eval step 9642
-eval snapshot scene3FramesRaw/frame
-eval frame 9643
-eval step 9643
-eval snapshot scene3FramesRaw/frame
-eval frame 9644
-eval step 9644
-eval snapshot scene3FramesRaw/frame
-eval frame 9645
-eval step 9645
-eval snapshot scene3FramesRaw/frame
-eval frame 9646
-eval step 9646
-eval snapshot scene3FramesRaw/frame
-eval frame 9647
-eval step 9647
-eval snapshot scene3FramesRaw/frame
-eval frame 9648
-eval step 9648
-eval snapshot scene3FramesRaw/frame
-eval frame 9649
-eval step 9649
-eval snapshot scene3FramesRaw/frame
-eval frame 9650
-eval step 9650
-eval snapshot scene3FramesRaw/frame
-eval frame 9651
-eval step 9651
-eval snapshot scene3FramesRaw/frame
-eval frame 9652
-eval step 9652
-eval snapshot scene3FramesRaw/frame
-eval frame 9653
-eval step 9653
-eval snapshot scene3FramesRaw/frame
-eval frame 9654
-eval step 9654
-eval snapshot scene3FramesRaw/frame
-eval frame 9655
-eval step 9655
-eval snapshot scene3FramesRaw/frame
-eval frame 9656
-eval step 9656
-eval snapshot scene3FramesRaw/frame
-eval frame 9657
-eval step 9657
-eval snapshot scene3FramesRaw/frame
-eval frame 9658
-eval step 9658
-eval snapshot scene3FramesRaw/frame
-eval frame 9659
-eval step 9659
-eval snapshot scene3FramesRaw/frame
-eval frame 9660
-eval step 9660
-eval snapshot scene3FramesRaw/frame
-eval frame 9661
-eval step 9661
-eval snapshot scene3FramesRaw/frame
-eval frame 9662
-eval step 9662
-eval snapshot scene3FramesRaw/frame
-eval frame 9663
-eval step 9663
-eval snapshot scene3FramesRaw/frame
-eval frame 9664
-eval step 9664
-eval snapshot scene3FramesRaw/frame
-eval frame 9665
-eval step 9665
-eval snapshot scene3FramesRaw/frame
-eval frame 9666
-eval step 9666
-eval snapshot scene3FramesRaw/frame
-eval frame 9667
-eval step 9667
-eval snapshot scene3FramesRaw/frame
-eval frame 9668
-eval step 9668
-eval snapshot scene3FramesRaw/frame
-eval frame 9669
-eval step 9669
-eval snapshot scene3FramesRaw/frame
-eval frame 9670
-eval step 9670
-eval snapshot scene3FramesRaw/frame
-eval frame 9671
-eval step 9671
-eval snapshot scene3FramesRaw/frame
-eval frame 9672
-eval step 9672
-eval snapshot scene3FramesRaw/frame
-eval frame 9673
-eval step 9673
-eval snapshot scene3FramesRaw/frame
-eval frame 9674
-eval step 9674
-eval snapshot scene3FramesRaw/frame
-eval frame 9675
-eval step 9675
-eval snapshot scene3FramesRaw/frame
-eval frame 9676
-eval step 9676
-eval snapshot scene3FramesRaw/frame
-eval frame 9677
-eval step 9677
-eval snapshot scene3FramesRaw/frame
-eval frame 9678
-eval step 9678
-eval snapshot scene3FramesRaw/frame
-eval frame 9679
-eval step 9679
-eval snapshot scene3FramesRaw/frame
-eval frame 9680
-eval step 9680
-eval snapshot scene3FramesRaw/frame
-eval frame 9681
-eval step 9681
-eval snapshot scene3FramesRaw/frame
-eval frame 9682
-eval step 9682
-eval snapshot scene3FramesRaw/frame
-eval frame 9683
-eval step 9683
-eval snapshot scene3FramesRaw/frame
-eval frame 9684
-eval step 9684
-eval snapshot scene3FramesRaw/frame
-eval frame 9685
-eval step 9685
-eval snapshot scene3FramesRaw/frame
-eval frame 9686
-eval step 9686
-eval snapshot scene3FramesRaw/frame
-eval frame 9687
-eval step 9687
-eval snapshot scene3FramesRaw/frame
-eval frame 9688
-eval step 9688
-eval snapshot scene3FramesRaw/frame
-eval frame 9689
-eval step 9689
-eval snapshot scene3FramesRaw/frame
-eval frame 9690
-eval step 9690
-eval snapshot scene3FramesRaw/frame
-eval frame 9691
-eval step 9691
-eval snapshot scene3FramesRaw/frame
-eval frame 9692
-eval step 9692
-eval snapshot scene3FramesRaw/frame
-eval frame 9693
-eval step 9693
-eval snapshot scene3FramesRaw/frame
-eval frame 9694
-eval step 9694
-eval snapshot scene3FramesRaw/frame
-eval frame 9695
-eval step 9695
-eval snapshot scene3FramesRaw/frame
-eval frame 9696
-eval step 9696
-eval snapshot scene3FramesRaw/frame
-eval frame 9697
-eval step 9697
-eval snapshot scene3FramesRaw/frame
-eval frame 9698
-eval step 9698
-eval snapshot scene3FramesRaw/frame
-eval frame 9699
-eval step 9699
-eval snapshot scene3FramesRaw/frame
-eval frame 9700
-eval step 9700
-eval snapshot scene3FramesRaw/frame
-eval frame 9701
-eval step 9701
-eval snapshot scene3FramesRaw/frame
-eval frame 9702
-eval step 9702
-eval snapshot scene3FramesRaw/frame
-eval frame 9703
-eval step 9703
-eval snapshot scene3FramesRaw/frame
-eval frame 9704
-eval step 9704
-eval snapshot scene3FramesRaw/frame
-eval frame 9705
-eval step 9705
-eval snapshot scene3FramesRaw/frame
-eval frame 9706
-eval step 9706
-eval snapshot scene3FramesRaw/frame
-eval frame 9707
-eval step 9707
-eval snapshot scene3FramesRaw/frame
-eval frame 9708
-eval step 9708
-eval snapshot scene3FramesRaw/frame
-eval frame 9709
-eval step 9709
-eval snapshot scene3FramesRaw/frame
-eval frame 9710
-eval step 9710
-eval snapshot scene3FramesRaw/frame
-eval frame 9711
-eval step 9711
-eval snapshot scene3FramesRaw/frame
-eval frame 9712
-eval step 9712
-eval snapshot scene3FramesRaw/frame
-eval frame 9713
-eval step 9713
-eval snapshot scene3FramesRaw/frame
-eval frame 9714
-eval step 9714
-eval snapshot scene3FramesRaw/frame
-eval frame 9715
-eval step 9715
-eval snapshot scene3FramesRaw/frame
-eval frame 9716
-eval step 9716
-eval snapshot scene3FramesRaw/frame
-eval frame 9717
-eval step 9717
-eval snapshot scene3FramesRaw/frame
-eval frame 9718
-eval step 9718
-eval snapshot scene3FramesRaw/frame
-eval frame 9719
-eval step 9719
-eval snapshot scene3FramesRaw/frame
-eval frame 9720
-eval step 9720
-eval snapshot scene3FramesRaw/frame
-eval frame 9721
-eval step 9721
-eval snapshot scene3FramesRaw/frame
-eval frame 9722
-eval step 9722
-eval snapshot scene3FramesRaw/frame
-eval frame 9723
-eval step 9723
-eval snapshot scene3FramesRaw/frame
-eval frame 9724
-eval step 9724
-eval snapshot scene3FramesRaw/frame
-eval frame 9725
-eval step 9725
-eval snapshot scene3FramesRaw/frame
-eval frame 9726
-eval step 9726
-eval snapshot scene3FramesRaw/frame
-eval frame 9727
-eval step 9727
-eval snapshot scene3FramesRaw/frame
-eval frame 9728
-eval step 9728
-eval snapshot scene3FramesRaw/frame
-eval frame 9729
-eval step 9729
-eval snapshot scene3FramesRaw/frame
-eval frame 9730
-eval step 9730
-eval snapshot scene3FramesRaw/frame
-eval frame 9731
-eval step 9731
-eval snapshot scene3FramesRaw/frame
-eval frame 9732
-eval step 9732
-eval snapshot scene3FramesRaw/frame
-eval frame 9733
-eval step 9733
-eval snapshot scene3FramesRaw/frame
-eval frame 9734
-eval step 9734
-eval snapshot scene3FramesRaw/frame
-eval frame 9735
-eval step 9735
-eval snapshot scene3FramesRaw/frame
-eval frame 9736
-eval step 9736
-eval snapshot scene3FramesRaw/frame
-eval frame 9737
-eval step 9737
-eval snapshot scene3FramesRaw/frame
-eval frame 9738
-eval step 9738
-eval snapshot scene3FramesRaw/frame
-eval frame 9739
-eval step 9739
-eval snapshot scene3FramesRaw/frame
-eval frame 9740
-eval step 9740
-eval snapshot scene3FramesRaw/frame
-eval frame 9741
-eval step 9741
-eval snapshot scene3FramesRaw/frame
-eval frame 9742
-eval step 9742
-eval snapshot scene3FramesRaw/frame
-eval frame 9743
-eval step 9743
-eval snapshot scene3FramesRaw/frame
-eval frame 9744
-eval step 9744
-eval snapshot scene3FramesRaw/frame
-eval frame 9745
-eval step 9745
-eval snapshot scene3FramesRaw/frame
-eval frame 9746
-eval step 9746
-eval snapshot scene3FramesRaw/frame
-eval frame 9747
-eval step 9747
-eval snapshot scene3FramesRaw/frame
-eval frame 9748
-eval step 9748
-eval snapshot scene3FramesRaw/frame
-eval frame 9749
-eval step 9749
-eval snapshot scene3FramesRaw/frame
-eval frame 9750
-eval step 9750
-eval snapshot scene3FramesRaw/frame
-eval frame 9751
-eval step 9751
-eval snapshot scene3FramesRaw/frame
-eval frame 9752
-eval step 9752
-eval snapshot scene3FramesRaw/frame
-eval frame 9753
-eval step 9753
-eval snapshot scene3FramesRaw/frame
-eval frame 9754
-eval step 9754
-eval snapshot scene3FramesRaw/frame
-eval frame 9755
-eval step 9755
-eval snapshot scene3FramesRaw/frame
-eval frame 9756
-eval step 9756
-eval snapshot scene3FramesRaw/frame
-eval frame 9757
-eval step 9757
-eval snapshot scene3FramesRaw/frame
-eval frame 9758
-eval step 9758
-eval snapshot scene3FramesRaw/frame
-eval frame 9759
-eval step 9759
-eval snapshot scene3FramesRaw/frame
-eval frame 9760
-eval step 9760
-eval snapshot scene3FramesRaw/frame
-eval frame 9761
-eval step 9761
-eval snapshot scene3FramesRaw/frame
-eval frame 9762
-eval step 9762
-eval snapshot scene3FramesRaw/frame
-eval frame 9763
-eval step 9763
-eval snapshot scene3FramesRaw/frame
-eval frame 9764
-eval step 9764
-eval snapshot scene3FramesRaw/frame
-eval frame 9765
-eval step 9765
-eval snapshot scene3FramesRaw/frame
-eval frame 9766
-eval step 9766
-eval snapshot scene3FramesRaw/frame
-eval frame 9767
-eval step 9767
-eval snapshot scene3FramesRaw/frame
-eval frame 9768
-eval step 9768
-eval snapshot scene3FramesRaw/frame
-eval frame 9769
-eval step 9769
-eval snapshot scene3FramesRaw/frame
-eval frame 9770
-eval step 9770
-eval snapshot scene3FramesRaw/frame
-eval frame 9771
-eval step 9771
-eval snapshot scene3FramesRaw/frame
-eval frame 9772
-eval step 9772
-eval snapshot scene3FramesRaw/frame
-eval frame 9773
-eval step 9773
-eval snapshot scene3FramesRaw/frame
-eval frame 9774
-eval step 9774
-eval snapshot scene3FramesRaw/frame
-eval frame 9775
-eval step 9775
-eval snapshot scene3FramesRaw/frame
-eval frame 9776
-eval step 9776
-eval snapshot scene3FramesRaw/frame
-eval frame 9777
-eval step 9777
-eval snapshot scene3FramesRaw/frame
-eval frame 9778
-eval step 9778
-eval snapshot scene3FramesRaw/frame
-eval frame 9779
-eval step 9779
-eval snapshot scene3FramesRaw/frame
-eval frame 9780
-eval step 9780
-eval snapshot scene3FramesRaw/frame
-eval frame 9781
-eval step 9781
-eval snapshot scene3FramesRaw/frame
-eval frame 9782
-eval step 9782
-eval snapshot scene3FramesRaw/frame
-eval frame 9783
-eval step 9783
-eval snapshot scene3FramesRaw/frame
-eval frame 9784
-eval step 9784
-eval snapshot scene3FramesRaw/frame
-eval frame 9785
-eval step 9785
-eval snapshot scene3FramesRaw/frame
-eval frame 9786
-eval step 9786
-eval snapshot scene3FramesRaw/frame
-eval frame 9787
-eval step 9787
-eval snapshot scene3FramesRaw/frame
-eval frame 9788
-eval step 9788
-eval snapshot scene3FramesRaw/frame
-eval frame 9789
-eval step 9789
-eval snapshot scene3FramesRaw/frame
-eval frame 9790
-eval step 9790
-eval snapshot scene3FramesRaw/frame
-eval frame 9791
-eval step 9791
-eval snapshot scene3FramesRaw/frame
-eval frame 9792
-eval step 9792
-eval snapshot scene3FramesRaw/frame
-eval frame 9793
-eval step 9793
-eval snapshot scene3FramesRaw/frame
-eval frame 9794
-eval step 9794
-eval snapshot scene3FramesRaw/frame
-eval frame 9795
-eval step 9795
-eval snapshot scene3FramesRaw/frame
-eval frame 9796
-eval step 9796
-eval snapshot scene3FramesRaw/frame
-eval frame 9797
-eval step 9797
-eval snapshot scene3FramesRaw/frame
-eval frame 9798
-eval step 9798
-eval snapshot scene3FramesRaw/frame
-eval frame 9799
-eval step 9799
-eval snapshot scene3FramesRaw/frame
-eval frame 9800
-eval step 9800
-eval snapshot scene3FramesRaw/frame
-eval frame 9801
-eval step 9801
-eval snapshot scene3FramesRaw/frame
-eval frame 9802
-eval step 9802
-eval snapshot scene3FramesRaw/frame
-eval frame 9803
-eval step 9803
-eval snapshot scene3FramesRaw/frame
-eval frame 9804
-eval step 9804
-eval snapshot scene3FramesRaw/frame
-eval frame 9805
-eval step 9805
-eval snapshot scene3FramesRaw/frame
-eval frame 9806
-eval step 9806
-eval snapshot scene3FramesRaw/frame
-eval frame 9807
-eval step 9807
-eval snapshot scene3FramesRaw/frame
-eval frame 9808
-eval step 9808
-eval snapshot scene3FramesRaw/frame
-eval frame 9809
-eval step 9809
-eval snapshot scene3FramesRaw/frame
-eval frame 9810
-eval step 9810
-eval snapshot scene3FramesRaw/frame
-eval frame 9811
-eval step 9811
-eval snapshot scene3FramesRaw/frame
-eval frame 9812
-eval step 9812
-eval snapshot scene3FramesRaw/frame
-eval frame 9813
-eval step 9813
-eval snapshot scene3FramesRaw/frame
-eval frame 9814
-eval step 9814
-eval snapshot scene3FramesRaw/frame
-eval frame 9815
-eval step 9815
-eval snapshot scene3FramesRaw/frame
-eval frame 9816
-eval step 9816
-eval snapshot scene3FramesRaw/frame
-eval frame 9817
-eval step 9817
-eval snapshot scene3FramesRaw/frame
-eval frame 9818
-eval step 9818
-eval snapshot scene3FramesRaw/frame
-eval frame 9819
-eval step 9819
-eval snapshot scene3FramesRaw/frame
-eval frame 9820
-eval step 9820
-eval snapshot scene3FramesRaw/frame
-eval frame 9821
-eval step 9821
-eval snapshot scene3FramesRaw/frame
-eval frame 9822
-eval step 9822
-eval snapshot scene3FramesRaw/frame
-eval frame 9823
-eval step 9823
-eval snapshot scene3FramesRaw/frame
-eval frame 9824
-eval step 9824
-eval snapshot scene3FramesRaw/frame
-eval frame 9825
-eval step 9825
-eval snapshot scene3FramesRaw/frame
-eval frame 9826
-eval step 9826
-eval snapshot scene3FramesRaw/frame
-eval frame 9827
-eval step 9827
-eval snapshot scene3FramesRaw/frame
-eval frame 9828
-eval step 9828
-eval snapshot scene3FramesRaw/frame
-eval frame 9829
-eval step 9829
-eval snapshot scene3FramesRaw/frame
-eval frame 9830
-eval step 9830
-eval snapshot scene3FramesRaw/frame
-eval frame 9831
-eval step 9831
-eval snapshot scene3FramesRaw/frame
-eval frame 9832
-eval step 9832
-eval snapshot scene3FramesRaw/frame
-eval frame 9833
-eval step 9833
-eval snapshot scene3FramesRaw/frame
-eval frame 9834
-eval step 9834
-eval snapshot scene3FramesRaw/frame
-eval frame 9835
-eval step 9835
-eval snapshot scene3FramesRaw/frame
-eval frame 9836
-eval step 9836
-eval snapshot scene3FramesRaw/frame
-eval frame 9837
-eval step 9837
-eval snapshot scene3FramesRaw/frame
-eval frame 9838
-eval step 9838
-eval snapshot scene3FramesRaw/frame
-eval frame 9839
-eval step 9839
-eval snapshot scene3FramesRaw/frame
-eval frame 9840
-eval step 9840
-eval snapshot scene3FramesRaw/frame
-eval frame 9841
-eval step 9841
-eval snapshot scene3FramesRaw/frame
-eval frame 9842
-eval step 9842
-eval snapshot scene3FramesRaw/frame
-eval frame 9843
-eval step 9843
-eval snapshot scene3FramesRaw/frame
-eval frame 9844
-eval step 9844
-eval snapshot scene3FramesRaw/frame
-eval frame 9845
-eval step 9845
-eval snapshot scene3FramesRaw/frame
-eval frame 9846
-eval step 9846
-eval snapshot scene3FramesRaw/frame
-eval frame 9847
-eval step 9847
-eval snapshot scene3FramesRaw/frame
-eval frame 9848
-eval step 9848
-eval snapshot scene3FramesRaw/frame
-eval frame 9849
-eval step 9849
-eval snapshot scene3FramesRaw/frame
-eval frame 9850
-eval step 9850
-eval snapshot scene3FramesRaw/frame
-eval frame 9851
-eval step 9851
-eval snapshot scene3FramesRaw/frame
-eval frame 9852
-eval step 9852
-eval snapshot scene3FramesRaw/frame
-eval frame 9853
-eval step 9853
-eval snapshot scene3FramesRaw/frame
-eval frame 9854
-eval step 9854
-eval snapshot scene3FramesRaw/frame
-eval frame 9855
-eval step 9855
-eval snapshot scene3FramesRaw/frame
-eval frame 9856
-eval step 9856
-eval snapshot scene3FramesRaw/frame
-eval frame 9857
-eval step 9857
-eval snapshot scene3FramesRaw/frame
-eval frame 9858
-eval step 9858
-eval snapshot scene3FramesRaw/frame
-eval frame 9859
-eval step 9859
-eval snapshot scene3FramesRaw/frame
-eval frame 9860
-eval step 9860
-eval snapshot scene3FramesRaw/frame
-eval frame 9861
-eval step 9861
-eval snapshot scene3FramesRaw/frame
-eval frame 9862
-eval step 9862
-eval snapshot scene3FramesRaw/frame
-eval frame 9863
-eval step 9863
-eval snapshot scene3FramesRaw/frame
-eval frame 9864
-eval step 9864
-eval snapshot scene3FramesRaw/frame
-eval frame 9865
-eval step 9865
-eval snapshot scene3FramesRaw/frame
-eval frame 9866
-eval step 9866
-eval snapshot scene3FramesRaw/frame
-eval frame 9867
-eval step 9867
-eval snapshot scene3FramesRaw/frame
-eval frame 9868
-eval step 9868
-eval snapshot scene3FramesRaw/frame
-eval frame 9869
-eval step 9869
-eval snapshot scene3FramesRaw/frame
-eval frame 9870
-eval step 9870
-eval snapshot scene3FramesRaw/frame
-eval frame 9871
-eval step 9871
-eval snapshot scene3FramesRaw/frame
-eval frame 9872
-eval step 9872
-eval snapshot scene3FramesRaw/frame
-eval frame 9873
-eval step 9873
-eval snapshot scene3FramesRaw/frame
-eval frame 9874
-eval step 9874
-eval snapshot scene3FramesRaw/frame
-eval frame 9875
-eval step 9875
-eval snapshot scene3FramesRaw/frame
-eval frame 9876
-eval step 9876
-eval snapshot scene3FramesRaw/frame
-eval frame 9877
-eval step 9877
-eval snapshot scene3FramesRaw/frame
-eval frame 9878
-eval step 9878
-eval snapshot scene3FramesRaw/frame
-eval frame 9879
-eval step 9879
-eval snapshot scene3FramesRaw/frame
-eval frame 9880
-eval step 9880
-eval snapshot scene3FramesRaw/frame
-eval frame 9881
-eval step 9881
-eval snapshot scene3FramesRaw/frame
-eval frame 9882
-eval step 9882
-eval snapshot scene3FramesRaw/frame
-eval frame 9883
-eval step 9883
-eval snapshot scene3FramesRaw/frame
-eval frame 9884
-eval step 9884
-eval snapshot scene3FramesRaw/frame
-eval frame 9885
-eval step 9885
-eval snapshot scene3FramesRaw/frame
-eval frame 9886
-eval step 9886
-eval snapshot scene3FramesRaw/frame
-eval frame 9887
-eval step 9887
-eval snapshot scene3FramesRaw/frame
-eval frame 9888
-eval step 9888
-eval snapshot scene3FramesRaw/frame
-eval frame 9889
-eval step 9889
-eval snapshot scene3FramesRaw/frame
-eval frame 9890
-eval step 9890
-eval snapshot scene3FramesRaw/frame
-eval frame 9891
-eval step 9891
-eval snapshot scene3FramesRaw/frame
-eval frame 9892
-eval step 9892
-eval snapshot scene3FramesRaw/frame
-eval frame 9893
-eval step 9893
-eval snapshot scene3FramesRaw/frame
-eval frame 9894
-eval step 9894
-eval snapshot scene3FramesRaw/frame
-eval frame 9895
-eval step 9895
-eval snapshot scene3FramesRaw/frame
-eval frame 9896
-eval step 9896
-eval snapshot scene3FramesRaw/frame
-eval frame 9897
-eval step 9897
-eval snapshot scene3FramesRaw/frame
-eval frame 9898
-eval step 9898
-eval snapshot scene3FramesRaw/frame
-eval frame 9899
-eval step 9899
-eval snapshot scene3FramesRaw/frame
-eval frame 9900
-eval step 9900
-eval snapshot scene3FramesRaw/frame
-eval frame 9901
-eval step 9901
-eval snapshot scene3FramesRaw/frame
-eval frame 9902
-eval step 9902
-eval snapshot scene3FramesRaw/frame
-eval frame 9903
-eval step 9903
-eval snapshot scene3FramesRaw/frame
-eval frame 9904
-eval step 9904
-eval snapshot scene3FramesRaw/frame
-eval frame 9905
-eval step 9905
-eval snapshot scene3FramesRaw/frame
-eval frame 9906
-eval step 9906
-eval snapshot scene3FramesRaw/frame
-eval frame 9907
-eval step 9907
-eval snapshot scene3FramesRaw/frame
-eval frame 9908
-eval step 9908
-eval snapshot scene3FramesRaw/frame
-eval frame 9909
-eval step 9909
-eval snapshot scene3FramesRaw/frame
-eval frame 9910
-eval step 9910
-eval snapshot scene3FramesRaw/frame
-eval frame 9911
-eval step 9911
-eval snapshot scene3FramesRaw/frame
-eval frame 9912
-eval step 9912
-eval snapshot scene3FramesRaw/frame
-eval frame 9913
-eval step 9913
-eval snapshot scene3FramesRaw/frame
-eval frame 9914
-eval step 9914
-eval snapshot scene3FramesRaw/frame
-eval frame 9915
-eval step 9915
-eval snapshot scene3FramesRaw/frame
-eval frame 9916
-eval step 9916
-eval snapshot scene3FramesRaw/frame
-eval frame 9917
-eval step 9917
-eval snapshot scene3FramesRaw/frame
-eval frame 9918
-eval step 9918
-eval snapshot scene3FramesRaw/frame
-eval frame 9919
-eval step 9919
-eval snapshot scene3FramesRaw/frame
-eval frame 9920
-eval step 9920
-eval snapshot scene3FramesRaw/frame
-eval frame 9921
-eval step 9921
-eval snapshot scene3FramesRaw/frame
-eval frame 9922
-eval step 9922
-eval snapshot scene3FramesRaw/frame
-eval frame 9923
-eval step 9923
-eval snapshot scene3FramesRaw/frame
-eval frame 9924
-eval step 9924
-eval snapshot scene3FramesRaw/frame
-eval frame 9925
-eval step 9925
-eval snapshot scene3FramesRaw/frame
-eval frame 9926
-eval step 9926
-eval snapshot scene3FramesRaw/frame
-eval frame 9927
-eval step 9927
-eval snapshot scene3FramesRaw/frame
-eval frame 9928
-eval step 9928
-eval snapshot scene3FramesRaw/frame
-eval frame 9929
-eval step 9929
-eval snapshot scene3FramesRaw/frame
-eval frame 9930
-eval step 9930
-eval snapshot scene3FramesRaw/frame
-eval frame 9931
-eval step 9931
-eval snapshot scene3FramesRaw/frame
-eval frame 9932
-eval step 9932
-eval snapshot scene3FramesRaw/frame
-eval frame 9933
-eval step 9933
-eval snapshot scene3FramesRaw/frame
-eval frame 9934
-eval step 9934
-eval snapshot scene3FramesRaw/frame
-eval frame 9935
-eval step 9935
-eval snapshot scene3FramesRaw/frame
-eval frame 9936
-eval step 9936
-eval snapshot scene3FramesRaw/frame
-eval frame 9937
-eval step 9937
-eval snapshot scene3FramesRaw/frame
-eval frame 9938
-eval step 9938
-eval snapshot scene3FramesRaw/frame
-eval frame 9939
-eval step 9939
-eval snapshot scene3FramesRaw/frame
-eval frame 9940
-eval step 9940
-eval snapshot scene3FramesRaw/frame
-eval frame 9941
-eval step 9941
-eval snapshot scene3FramesRaw/frame
-eval frame 9942
-eval step 9942
-eval snapshot scene3FramesRaw/frame
-eval frame 9943
-eval step 9943
-eval snapshot scene3FramesRaw/frame
-eval frame 9944
-eval step 9944
-eval snapshot scene3FramesRaw/frame
-eval frame 9945
-eval step 9945
-eval snapshot scene3FramesRaw/frame
-eval frame 9946
-eval step 9946
-eval snapshot scene3FramesRaw/frame
-eval frame 9947
-eval step 9947
-eval snapshot scene3FramesRaw/frame
-eval frame 9948
-eval step 9948
-eval snapshot scene3FramesRaw/frame
-eval frame 9949
-eval step 9949
-eval snapshot scene3FramesRaw/frame
-eval frame 9950
-eval step 9950
-eval snapshot scene3FramesRaw/frame
-eval frame 9951
-eval step 9951
-eval snapshot scene3FramesRaw/frame
-eval frame 9952
-eval step 9952
-eval snapshot scene3FramesRaw/frame
-eval frame 9953
-eval step 9953
-eval snapshot scene3FramesRaw/frame
-eval frame 9954
-eval step 9954
-eval snapshot scene3FramesRaw/frame
-eval frame 9955
-eval step 9955
-eval snapshot scene3FramesRaw/frame
-eval frame 9956
-eval step 9956
-eval snapshot scene3FramesRaw/frame
-eval frame 9957
-eval step 9957
-eval snapshot scene3FramesRaw/frame
-eval frame 9958
-eval step 9958
-eval snapshot scene3FramesRaw/frame
-eval frame 9959
-eval step 9959
-eval snapshot scene3FramesRaw/frame
-eval frame 9960
-eval step 9960
-eval snapshot scene3FramesRaw/frame
-eval frame 9961
-eval step 9961
-eval snapshot scene3FramesRaw/frame
-eval frame 9962
-eval step 9962
-eval snapshot scene3FramesRaw/frame
-eval frame 9963
-eval step 9963
-eval snapshot scene3FramesRaw/frame
-eval frame 9964
-eval step 9964
-eval snapshot scene3FramesRaw/frame
-eval frame 9965
-eval step 9965
-eval snapshot scene3FramesRaw/frame
-eval frame 9966
-eval step 9966
-eval snapshot scene3FramesRaw/frame
-eval frame 9967
-eval step 9967
-eval snapshot scene3FramesRaw/frame
-eval frame 9968
-eval step 9968
-eval snapshot scene3FramesRaw/frame
-eval frame 9969
-eval step 9969
-eval snapshot scene3FramesRaw/frame
-eval frame 9970
-eval step 9970
-eval snapshot scene3FramesRaw/frame
-eval frame 9971
-eval step 9971
-eval snapshot scene3FramesRaw/frame
-eval frame 9972
-eval step 9972
-eval snapshot scene3FramesRaw/frame
-eval frame 9973
-eval step 9973
-eval snapshot scene3FramesRaw/frame
-eval frame 9974
-eval step 9974
-eval snapshot scene3FramesRaw/frame
-eval frame 9975
-eval step 9975
-eval snapshot scene3FramesRaw/frame
-eval frame 9976
-eval step 9976
-eval snapshot scene3FramesRaw/frame
-eval frame 9977
-eval step 9977
-eval snapshot scene3FramesRaw/frame
-eval frame 9978
-eval step 9978
-eval snapshot scene3FramesRaw/frame
-eval frame 9979
-eval step 9979
-eval snapshot scene3FramesRaw/frame
-eval frame 9980
-eval step 9980
-eval snapshot scene3FramesRaw/frame
-eval frame 9981
-eval step 9981
-eval snapshot scene3FramesRaw/frame
-eval frame 9982
-eval step 9982
-eval snapshot scene3FramesRaw/frame
-eval frame 9983
-eval step 9983
-eval snapshot scene3FramesRaw/frame
-eval frame 9984
-eval step 9984
-eval snapshot scene3FramesRaw/frame
-eval frame 9985
-eval step 9985
-eval snapshot scene3FramesRaw/frame
-eval frame 9986
-eval step 9986
-eval snapshot scene3FramesRaw/frame
-eval frame 9987
-eval step 9987
-eval snapshot scene3FramesRaw/frame
-eval frame 9988
-eval step 9988
-eval snapshot scene3FramesRaw/frame
-eval frame 9989
-eval step 9989
-eval snapshot scene3FramesRaw/frame
-eval frame 9990
-eval step 9990
-eval snapshot scene3FramesRaw/frame
-eval frame 9991
-eval step 9991
-eval snapshot scene3FramesRaw/frame
-eval frame 9992
-eval step 9992
-eval snapshot scene3FramesRaw/frame
-eval frame 9993
-eval step 9993
-eval snapshot scene3FramesRaw/frame
-eval frame 9994
-eval step 9994
-eval snapshot scene3FramesRaw/frame
-eval frame 9995
-eval step 9995
-eval snapshot scene3FramesRaw/frame
-eval frame 9996
-eval step 9996
-eval snapshot scene3FramesRaw/frame
-eval frame 9997
-eval step 9997
-eval snapshot scene3FramesRaw/frame
-eval frame 9998
-eval step 9998
-eval snapshot scene3FramesRaw/frame
-eval frame 9999
-eval step 9999
-eval snapshot scene3FramesRaw/frame
-eval frame 10000
-eval step 10000
-eval snapshot scene3FramesRaw/frame
-eval frame 10001
-eval step 10001
-eval snapshot scene3FramesRaw/frame
-eval frame 10002
-eval step 10002
-eval snapshot scene3FramesRaw/frame
-eval frame 10003
-eval step 10003
-eval snapshot scene3FramesRaw/frame
-eval frame 10004
-eval step 10004
-eval snapshot scene3FramesRaw/frame
-eval frame 10005
-eval step 10005
-eval snapshot scene3FramesRaw/frame
-eval frame 10006
-eval step 10006
-eval snapshot scene3FramesRaw/frame
-eval frame 10007
-eval step 10007
-eval snapshot scene3FramesRaw/frame
-eval frame 10008
-eval step 10008
-eval snapshot scene3FramesRaw/frame
-eval frame 10009
-eval step 10009
-eval snapshot scene3FramesRaw/frame
-eval frame 10010
-eval step 10010
-eval snapshot scene3FramesRaw/frame
-eval frame 10011
-eval step 10011
-eval snapshot scene3FramesRaw/frame
-eval frame 10012
-eval step 10012
-eval snapshot scene3FramesRaw/frame
-eval frame 10013
-eval step 10013
-eval snapshot scene3FramesRaw/frame
-eval frame 10014
-eval step 10014
-eval snapshot scene3FramesRaw/frame
-eval frame 10015
-eval step 10015
-eval snapshot scene3FramesRaw/frame
-eval frame 10016
-eval step 10016
-eval snapshot scene3FramesRaw/frame
-eval frame 10017
-eval step 10017
-eval snapshot scene3FramesRaw/frame
-eval frame 10018
-eval step 10018
-eval snapshot scene3FramesRaw/frame
-eval frame 10019
-eval step 10019
-eval snapshot scene3FramesRaw/frame
-eval frame 10020
-eval step 10020
-eval snapshot scene3FramesRaw/frame
-eval frame 10021
-eval step 10021
-eval snapshot scene3FramesRaw/frame
-eval frame 10022
-eval step 10022
-eval snapshot scene3FramesRaw/frame
-eval frame 10023
-eval step 10023
-eval snapshot scene3FramesRaw/frame
-eval frame 10024
-eval step 10024
-eval snapshot scene3FramesRaw/frame
-eval frame 10025
-eval step 10025
-eval snapshot scene3FramesRaw/frame
-eval frame 10026
-eval step 10026
-eval snapshot scene3FramesRaw/frame
-eval frame 10027
-eval step 10027
-eval snapshot scene3FramesRaw/frame
-eval frame 10028
-eval step 10028
-eval snapshot scene3FramesRaw/frame
-eval frame 10029
-eval step 10029
-eval snapshot scene3FramesRaw/frame
-eval frame 10030
-eval step 10030
-eval snapshot scene3FramesRaw/frame
-eval frame 10031
-eval step 10031
-eval snapshot scene3FramesRaw/frame
-eval frame 10032
-eval step 10032
-eval snapshot scene3FramesRaw/frame
-eval frame 10033
-eval step 10033
-eval snapshot scene3FramesRaw/frame
-eval frame 10034
-eval step 10034
-eval snapshot scene3FramesRaw/frame
-eval frame 10035
-eval step 10035
-eval snapshot scene3FramesRaw/frame
-eval frame 10036
-eval step 10036
-eval snapshot scene3FramesRaw/frame
-eval frame 10037
-eval step 10037
-eval snapshot scene3FramesRaw/frame
-eval frame 10038
-eval step 10038
-eval snapshot scene3FramesRaw/frame
-eval frame 10039
-eval step 10039
-eval snapshot scene3FramesRaw/frame
-eval frame 10040
-eval step 10040
-eval snapshot scene3FramesRaw/frame
-eval frame 10041
-eval step 10041
-eval snapshot scene3FramesRaw/frame
-eval frame 10042
-eval step 10042
-eval snapshot scene3FramesRaw/frame
-eval frame 10043
-eval step 10043
-eval snapshot scene3FramesRaw/frame
-eval frame 10044
-eval step 10044
-eval snapshot scene3FramesRaw/frame
-eval frame 10045
-eval step 10045
-eval snapshot scene3FramesRaw/frame
-eval frame 10046
-eval step 10046
-eval snapshot scene3FramesRaw/frame
-eval frame 10047
-eval step 10047
-eval snapshot scene3FramesRaw/frame
-eval frame 10048
-eval step 10048
-eval snapshot scene3FramesRaw/frame
-eval frame 10049
-eval step 10049
-eval snapshot scene3FramesRaw/frame
-eval frame 10050
-eval step 10050
-eval snapshot scene3FramesRaw/frame
-eval frame 10051
-eval step 10051
-eval snapshot scene3FramesRaw/frame
-eval frame 10052
-eval step 10052
-eval snapshot scene3FramesRaw/frame
-eval frame 10053
-eval step 10053
-eval snapshot scene3FramesRaw/frame
-eval frame 10054
-eval step 10054
-eval snapshot scene3FramesRaw/frame
-eval frame 10055
-eval step 10055
-eval snapshot scene3FramesRaw/frame
-eval frame 10056
-eval step 10056
-eval snapshot scene3FramesRaw/frame
-eval frame 10057
-eval step 10057
-eval snapshot scene3FramesRaw/frame
-eval frame 10058
-eval step 10058
-eval snapshot scene3FramesRaw/frame
-eval frame 10059
-eval step 10059
-eval snapshot scene3FramesRaw/frame
-eval frame 10060
-eval step 10060
-eval snapshot scene3FramesRaw/frame
-eval frame 10061
-eval step 10061
-eval snapshot scene3FramesRaw/frame
-eval frame 10062
-eval step 10062
-eval snapshot scene3FramesRaw/frame
-eval frame 10063
-eval step 10063
-eval snapshot scene3FramesRaw/frame
-eval frame 10064
-eval step 10064
-eval snapshot scene3FramesRaw/frame
-eval frame 10065
-eval step 10065
-eval snapshot scene3FramesRaw/frame
-eval frame 10066
-eval step 10066
-eval snapshot scene3FramesRaw/frame
-eval frame 10067
-eval step 10067
-eval snapshot scene3FramesRaw/frame
-eval frame 10068
-eval step 10068
-eval snapshot scene3FramesRaw/frame
-eval frame 10069
-eval step 10069
-eval snapshot scene3FramesRaw/frame
-eval frame 10070
-eval step 10070
-eval snapshot scene3FramesRaw/frame
-eval frame 10071
-eval step 10071
-eval snapshot scene3FramesRaw/frame
-eval frame 10072
-eval step 10072
-eval snapshot scene3FramesRaw/frame
-eval frame 10073
-eval step 10073
-eval snapshot scene3FramesRaw/frame
-eval frame 10074
-eval step 10074
-eval snapshot scene3FramesRaw/frame
-eval frame 10075
-eval step 10075
-eval snapshot scene3FramesRaw/frame
-eval frame 10076
-eval step 10076
-eval snapshot scene3FramesRaw/frame
-eval frame 10077
-eval step 10077
-eval snapshot scene3FramesRaw/frame
-eval frame 10078
-eval step 10078
-eval snapshot scene3FramesRaw/frame
-eval frame 10079
-eval step 10079
-eval snapshot scene3FramesRaw/frame
-eval frame 10080
-eval step 10080
-eval snapshot scene3FramesRaw/frame
-eval frame 10081
-eval step 10081
-eval snapshot scene3FramesRaw/frame
-eval frame 10082
-eval step 10082
-eval snapshot scene3FramesRaw/frame
-eval frame 10083
-eval step 10083
-eval snapshot scene3FramesRaw/frame
-eval frame 10084
-eval step 10084
-eval snapshot scene3FramesRaw/frame
-eval frame 10085
-eval step 10085
-eval snapshot scene3FramesRaw/frame
-eval frame 10086
-eval step 10086
-eval snapshot scene3FramesRaw/frame
-eval frame 10087
-eval step 10087
-eval snapshot scene3FramesRaw/frame
-eval frame 10088
-eval step 10088
-eval snapshot scene3FramesRaw/frame
-eval frame 10089
-eval step 10089
-eval snapshot scene3FramesRaw/frame
-eval frame 10090
-eval step 10090
-eval snapshot scene3FramesRaw/frame
-eval frame 10091
-eval step 10091
-eval snapshot scene3FramesRaw/frame
-eval frame 10092
-eval step 10092
-eval snapshot scene3FramesRaw/frame
-eval frame 10093
-eval step 10093
-eval snapshot scene3FramesRaw/frame
-eval frame 10094
-eval step 10094
-eval snapshot scene3FramesRaw/frame
-eval frame 10095
-eval step 10095
-eval snapshot scene3FramesRaw/frame
-eval frame 10096
-eval step 10096
-eval snapshot scene3FramesRaw/frame
-eval frame 10097
-eval step 10097
-eval snapshot scene3FramesRaw/frame
-eval frame 10098
-eval step 10098
-eval snapshot scene3FramesRaw/frame
-eval frame 10099
-eval step 10099
-eval snapshot scene3FramesRaw/frame
-eval frame 10100
-eval step 10100
-eval snapshot scene3FramesRaw/frame
-eval frame 10101
-eval step 10101
-eval snapshot scene3FramesRaw/frame
-eval frame 10102
-eval step 10102
-eval snapshot scene3FramesRaw/frame
-eval frame 10103
-eval step 10103
-eval snapshot scene3FramesRaw/frame
-eval frame 10104
-eval step 10104
-eval snapshot scene3FramesRaw/frame
-eval frame 10105
-eval step 10105
-eval snapshot scene3FramesRaw/frame
-eval frame 10106
-eval step 10106
-eval snapshot scene3FramesRaw/frame
-eval frame 10107
-eval step 10107
-eval snapshot scene3FramesRaw/frame
-eval frame 10108
-eval step 10108
-eval snapshot scene3FramesRaw/frame
-eval frame 10109
-eval step 10109
-eval snapshot scene3FramesRaw/frame
-eval frame 10110
-eval step 10110
-eval snapshot scene3FramesRaw/frame
-eval frame 10111
-eval step 10111
-eval snapshot scene3FramesRaw/frame
-eval frame 10112
-eval step 10112
-eval snapshot scene3FramesRaw/frame
-eval frame 10113
-eval step 10113
-eval snapshot scene3FramesRaw/frame
-eval frame 10114
-eval step 10114
-eval snapshot scene3FramesRaw/frame
-eval frame 10115
-eval step 10115
-eval snapshot scene3FramesRaw/frame
-eval frame 10116
-eval step 10116
-eval snapshot scene3FramesRaw/frame
-eval frame 10117
-eval step 10117
-eval snapshot scene3FramesRaw/frame
-eval frame 10118
-eval step 10118
-eval snapshot scene3FramesRaw/frame
-eval frame 10119
-eval step 10119
-eval snapshot scene3FramesRaw/frame
-eval frame 10120
-eval step 10120
-eval snapshot scene3FramesRaw/frame
-eval frame 10121
-eval step 10121
-eval snapshot scene3FramesRaw/frame
-eval frame 10122
-eval step 10122
-eval snapshot scene3FramesRaw/frame
-eval frame 10123
-eval step 10123
-eval snapshot scene3FramesRaw/frame
-eval frame 10124
-eval step 10124
-eval snapshot scene3FramesRaw/frame
-eval frame 10125
-eval step 10125
-eval snapshot scene3FramesRaw/frame
-eval frame 10126
-eval step 10126
-eval snapshot scene3FramesRaw/frame
-eval frame 10127
-eval step 10127
-eval snapshot scene3FramesRaw/frame
-eval frame 10128
-eval step 10128
-eval snapshot scene3FramesRaw/frame
-eval frame 10129
-eval step 10129
-eval snapshot scene3FramesRaw/frame
-eval frame 10130
-eval step 10130
-eval snapshot scene3FramesRaw/frame
-eval frame 10131
-eval step 10131
-eval snapshot scene3FramesRaw/frame
-eval frame 10132
-eval step 10132
-eval snapshot scene3FramesRaw/frame
-eval frame 10133
-eval step 10133
-eval snapshot scene3FramesRaw/frame
-eval frame 10134
-eval step 10134
-eval snapshot scene3FramesRaw/frame
-eval frame 10135
-eval step 10135
-eval snapshot scene3FramesRaw/frame
-eval frame 10136
-eval step 10136
-eval snapshot scene3FramesRaw/frame
-eval frame 10137
-eval step 10137
-eval snapshot scene3FramesRaw/frame
-eval frame 10138
-eval step 10138
-eval snapshot scene3FramesRaw/frame
-eval frame 10139
-eval step 10139
-eval snapshot scene3FramesRaw/frame
-eval frame 10140
-eval step 10140
-eval snapshot scene3FramesRaw/frame
-eval frame 10141
-eval step 10141
-eval snapshot scene3FramesRaw/frame
-eval frame 10142
-eval step 10142
-eval snapshot scene3FramesRaw/frame
-eval frame 10143
-eval step 10143
-eval snapshot scene3FramesRaw/frame
-eval frame 10144
-eval step 10144
-eval snapshot scene3FramesRaw/frame
-eval frame 10145
-eval step 10145
-eval snapshot scene3FramesRaw/frame
-eval frame 10146
-eval step 10146
-eval snapshot scene3FramesRaw/frame
-eval frame 10147
-eval step 10147
-eval snapshot scene3FramesRaw/frame
-eval frame 10148
-eval step 10148
-eval snapshot scene3FramesRaw/frame
-eval frame 10149
-eval step 10149
-eval snapshot scene3FramesRaw/frame
-eval frame 10150
-eval step 10150
-eval snapshot scene3FramesRaw/frame
-eval frame 10151
-eval step 10151
-eval snapshot scene3FramesRaw/frame
-eval frame 10152
-eval step 10152
-eval snapshot scene3FramesRaw/frame
-eval frame 10153
-eval step 10153
-eval snapshot scene3FramesRaw/frame
-eval frame 10154
-eval step 10154
-eval snapshot scene3FramesRaw/frame
-eval frame 10155
-eval step 10155
-eval snapshot scene3FramesRaw/frame
-eval frame 10156
-eval step 10156
-eval snapshot scene3FramesRaw/frame
-eval frame 10157
-eval step 10157
-eval snapshot scene3FramesRaw/frame
-eval frame 10158
-eval step 10158
-eval snapshot scene3FramesRaw/frame
-eval frame 10159
-eval step 10159
-eval snapshot scene3FramesRaw/frame
-eval frame 10160
-eval step 10160
-eval snapshot scene3FramesRaw/frame
-eval frame 10161
-eval step 10161
-eval snapshot scene3FramesRaw/frame
-eval frame 10162
-eval step 10162
-eval snapshot scene3FramesRaw/frame
-eval frame 10163
-eval step 10163
-eval snapshot scene3FramesRaw/frame
-eval frame 10164
-eval step 10164
-eval snapshot scene3FramesRaw/frame
-eval frame 10165
-eval step 10165
-eval snapshot scene3FramesRaw/frame
-eval frame 10166
-eval step 10166
-eval snapshot scene3FramesRaw/frame
-eval frame 10167
-eval step 10167
-eval snapshot scene3FramesRaw/frame
-eval frame 10168
-eval step 10168
-eval snapshot scene3FramesRaw/frame
-eval frame 10169
-eval step 10169
-eval snapshot scene3FramesRaw/frame
-eval frame 10170
-eval step 10170
-eval snapshot scene3FramesRaw/frame
-eval frame 10171
-eval step 10171
-eval snapshot scene3FramesRaw/frame
-eval frame 10172
-eval step 10172
-eval snapshot scene3FramesRaw/frame
-eval frame 10173
-eval step 10173
-eval snapshot scene3FramesRaw/frame
-eval frame 10174
-eval step 10174
-eval snapshot scene3FramesRaw/frame
-eval frame 10175
-eval step 10175
-eval snapshot scene3FramesRaw/frame
-eval frame 10176
-eval step 10176
-eval snapshot scene3FramesRaw/frame
-eval frame 10177
-eval step 10177
-eval snapshot scene3FramesRaw/frame
-eval frame 10178
-eval step 10178
-eval snapshot scene3FramesRaw/frame
-eval frame 10179
-eval step 10179
-eval snapshot scene3FramesRaw/frame
-eval frame 10180
-eval step 10180
-eval snapshot scene3FramesRaw/frame
-eval frame 10181
-eval step 10181
-eval snapshot scene3FramesRaw/frame
-eval frame 10182
-eval step 10182
-eval snapshot scene3FramesRaw/frame
-eval frame 10183
-eval step 10183
-eval snapshot scene3FramesRaw/frame
-eval frame 10184
-eval step 10184
-eval snapshot scene3FramesRaw/frame
-eval frame 10185
-eval step 10185
-eval snapshot scene3FramesRaw/frame
-eval frame 10186
-eval step 10186
-eval snapshot scene3FramesRaw/frame
-eval frame 10187
-eval step 10187
-eval snapshot scene3FramesRaw/frame
-eval frame 10188
-eval step 10188
-eval snapshot scene3FramesRaw/frame
-eval frame 10189
-eval step 10189
-eval snapshot scene3FramesRaw/frame
-eval frame 10190
-eval step 10190
-eval snapshot scene3FramesRaw/frame
-eval frame 10191
-eval step 10191
-eval snapshot scene3FramesRaw/frame
-eval frame 10192
-eval step 10192
-eval snapshot scene3FramesRaw/frame
-eval frame 10193
-eval step 10193
-eval snapshot scene3FramesRaw/frame
-eval frame 10194
-eval step 10194
-eval snapshot scene3FramesRaw/frame
-eval frame 10195
-eval step 10195
-eval snapshot scene3FramesRaw/frame
-eval frame 10196
-eval step 10196
-eval snapshot scene3FramesRaw/frame
-eval frame 10197
-eval step 10197
-eval snapshot scene3FramesRaw/frame
-eval frame 10198
-eval step 10198
-eval snapshot scene3FramesRaw/frame
-eval frame 10199
-eval step 10199
-eval snapshot scene3FramesRaw/frame
-eval frame 10200
-eval step 10200
-eval snapshot scene3FramesRaw/frame
-eval frame 10201
-eval step 10201
-eval snapshot scene3FramesRaw/frame
-eval frame 10202
-eval step 10202
-eval snapshot scene3FramesRaw/frame
-eval frame 10203
-eval step 10203
-eval snapshot scene3FramesRaw/frame
-eval frame 10204
-eval step 10204
-eval snapshot scene3FramesRaw/frame
-eval frame 10205
-eval step 10205
-eval snapshot scene3FramesRaw/frame
-eval frame 10206
-eval step 10206
-eval snapshot scene3FramesRaw/frame
-eval frame 10207
-eval step 10207
-eval snapshot scene3FramesRaw/frame
-eval frame 10208
-eval step 10208
-eval snapshot scene3FramesRaw/frame
-eval frame 10209
-eval step 10209
-eval snapshot scene3FramesRaw/frame
-eval frame 10210
-eval step 10210
-eval snapshot scene3FramesRaw/frame
-eval frame 10211
-eval step 10211
-eval snapshot scene3FramesRaw/frame
-eval frame 10212
-eval step 10212
-eval snapshot scene3FramesRaw/frame
-eval frame 10213
-eval step 10213
-eval snapshot scene3FramesRaw/frame
-eval frame 10214
-eval step 10214
-eval snapshot scene3FramesRaw/frame
-eval frame 10215
-eval step 10215
-eval snapshot scene3FramesRaw/frame
-eval frame 10216
-eval step 10216
-eval snapshot scene3FramesRaw/frame
-eval frame 10217
-eval step 10217
-eval snapshot scene3FramesRaw/frame
-eval frame 10218
-eval step 10218
-eval snapshot scene3FramesRaw/frame
-eval frame 10219
-eval step 10219
-eval snapshot scene3FramesRaw/frame
-eval frame 10220
-eval step 10220
-eval snapshot scene3FramesRaw/frame
-eval frame 10221
-eval step 10221
-eval snapshot scene3FramesRaw/frame
-eval frame 10222
-eval step 10222
-eval snapshot scene3FramesRaw/frame
-eval frame 10223
-eval step 10223
-eval snapshot scene3FramesRaw/frame
-eval frame 10224
-eval step 10224
-eval snapshot scene3FramesRaw/frame
-eval frame 10225
-eval step 10225
-eval snapshot scene3FramesRaw/frame
-eval frame 10226
-eval step 10226
-eval snapshot scene3FramesRaw/frame
-eval frame 10227
-eval step 10227
-eval snapshot scene3FramesRaw/frame
-eval frame 10228
-eval step 10228
-eval snapshot scene3FramesRaw/frame
-eval frame 10229
-eval step 10229
-eval snapshot scene3FramesRaw/frame
-eval frame 10230
-eval step 10230
-eval snapshot scene3FramesRaw/frame
-eval frame 10231
-eval step 10231
-eval snapshot scene3FramesRaw/frame
-eval frame 10232
-eval step 10232
-eval snapshot scene3FramesRaw/frame
-eval frame 10233
-eval step 10233
-eval snapshot scene3FramesRaw/frame
-eval frame 10234
-eval step 10234
-eval snapshot scene3FramesRaw/frame
-eval frame 10235
-eval step 10235
-eval snapshot scene3FramesRaw/frame
-eval frame 10236
-eval step 10236
-eval snapshot scene3FramesRaw/frame
-eval frame 10237
-eval step 10237
-eval snapshot scene3FramesRaw/frame
-eval frame 10238
-eval step 10238
-eval snapshot scene3FramesRaw/frame
-eval frame 10239
-eval step 10239
-eval snapshot scene3FramesRaw/frame
-eval frame 10240
-eval step 10240
-eval snapshot scene3FramesRaw/frame
-eval frame 10241
-eval step 10241
-eval snapshot scene3FramesRaw/frame
-eval frame 10242
-eval step 10242
-eval snapshot scene3FramesRaw/frame
-eval frame 10243
-eval step 10243
-eval snapshot scene3FramesRaw/frame
-eval frame 10244
-eval step 10244
-eval snapshot scene3FramesRaw/frame
-eval frame 10245
-eval step 10245
-eval snapshot scene3FramesRaw/frame
-eval frame 10246
-eval step 10246
-eval snapshot scene3FramesRaw/frame
-eval frame 10247
-eval step 10247
-eval snapshot scene3FramesRaw/frame
-eval frame 10248
-eval step 10248
-eval snapshot scene3FramesRaw/frame
-eval frame 10249
-eval step 10249
-eval snapshot scene3FramesRaw/frame
-eval frame 10250
-eval step 10250
-eval snapshot scene3FramesRaw/frame
-eval frame 10251
-eval step 10251
-eval snapshot scene3FramesRaw/frame
-eval frame 10252
-eval step 10252
-eval snapshot scene3FramesRaw/frame
-eval frame 10253
-eval step 10253
-eval snapshot scene3FramesRaw/frame
-eval frame 10254
-eval step 10254
-eval snapshot scene3FramesRaw/frame
-eval frame 10255
-eval step 10255
-eval snapshot scene3FramesRaw/frame
-eval frame 10256
-eval step 10256
-eval snapshot scene3FramesRaw/frame
-eval frame 10257
-eval step 10257
-eval snapshot scene3FramesRaw/frame
-eval frame 10258
-eval step 10258
-eval snapshot scene3FramesRaw/frame
-eval frame 10259
-eval step 10259
-eval snapshot scene3FramesRaw/frame
-eval frame 10260
-eval step 10260
-eval snapshot scene3FramesRaw/frame
-eval frame 10261
-eval step 10261
-eval snapshot scene3FramesRaw/frame
-eval frame 10262
-eval step 10262
-eval snapshot scene3FramesRaw/frame
-eval frame 10263
-eval step 10263
-eval snapshot scene3FramesRaw/frame
-eval frame 10264
-eval step 10264
-eval snapshot scene3FramesRaw/frame
-eval frame 10265
-eval step 10265
-eval snapshot scene3FramesRaw/frame
-eval frame 10266
-eval step 10266
-eval snapshot scene3FramesRaw/frame
-eval frame 10267
-eval step 10267
-eval snapshot scene3FramesRaw/frame
-eval frame 10268
-eval step 10268
-eval snapshot scene3FramesRaw/frame
-eval frame 10269
-eval step 10269
-eval snapshot scene3FramesRaw/frame
-eval frame 10270
-eval step 10270
-eval snapshot scene3FramesRaw/frame
-eval frame 10271
-eval step 10271
-eval snapshot scene3FramesRaw/frame
-eval frame 10272
-eval step 10272
-eval snapshot scene3FramesRaw/frame
-eval frame 10273
-eval step 10273
-eval snapshot scene3FramesRaw/frame
-eval frame 10274
-eval step 10274
-eval snapshot scene3FramesRaw/frame
-eval frame 10275
-eval step 10275
-eval snapshot scene3FramesRaw/frame
-eval frame 10276
-eval step 10276
-eval snapshot scene3FramesRaw/frame
-eval frame 10277
-eval step 10277
-eval snapshot scene3FramesRaw/frame
-eval frame 10278
-eval step 10278
-eval snapshot scene3FramesRaw/frame
-eval frame 10279
-eval step 10279
-eval snapshot scene3FramesRaw/frame
-eval frame 10280
-eval step 10280
-eval snapshot scene3FramesRaw/frame
-eval frame 10281
-eval step 10281
-eval snapshot scene3FramesRaw/frame
-eval frame 10282
-eval step 10282
-eval snapshot scene3FramesRaw/frame
-eval frame 10283
-eval step 10283
-eval snapshot scene3FramesRaw/frame
-eval frame 10284
-eval step 10284
-eval snapshot scene3FramesRaw/frame
-eval frame 10285
-eval step 10285
-eval snapshot scene3FramesRaw/frame
-eval frame 10286
-eval step 10286
-eval snapshot scene3FramesRaw/frame
-eval frame 10287
-eval step 10287
-eval snapshot scene3FramesRaw/frame
-eval frame 10288
-eval step 10288
-eval snapshot scene3FramesRaw/frame
-eval frame 10289
-eval step 10289
-eval snapshot scene3FramesRaw/frame
-eval frame 10290
-eval step 10290
-eval snapshot scene3FramesRaw/frame
-eval frame 10291
-eval step 10291
-eval snapshot scene3FramesRaw/frame
-eval frame 10292
-eval step 10292
-eval snapshot scene3FramesRaw/frame
-eval frame 10293
-eval step 10293
-eval snapshot scene3FramesRaw/frame
-eval frame 10294
-eval step 10294
-eval snapshot scene3FramesRaw/frame
-eval frame 10295
-eval step 10295
-eval snapshot scene3FramesRaw/frame
-eval frame 10296
-eval step 10296
-eval snapshot scene3FramesRaw/frame
-eval frame 10297
-eval step 10297
-eval snapshot scene3FramesRaw/frame
-eval frame 10298
-eval step 10298
-eval snapshot scene3FramesRaw/frame
-eval frame 10299
-eval step 10299
-eval snapshot scene3FramesRaw/frame
-eval frame 10300
-eval step 10300
-eval snapshot scene3FramesRaw/frame
-eval frame 10301
-eval step 10301
-eval snapshot scene3FramesRaw/frame
-eval frame 10302
-eval step 10302
-eval snapshot scene3FramesRaw/frame
-eval frame 10303
-eval step 10303
-eval snapshot scene3FramesRaw/frame
-eval frame 10304
-eval step 10304
-eval snapshot scene3FramesRaw/frame
-eval frame 10305
-eval step 10305
-eval snapshot scene3FramesRaw/frame
-eval frame 10306
-eval step 10306
-eval snapshot scene3FramesRaw/frame
-eval frame 10307
-eval step 10307
-eval snapshot scene3FramesRaw/frame
-eval frame 10308
-eval step 10308
-eval snapshot scene3FramesRaw/frame
-eval frame 10309
-eval step 10309
-eval snapshot scene3FramesRaw/frame
-eval frame 10310
-eval step 10310
-eval snapshot scene3FramesRaw/frame
-eval frame 10311
-eval step 10311
-eval snapshot scene3FramesRaw/frame
-eval frame 10312
-eval step 10312
-eval snapshot scene3FramesRaw/frame
-eval frame 10313
-eval step 10313
-eval snapshot scene3FramesRaw/frame
-eval frame 10314
-eval step 10314
-eval snapshot scene3FramesRaw/frame
-eval frame 10315
-eval step 10315
-eval snapshot scene3FramesRaw/frame
-eval frame 10316
-eval step 10316
-eval snapshot scene3FramesRaw/frame
-eval frame 10317
-eval step 10317
-eval snapshot scene3FramesRaw/frame
-eval frame 10318
-eval step 10318
-eval snapshot scene3FramesRaw/frame
-eval frame 10319
-eval step 10319
-eval snapshot scene3FramesRaw/frame
-eval frame 10320
-eval step 10320
-eval snapshot scene3FramesRaw/frame
-eval frame 10321
-eval step 10321
-eval snapshot scene3FramesRaw/frame
-eval frame 10322
-eval step 10322
-eval snapshot scene3FramesRaw/frame
-eval frame 10323
-eval step 10323
-eval snapshot scene3FramesRaw/frame
-eval frame 10324
-eval step 10324
-eval snapshot scene3FramesRaw/frame
-eval frame 10325
-eval step 10325
-eval snapshot scene3FramesRaw/frame
-eval frame 10326
-eval step 10326
-eval snapshot scene3FramesRaw/frame
-eval frame 10327
-eval step 10327
-eval snapshot scene3FramesRaw/frame
-eval frame 10328
-eval step 10328
-eval snapshot scene3FramesRaw/frame
-eval frame 10329
-eval step 10329
-eval snapshot scene3FramesRaw/frame
-eval frame 10330
-eval step 10330
-eval snapshot scene3FramesRaw/frame
-eval frame 10331
-eval step 10331
-eval snapshot scene3FramesRaw/frame
-eval frame 10332
-eval step 10332
-eval snapshot scene3FramesRaw/frame
-eval frame 10333
-eval step 10333
-eval snapshot scene3FramesRaw/frame
-eval frame 10334
-eval step 10334
-eval snapshot scene3FramesRaw/frame
-eval frame 10335
-eval step 10335
-eval snapshot scene3FramesRaw/frame
-eval frame 10336
-eval step 10336
-eval snapshot scene3FramesRaw/frame
-eval frame 10337
-eval step 10337
-eval snapshot scene3FramesRaw/frame
-eval frame 10338
-eval step 10338
-eval snapshot scene3FramesRaw/frame
-eval frame 10339
-eval step 10339
-eval snapshot scene3FramesRaw/frame
-eval frame 10340
-eval step 10340
-eval snapshot scene3FramesRaw/frame
-eval frame 10341
-eval step 10341
-eval snapshot scene3FramesRaw/frame
-eval frame 10342
-eval step 10342
-eval snapshot scene3FramesRaw/frame
-eval frame 10343
-eval step 10343
-eval snapshot scene3FramesRaw/frame
-eval frame 10344
-eval step 10344
-eval snapshot scene3FramesRaw/frame
-eval frame 10345
-eval step 10345
-eval snapshot scene3FramesRaw/frame
-eval frame 10346
-eval step 10346
-eval snapshot scene3FramesRaw/frame
-eval frame 10347
-eval step 10347
-eval snapshot scene3FramesRaw/frame
-eval frame 10348
-eval step 10348
-eval snapshot scene3FramesRaw/frame
-eval frame 10349
-eval step 10349
-eval snapshot scene3FramesRaw/frame
-eval frame 10350
-eval step 10350
-eval snapshot scene3FramesRaw/frame
-eval frame 10351
-eval step 10351
-eval snapshot scene3FramesRaw/frame
-eval frame 10352
-eval step 10352
-eval snapshot scene3FramesRaw/frame
-eval frame 10353
-eval step 10353
-eval snapshot scene3FramesRaw/frame
-eval frame 10354
-eval step 10354
-eval snapshot scene3FramesRaw/frame
-eval frame 10355
-eval step 10355
-eval snapshot scene3FramesRaw/frame
-eval frame 10356
-eval step 10356
-eval snapshot scene3FramesRaw/frame
-eval frame 10357
-eval step 10357
-eval snapshot scene3FramesRaw/frame
-eval frame 10358
-eval step 10358
-eval snapshot scene3FramesRaw/frame
-eval frame 10359
-eval step 10359
-eval snapshot scene3FramesRaw/frame
-eval frame 10360
-eval step 10360
-eval snapshot scene3FramesRaw/frame
-eval frame 10361
-eval step 10361
-eval snapshot scene3FramesRaw/frame
-eval frame 10362
-eval step 10362
-eval snapshot scene3FramesRaw/frame
-eval frame 10363
-eval step 10363
-eval snapshot scene3FramesRaw/frame
-eval frame 10364
-eval step 10364
-eval snapshot scene3FramesRaw/frame
-eval frame 10365
-eval step 10365
-eval snapshot scene3FramesRaw/frame
-eval frame 10366
-eval step 10366
-eval snapshot scene3FramesRaw/frame
-eval frame 10367
-eval step 10367
-eval snapshot scene3FramesRaw/frame
-eval frame 10368
-eval step 10368
-eval snapshot scene3FramesRaw/frame
-eval frame 10369
-eval step 10369
-eval snapshot scene3FramesRaw/frame
-eval frame 10370
-eval step 10370
-eval snapshot scene3FramesRaw/frame
-eval frame 10371
-eval step 10371
-eval snapshot scene3FramesRaw/frame
-eval frame 10372
-eval step 10372
-eval snapshot scene3FramesRaw/frame
-eval frame 10373
-eval step 10373
-eval snapshot scene3FramesRaw/frame
-eval frame 10374
-eval step 10374
-eval snapshot scene3FramesRaw/frame
-eval frame 10375
-eval step 10375
-eval snapshot scene3FramesRaw/frame
-eval frame 10376
-eval step 10376
-eval snapshot scene3FramesRaw/frame
-eval frame 10377
-eval step 10377
-eval snapshot scene3FramesRaw/frame
-eval frame 10378
-eval step 10378
-eval snapshot scene3FramesRaw/frame
-eval frame 10379
-eval step 10379
-eval snapshot scene3FramesRaw/frame
-eval frame 10380
-eval step 10380
-eval snapshot scene3FramesRaw/frame
-eval frame 10381
-eval step 10381
-eval snapshot scene3FramesRaw/frame
-eval frame 10382
-eval step 10382
-eval snapshot scene3FramesRaw/frame
-eval frame 10383
-eval step 10383
-eval snapshot scene3FramesRaw/frame
-eval frame 10384
-eval step 10384
-eval snapshot scene3FramesRaw/frame
-eval frame 10385
-eval step 10385
-eval snapshot scene3FramesRaw/frame
-eval frame 10386
-eval step 10386
-eval snapshot scene3FramesRaw/frame
-eval frame 10387
-eval step 10387
-eval snapshot scene3FramesRaw/frame
-eval frame 10388
-eval step 10388
-eval snapshot scene3FramesRaw/frame
-eval frame 10389
-eval step 10389
-eval snapshot scene3FramesRaw/frame
-eval frame 10390
-eval step 10390
-eval snapshot scene3FramesRaw/frame
-eval frame 10391
-eval step 10391
-eval snapshot scene3FramesRaw/frame
-eval frame 10392
-eval step 10392
-eval snapshot scene3FramesRaw/frame
-eval frame 10393
-eval step 10393
-eval snapshot scene3FramesRaw/frame
-eval frame 10394
-eval step 10394
-eval snapshot scene3FramesRaw/frame
-eval frame 10395
-eval step 10395
-eval snapshot scene3FramesRaw/frame
-eval frame 10396
-eval step 10396
-eval snapshot scene3FramesRaw/frame
-eval frame 10397
-eval step 10397
-eval snapshot scene3FramesRaw/frame
-eval frame 10398
-eval step 10398
-eval snapshot scene3FramesRaw/frame
-eval frame 10399
-eval step 10399
-eval snapshot scene3FramesRaw/frame
-eval frame 10400
-eval step 10400
-eval snapshot scene3FramesRaw/frame
-eval frame 10401
-eval step 10401
-eval snapshot scene3FramesRaw/frame
-eval frame 10402
-eval step 10402
-eval snapshot scene3FramesRaw/frame
-eval frame 10403
-eval step 10403
-eval snapshot scene3FramesRaw/frame
-eval frame 10404
-eval step 10404
-eval snapshot scene3FramesRaw/frame
-eval frame 10405
-eval step 10405
-eval snapshot scene3FramesRaw/frame
-eval frame 10406
-eval step 10406
-eval snapshot scene3FramesRaw/frame
-eval frame 10407
-eval step 10407
-eval snapshot scene3FramesRaw/frame
-eval frame 10408
-eval step 10408
-eval snapshot scene3FramesRaw/frame
-eval frame 10409
-eval step 10409
-eval snapshot scene3FramesRaw/frame
-eval frame 10410
-eval step 10410
-eval snapshot scene3FramesRaw/frame
-eval frame 10411
-eval step 10411
-eval snapshot scene3FramesRaw/frame
-eval frame 10412
-eval step 10412
-eval snapshot scene3FramesRaw/frame
-eval frame 10413
-eval step 10413
-eval snapshot scene3FramesRaw/frame
-eval frame 10414
-eval step 10414
-eval snapshot scene3FramesRaw/frame
-eval frame 10415
-eval step 10415
-eval snapshot scene3FramesRaw/frame
-eval frame 10416
-eval step 10416
-eval snapshot scene3FramesRaw/frame
-eval frame 10417
-eval step 10417
-eval snapshot scene3FramesRaw/frame
-eval frame 10418
-eval step 10418
-eval snapshot scene3FramesRaw/frame
-eval frame 10419
-eval step 10419
-eval snapshot scene3FramesRaw/frame
-eval frame 10420
-eval step 10420
-eval snapshot scene3FramesRaw/frame
-eval frame 10421
-eval step 10421
-eval snapshot scene3FramesRaw/frame
-eval frame 10422
-eval step 10422
-eval snapshot scene3FramesRaw/frame
-eval frame 10423
-eval step 10423
-eval snapshot scene3FramesRaw/frame
-eval frame 10424
-eval step 10424
-eval snapshot scene3FramesRaw/frame
-eval frame 10425
-eval step 10425
-eval snapshot scene3FramesRaw/frame
-eval frame 10426
-eval step 10426
-eval snapshot scene3FramesRaw/frame
-eval frame 10427
-eval step 10427
-eval snapshot scene3FramesRaw/frame
-eval frame 10428
-eval step 10428
-eval snapshot scene3FramesRaw/frame
-eval frame 10429
-eval step 10429
-eval snapshot scene3FramesRaw/frame
-eval frame 10430
-eval step 10430
-eval snapshot scene3FramesRaw/frame
-eval frame 10431
-eval step 10431
-eval snapshot scene3FramesRaw/frame
-eval frame 10432
-eval step 10432
-eval snapshot scene3FramesRaw/frame
-eval frame 10433
-eval step 10433
-eval snapshot scene3FramesRaw/frame
-eval frame 10434
-eval step 10434
-eval snapshot scene3FramesRaw/frame
-eval frame 10435
-eval step 10435
-eval snapshot scene3FramesRaw/frame
-eval frame 10436
-eval step 10436
-eval snapshot scene3FramesRaw/frame
-eval frame 10437
-eval step 10437
-eval snapshot scene3FramesRaw/frame
-eval frame 10438
-eval step 10438
-eval snapshot scene3FramesRaw/frame
-eval frame 10439
-eval step 10439
-eval snapshot scene3FramesRaw/frame
-eval frame 10440
-eval step 10440
-eval snapshot scene3FramesRaw/frame
-eval frame 10441
-eval step 10441
-eval snapshot scene3FramesRaw/frame
-eval frame 10442
-eval step 10442
-eval snapshot scene3FramesRaw/frame
-eval frame 10443
-eval step 10443
-eval snapshot scene3FramesRaw/frame
-eval frame 10444
-eval step 10444
-eval snapshot scene3FramesRaw/frame
-eval frame 10445
-eval step 10445
-eval snapshot scene3FramesRaw/frame
-eval frame 10446
-eval step 10446
-eval snapshot scene3FramesRaw/frame
-eval frame 10447
-eval step 10447
-eval snapshot scene3FramesRaw/frame
-eval frame 10448
-eval step 10448
-eval snapshot scene3FramesRaw/frame
-eval frame 10449
-eval step 10449
-eval snapshot scene3FramesRaw/frame
-eval frame 10450
-eval step 10450
-eval snapshot scene3FramesRaw/frame
-eval frame 10451
-eval step 10451
-eval snapshot scene3FramesRaw/frame
-eval frame 10452
-eval step 10452
-eval snapshot scene3FramesRaw/frame
-eval frame 10453
-eval step 10453
-eval snapshot scene3FramesRaw/frame
-eval frame 10454
-eval step 10454
-eval snapshot scene3FramesRaw/frame
-eval frame 10455
-eval step 10455
-eval snapshot scene3FramesRaw/frame
-eval frame 10456
-eval step 10456
-eval snapshot scene3FramesRaw/frame
-eval frame 10457
-eval step 10457
-eval snapshot scene3FramesRaw/frame
-eval frame 10458
-eval step 10458
-eval snapshot scene3FramesRaw/frame
-eval frame 10459
-eval step 10459
-eval snapshot scene3FramesRaw/frame
-eval frame 10460
-eval step 10460
-eval snapshot scene3FramesRaw/frame
-eval frame 10461
-eval step 10461
-eval snapshot scene3FramesRaw/frame
-eval frame 10462
-eval step 10462
-eval snapshot scene3FramesRaw/frame
-eval frame 10463
-eval step 10463
-eval snapshot scene3FramesRaw/frame
-eval frame 10464
-eval step 10464
-eval snapshot scene3FramesRaw/frame
-eval frame 10465
-eval step 10465
-eval snapshot scene3FramesRaw/frame
-eval frame 10466
-eval step 10466
-eval snapshot scene3FramesRaw/frame
-eval frame 10467
-eval step 10467
-eval snapshot scene3FramesRaw/frame
-eval frame 10468
-eval step 10468
-eval snapshot scene3FramesRaw/frame
-eval frame 10469
-eval step 10469
-eval snapshot scene3FramesRaw/frame
-eval frame 10470
-eval step 10470
-eval snapshot scene3FramesRaw/frame
-eval frame 10471
-eval step 10471
-eval snapshot scene3FramesRaw/frame
-eval frame 10472
-eval step 10472
-eval snapshot scene3FramesRaw/frame
-eval frame 10473
-eval step 10473
-eval snapshot scene3FramesRaw/frame
-eval frame 10474
-eval step 10474
-eval snapshot scene3FramesRaw/frame
-eval frame 10475
-eval step 10475
-eval snapshot scene3FramesRaw/frame
-eval frame 10476
-eval step 10476
-eval snapshot scene3FramesRaw/frame
-eval frame 10477
-eval step 10477
-eval snapshot scene3FramesRaw/frame
-eval frame 10478
-eval step 10478
-eval snapshot scene3FramesRaw/frame
-eval frame 10479
-eval step 10479
-eval snapshot scene3FramesRaw/frame
-eval frame 10480
-eval step 10480
-eval snapshot scene3FramesRaw/frame
-eval frame 10481
-eval step 10481
-eval snapshot scene3FramesRaw/frame
-eval frame 10482
-eval step 10482
-eval snapshot scene3FramesRaw/frame
-eval frame 10483
-eval step 10483
-eval snapshot scene3FramesRaw/frame
-eval frame 10484
-eval step 10484
-eval snapshot scene3FramesRaw/frame
-eval frame 10485
-eval step 10485
-eval snapshot scene3FramesRaw/frame
-eval frame 10486
-eval step 10486
-eval snapshot scene3FramesRaw/frame
-eval frame 10487
-eval step 10487
-eval snapshot scene3FramesRaw/frame
-eval frame 10488
-eval step 10488
 eval snapshot scene3FramesRaw/frame

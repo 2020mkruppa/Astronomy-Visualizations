@@ -177,7 +177,7 @@ def calculateLengthOfPath(b):
 
 def printPathToFile(flatPathData, f):
 	for e in flatPathData:
-		f.write("%.4f %.4f %.4f %.4f %.4f %.4f 60\n" % (e[0], e[1], e[2], e[3], e[4], e[5]))
+		f.write("%.5f %.5f %.5f %.5f %.5f %.5f 60\n" % (e[0], e[1], e[2], e[3], e[4], e[5]))
 
 def makeFramesFile(data, f, singleCommands, timeOffset, startFrame, folder):
 	f.write('eval snapset ' + folder + '/frame%06d -n 0\n\n')

@@ -20,7 +20,7 @@ f.write('texture -O 2  earth.sgi\n')
 f.write('texturevar 2\n\n')
 for i in range(1200):
 	f.write('datatime ' + str(i) + '\n')
-	theta = 6.28 * (i / 1200)
+	theta = math.pi * 2 * (i / 1200)
 	writeStar(0.07 * math.cos(omega * theta), 0.07 * math.sin(omega * theta), 20 + 15 * math.sin(3 * omega * theta))
 	writePlanet(0.4 * math.cos((omega * theta) - math.pi), 0.4 * math.sin((omega * theta) - math.pi))
 

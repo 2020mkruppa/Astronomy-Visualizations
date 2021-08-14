@@ -59,11 +59,11 @@ def getCreditScreen2(color):
 def getCreditScreen1(color):
 	black = Image.fromarray(BLACK_RECT)
 	draw = ImageDraw.Draw(black)
-	draw.text((960, 450), "Advised by", font=SEMI_30, anchor="ms", stroke_width=0, fill=(color, color, color, 100))
+	draw.text((960, 450), "Edited and Advised by", font=SEMI_30, anchor="ms", stroke_width=0, fill=(color, color, color, 100))
 	draw.text((960, 520), "Jacob Hamer", font=SEMI_30, anchor="ms", stroke_width=0, fill=(color, color, color, 100))
 	draw.text((960, 580), "Dr. Kevin Schlaufman", font=SEMI_30, anchor="ms", stroke_width=0, fill=(color, color, color, 100))
 	texted = np.array(black)
-	cv2.line(texted, (870, 465), (1050, 465), (color, color, color), 1)
+	cv2.line(texted, (780, 465), (1140, 465), (color, color, color), 1)
 	return texted
 
 def getCreditScreen0(color):
@@ -110,13 +110,18 @@ def folderFrames(folder, fadeIn, fadeOut):
 			print("Image " + str(i) + " out of " + str(frameNum))
 		address = folder + "/frame." + getNumberString(i) + ".png"
 		img = cv2.imread(address)
+		#if resize:
+		#	img = cv2.resize(img, (1920, 1080))
 		writer.write(considerFade(img, fadeIn, fadeOut, i, frameNum))
 
 
 
-writer = cv2.VideoWriter(MOVIE_NAME, cv2.VideoWriter_fourcc(*'DIVX'), 60, (1920, 1080))
+
 #############################################
-'''titleScreen()
+'''
+writer = cv2.VideoWriter(MOVIE_NAME, cv2.VideoWriter_fourcc(*'DIVX'), 60, (1920, 1080))
+
+titleScreen()
 pause()
 folderFrames(folder='scene0Frames', fadeIn=True, fadeOut=False)
 folderFrames(folder='scene1FramesRaw', fadeIn=False, fadeOut=True)
@@ -131,10 +136,30 @@ pause()
 folderFrames(folder='scene6FramesRaw', fadeIn=True, fadeOut=True)
 pause()
 folderFrames(folder='scene7Frames', fadeIn=True, fadeOut=True)
-pause()'''
+pause()
 creditScreen()
+
+writer.release()'''
 ############################################
-writer.release()
+'''writer = cv2.VideoWriter("timingTest.mp4", cv2.VideoWriter_fourcc(*'DIVX'), 60, (1920, 1080))
+
+titleScreen()
+pause()
+folderFrames(folder='scene0Frames', fadeIn=True, fadeOut=False)
+folderFrames(folder='scene1Frames', fadeIn=False, fadeOut=True)'''
 #showImage(getCreditScreen0(255))
 #showImage(getCreditScreen1(255))
 #showImage(getCreditScreen2(255))
+writer = cv2.VideoWriter("timingTestScene2.mp4", cv2.VideoWriter_fourcc(*'DIVX'), 60, (1920, 1080))
+folder = "scene4FramesRaw"
+frameNum = len(os.listdir(folder))
+print(folder + ": " + str(frameNum))
+
+for i in range(frameNum):
+	if i % (frameNum // 20) == 0:
+		print("Image " + str(i) + " out of " + str(frameNum))
+	address = folder + "/frame." + getNumberString(i) + ".png"
+	img = cv2.imread(address)
+	#if resize:
+	#	img = cv2.resize(img, (1920, 1080))
+	writer.write(considerFade(img, False, False, i, frameNum))

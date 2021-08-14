@@ -2,6 +2,8 @@ import math
 import sys
 sys.path.append("..")
 from Interpolator import getInterpolator
+from OrbitDrawer import drawOrbitXZ
+from OrbitDrawer import drawOrbitXY
 
 DATA_OUT = 'movingStars/movingStars.SPECK'
 ORBIT_OUT = 'orbitPaths/orbits.SPECK'
@@ -28,20 +30,10 @@ def writeSun(pos):
 		f.write("%.4f 0 %.4f %d %d 3\n" % (pos[0], pos[1], 40, 400))
 
 def writeSunOrbit(r):
-	resolution = 100
-	orbit.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
-	for i in range(resolution + 1):
-		pos = getPosition(r, ((6.28 / resolution) * i))
-		orbit.write("%.4f 0 %.4f\n" % (pos[0], pos[1]))
-	orbit.write('}\n')
+	drawOrbitXZ(r, orbit)
 
 def writeRadius(r):
-	resolution = 100
-	orbit.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
-	for i in range(resolution + 1):
-		pos = getPosition(r, ((6.28 / resolution) * i))
-		orbit.write("%.4f %.4f 0\n" % (pos[0], pos[1]))
-	orbit.write('}\n')
+	drawOrbitXY(r, orbit)
 
 
 def getPosition(radius, argument):
@@ -60,13 +52,13 @@ f.write('texture  -M 3  halo.pbm\n')
 f.write('texturevar 2\n\n')
 
 #																				  S1 Lum   S2 Lum     S1 Radius    S2 Radius    Period
-sizeInterpolator = getInterpolator(start_x=4237, end_x=5215, power=2, y_lists=[[30, 15], [30, 800], [0.05, 0.45], [0.05, 0.05], [5.5, 17]])
-colorAmplitude = getInterpolator(start_x=8018, end_x=8448, power=1, y_lists=[[0, 20], [0, 20]]) #S1, S2
+sizeInterpolator = getInterpolator(start_x=4050, end_x=5000, power=2, y_lists=[[30, 15], [30, 800], [0.05, 0.45], [0.05, 0.05], [5.5, 17]])
+colorAmplitude = getInterpolator(start_x=7850, end_x=8050, power=1, y_lists=[[0, 20], [0, 20]]) #S1, S2
 
-linearStar = getInterpolator(start_x=5541, end_x=7653, power=1, y_lists=[[-8, 8], [4.35, -4], [-7, 9]])
-linearColor = getInterpolator(start_x=6558, end_x=6688, power=1, y_lists=[[39, 0]])
+linearStar = getInterpolator(start_x=5710, end_x=8210, power=1, y_lists=[[-8, 8], [4.35, -4.00], [-7.5, 8.5]])
+linearColor = getInterpolator(start_x=6945, end_x=7030, power=1, y_lists=[[39, 0]])
 
-orbitRadius = getInterpolator(start_x=10691, end_x=10886, power=3, y_lists=[[0.8, 0.006]])
+orbitRadius = getInterpolator(start_x=10100, end_x=10200, power=3, y_lists=[[0.8, 0.006]])
 
 timestep = 0.08
 angle = 0
@@ -79,11 +71,11 @@ for i in range(11600):
 
 	data = sizeInterpolator(i)
 
-	deltaAngle = 6.28 * timestep / data[4]
+	deltaAngle = math.pi * 2 * timestep / data[4]
 	angle += deltaAngle
 
 	colors = colorAmplitude(i)
-	if 1564 < i < 10000:
+	if 2000 < i < 9800:
 		writeRadius(data[2])
 		writeRadius(data[3])
 		writeOrbitStar(getPosition(data[2], angle), int(-colors[0] * math.cos(angle) + 19), data[0]) #S1
@@ -91,9 +83,8 @@ for i in range(11600):
 
 		writeLinearStar(linearStar(i), linearColor(i)[0], 10) #Linear doppler shift star
 
-	if 10013 < i:
+	if 9850 < i:
 		writeSunOrbit(orbitRadius(i)[0])
-	if 10691 > i > 10013 or i > 10886:
 		writeSun(getPosition(orbitRadius(i)[0], angle))
 
 

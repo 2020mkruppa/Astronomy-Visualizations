@@ -203,4 +203,7 @@ increase the ptsize and polysize as well, or else the downscaled star would be b
 the numbers a bit to find a good compromise, but I ended up with rendering at 4800x2700 (2.5 times 1080p), with line thickness 3,
 and also commanding ptsize 0.05 5, slum 40, and polysize 0.0001. With these modifications, it looks fairly close to the 1080p video, but
 its close enough, and most importantly, the antialiasing is much improved. 
+
+I also learned that when resizing to get antialiasing, one must should use ffmpeg instead of opencv. I assume it's a difference in the exaxt interpolation
+algorithm, and with more effort, one could probably chose the best one, but the ffmpeg default with the -s switch is good.
   

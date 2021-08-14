@@ -2,6 +2,7 @@ import math
 import sys
 sys.path.append("..")
 from Interpolator import getInterpolator
+from OrbitDrawer import drawOrbitXZ
 
 MOVING_SOLAR = 'movingStarsSolar/movingStars.speck'
 ORBIT_SOLAR = 'orbitPathsSolar/orbits.speck'
@@ -18,19 +19,17 @@ def writePoint(pos, color, lum, texture, file, backdrop): #Motion along x-z plan
 		#file.write("0.002 -0.001 0.0015 0 %.4f 0\n" % (lum / 200))  # Intentionally no texture, so it appears as opaque disc to provide backdrop
 
 def writeTexture(pos, lum, texture, file):
-	file.write("%.4f 0 %.4f 0 %.4f %d\n" % (pos[0], pos[1], lum, texture))
+	if texture == 11:
+		file.write("%.4f 0 %.4f 0 %.4f %d 1 0 0 0 -0.5 0.866\n" % (pos[0], pos[1], lum, texture))
+	else:
+		file.write("%.4f 0 %.4f 0 %.4f %d 9 9 9 9 9 9\n" % (pos[0], pos[1], lum, texture))
 
 def getPosition(radius, time, period, offset):
-	argument = ((6.28 / period) * time) + offset
+	argument = ((math.pi * 2 / period) * time) + offset
 	return [radius * math.cos(argument), radius * math.sin(argument)]
 
 def writeOrbit(file, r):
-	resolution = 150
-	file.write('mesh -c 0 -w 3 -s wire {\n1 ' + str(resolution + 1) + '\n')
-	for i in range(resolution + 1):
-		pos = getPosition(r, i, resolution, 0)
-		file.write("%.4f 0 %.4f\n" % (pos[0], pos[1]))
-	file.write('}\n\n')
+	drawOrbitXZ(r, file)
 
 radii   = [[0.39 * 5, 0.72 * 5, 1.00 * 5, 1.52 * 5, 5.20 * 5, 9.54 * 5, 19.2 * 5, 30.1 * 5],
 		   [0.011 * 5, 0.016 * 5, 0.022 * 5, 0.029 * 5, 0.038 * 5, 0.047 * 5, 0.062 * 5]]
@@ -62,6 +61,10 @@ movingSolar.write('texture  -M 5  weakHalo.sgi\n')
 movingSolar.write('texture  -O 6  mercury.sgi\n')
 movingSolar.write('texture  -O 7  venus.sgi\n')
 movingSolar.write('texture  -O 2  earth.sgi\n')   #Last to be front-most
+movingSolar.write('texture  -M 11  rings.sgi\n')
+movingSolar.write('texture  -O 8  saturn.sgi\n')
+movingSolar.write('texture  -O 9  uranus.sgi\n')
+movingSolar.write('texture  -O 10  neptune.sgi\n')
 movingSolar.write('texturevar 2\n\n')
 
 
@@ -81,7 +84,7 @@ SUN = getInterpolator(start_x=3100, end_x=3200, power=2, y_lists=[[800, 2], [3, 
 for i in range(6300):
 	movingSolar.write('datatime ' + str(i) + '\n')
 	movingTrap.write('datatime ' + str(i) + '\n')
-	t = 6.28 * (i / 1200) * omega
+	t = math.pi * 2 * (i / 1200) * omega
 
 	writePoint([0, 0], int(SUN(i)[1]), SUN(i)[0] /4, 1, movingSolar, True) #Sun
 
@@ -91,9 +94,11 @@ for i in range(6300):
 		writeTexture(getPosition(radii[0][2], t, periods[0][2], offsets[0][2]), 2.2, 2, movingSolar) #Earth
 		writeTexture(getPosition(radii[0][3], t, periods[0][3], offsets[0][3]), 3.0, 3, movingSolar) #Mars
 		writeTexture(getPosition(radii[0][4], t, periods[0][4], offsets[0][4]), 60, 4, movingSolar) #Jupiter
-		writePoint(getPosition(radii[0][5], t, periods[0][5], offsets[0][5]), 0, 350, 5, movingSolar, False) #Saturn
-		writePoint(getPosition(radii[0][6], t, periods[0][6], offsets[0][6]), 1, 350, 5, movingSolar, False) #Uranus
-		writePoint(getPosition(radii[0][7], t, periods[0][7], offsets[0][7]), 2, 350, 5, movingSolar, False) #Neptune
+
+		writeTexture(getPosition(radii[0][5], t, periods[0][5], offsets[0][5]), 96, 11, movingSolar) #Saturn
+		writeTexture(getPosition(radii[0][5], t, periods[0][5], offsets[0][5]), 72, 8, movingSolar)  # Saturn
+		writeTexture(getPosition(radii[0][6], t, periods[0][6], offsets[0][6]), 72, 9, movingSolar) #Uranus
+		writeTexture(getPosition(radii[0][7], t, periods[0][7], offsets[0][7]), 72, 10, movingSolar) #Neptune
 
 	writeTexture(getPosition(radii[1][0], t, periods[1][0], offsets[1][0]), 0.015, 1, movingTrap)
 	writeTexture(getPosition(radii[1][1], t, periods[1][1], offsets[1][1]), 0.015, 2, movingTrap)
