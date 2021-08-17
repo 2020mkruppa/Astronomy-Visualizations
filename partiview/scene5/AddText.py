@@ -6,10 +6,10 @@ import sys
 sys.path.append("..")
 from Interpolator import getInterpolator
 
-FADE_START = 530
-YEAR_START = 600
-YEAR_END = 2700
-FADE_END = 2770
+FADE_START = 590
+YEAR_START = 660
+YEAR_END = 4200
+FADE_END = 4270
 
 SEMI_24 = ImageFont.truetype("../fonts/Montserrat-SemiBold.ttf", 30)
 SEMI_40 = ImageFont.truetype("../fonts/Montserrat-SemiBold.ttf", 50)

@@ -156,6 +156,39 @@ created dummy stars far away from the areas of interest that used all of the col
 Essentially, make sure there are no extra "declared" colors (and of course no "request" for non-existant colors). 
 
 
+One of the most fun/difficult sections of any scene was the TESS sphere animation. What complicated this was the fact that each tile was really a 
+"pure" square projected onto the sphere, rather than a square the followed the longitude lines. In other words, the distance between the bottom 2 points
+is the same as the top 2 points. This means that the longitude of the upper and lower points are different. I won't go into the fine details here, but you 
+can see the code in the scene5/TessProducer.py file. To begin with, I calculated the "master" tile, which was centered on the equator. The latitudes were
+easy, but I had to manually compute the longitudes. While there is probably an analytical solution for this, I simply did it quick and dirty, using a 
+binary search numerically. However, since the tile angle is 24 degrees, this actually represents a significant arc along the sphere. Therefore, 
+I could not use a single square solid mesh to draw this. I divided the tile into 64 smaller tiles, each of which represents a 3x3 degree solid angle, which
+is small enough. In addition, I also maintained a list of the edge's coordinates, also subdividing each edge in to 8 segements. 
+
+From here, I used rotation matricies to make copies of all 104 tiles I neede, rotated at the correct angles. At this point, I was back to cartesian coordinates,
+so worrying about the convergence of longitude lines wasn't a problem. I first rotated the tiles "up" and then around the polar axis. Finally, we wanted
+the final product to be as realsitic as possible, so I had to rotate a final time to align everything with the ecliptic plane/sphere. 
+
+At this point, I have all the raw data to create the animation, but I wanted to do something more fancy than simply fade everything in. I assigned each square
+a "starting time", at which point it would begin to draw. Each square takes 60 frames to draw. First, the solid tile itself would fade in during those 60 frames,
+and also it would be outlined. The outline took a couple more if statements since the outline is divided into 4 seperate segments. In addition, since therea
+are only 4x8 = 32 datapoints for the entire edge, I had to interpolate to find the actual endpoint of the outline. In other words, if I was outlining with linear
+progress, I would get a new datapoint roughly every 2 frames, so every other consecutive frame would actually not make any more drawing progress. Therefore I had
+to interpolate between consectutive datapoints to find the exact end point. Each square draw itself at its own time, staggered, according to a quadratic function.
+This would ensure that the first couple of squares would draw themselves well-separated in time, to emphasize them, and the rest draw themselves faster.
+
+As one might imagine, all this data takes a rather large amount of space. For every single timestep, I need to have meshes for every single tile and all the edges.
+Furthermore, I want the final drawn pattern to persist for a while so I can orbit around it for a while. To somewhat mitigate the memory requirement, I isolated
+the animation itself, which can't really be compressed, and I created a seperate datagroup "tessSphereStatic" which is time independent, with the full TESS pattern.
+This way, once the animation is done, I can immediately turn off the animation group and turn on the static group. This saves quite a bit of space, depending on
+how long after you want to show the full pattern.
+
+
+I also made a secondary animation, that is actually more informational than the first one. This one highlights each "strip" of tiles that TESS actually views at a
+time. This was very easy to make however, since I already had the base data. Once simply has to cycle around and highlight each strip using a different color.
+I had this data set a new group in partiview, and assigned all color map colors to be yellow, so I don't even need to worry about fade effects.  
+
+
 At this point, looking at some of the orbit lines, I was rather bothered by the aliasing on them. Specifically, one could clearly see
 the "staircase" pattern on these lines especially with parts of the curve that were nearly vertical or horizontal. Partiview does not have
 an easy option to antialias this, and initially thought I was stuck with it. However, there are several options to consider. Initially, I
@@ -206,4 +239,47 @@ its close enough, and most importantly, the antialiasing is much improved.
 
 I also learned that when resizing to get antialiasing, one must should use ffmpeg instead of opencv. I assume it's a difference in the exaxt interpolation
 algorithm, and with more effort, one could probably chose the best one, but the ffmpeg default with the -s switch is good.
+
+One should note that antialiasing is more difficult on some scenes than others. For example, in my scene 5, I make use of a lot of changes in star size
+and highlighting effects with stars. I have the slum values fairly well-calibrated for 1080p rendering, but when I go to 2700p, everything is thrown off.
+It's also more difficult than multiplying each slum by some constant factor. Luckily, that particular scene needs antialiasing the least, so I actually
+didn't do it there at all. If one wanted to however, I would manually adjust all the brightness level to see what looks best. 
+
+When I came back to scene 1 to do the final render, I remembered that I had faked Saturn by being it's own "star". The original reason was that any single
+texture that included the rings wold not be circular, and so there would be black areas where no stars showed through around saturn. One could argue that as
+long as you didn't come too close to Saturn, this blackout area would be very small relatively, and the missing stars might not be noticeable. This is probably
+true, except for when the camera moves, one might see stars (dis)appearing when they got close, but not touchng saturn. The more immediate problem, however,
+is that the texture will always face you, including the rings. Having a bland planet texture always face you is not a huge problem, since there is not enough
+detail on the surface to indicate orientation, but having the rings always face you (or be at some constant relative orientation) is a clear problem. One
+can specify the overall texture's fixed orientation, which will fix the rings in place, but then saturn will appear flat, which is also a problem. 
+
+The solution I came up with was to separate the base saturn texture (generic beige textuer) and the rings texture. The planet texture will always face you,
+just like the other planets, but the rings would be set at an orientation. However, a layering problem now arose. Assuming you're looking at some angle to
+the rings, you would expect the rings to visible on the "front" side of the planet, and hidden around the back. However, in partiview, that wasn't happening.
+If the rings were set to modulate texture brightness, both front and back rings would be hidden by teh planet (which was set to overcomposting to prevent see-through
+effects), and if the rings were also overcomposting, then the back rings would also cover the planet! To solve this, I cut the rings in half, and set the "front rings"
+texture to overcompost and the back rings to modulate. This is certainly not a perfect solution, since this actually resulted in a slight color discrepancy between
+the drawn textures. In addition, if you were looking along a direction to see the border of the rings, you would see the rings suddenly dissappear, even though
+they were clearly in your line of sight. However, in scenes 1 and 6, you never look at such an angle, and you are also far enough away that it's a moderatly 
+convincing depiction of saturn. Certainly better than a "saturn star" or a saturn with no rings.
+
+I also came back to a long standing problem of the orbit line drawing. For the longest time, whenever I draw a circle using partiview, I noticed that in one
+small section, the circle was not fully drawn, it was missing a small arc. In addition, concentric orbits always had the missing arc at the same angular position, no
+matter the radius, suggesting a systematic mistake. At first, I thought it was partiview not drawing the line meshes correctly. After all, I still don't fully
+understand the mesh command's u and v arguments. I was drawing a circle as actually a 150-sided polygon, which is certainly a vey good approximation in this context,
+and so I tried to draw another segment between the last point and the 2nd point. This did fix the problem, however, when I used fade effects, one could clearly see
+this segement brighter, because it effectively had twice the alpha. I also tried to draw the entire circle twice over, but this made fading less aesthetic - it would fade less
+in the begining and then go out very quickly at the end. Much to my embarrassment, I eventually found out what the problem was. To draw the circle, I was essentially
+using polar coordinates to find the xy positions, and I was using 6.28 as 2pi. While this is a decent approximation for some situations, 6.28 is most
+definitely not 2pi. Those next decimal places do matter. Once I switched to using python's math.pi, all was well.       
+
+In order to speed up rendering, it is possible to run multiple partiview instances. When I was doing the final render, I had 2 scenes running at once.
+I never tried it with more than 2 however, because partiview is sort of sensitive when it comes to memory. Especially when you're rendering at antialiasing 
+resolution, and possibly having other programs open, such as the memory-hungry Pycharm, I seen Partiview crash multiple times, so I would not recommend
+having more than 2 instances open. When it comes to compressing the images however, ffmpeg is a much sturdier tool, and one can use many concurrent instances.
+For example, in order to resize raw images from partiview, one can theoretically have multiple parallel threads running the resizing, since each image is of course
+independant. I actually never did this because I don't understand windows shell language, and I couldn't make a simple for loop to select some indicies.
+What I did have is a script to apply ffmpeg to all images in a given folder. Theoretically, I could have partiview save half of it's images to 1 folder 
+and the other half to another. Since resizing a single frame is roughly as slow as producing it from partiview, thiw would actually save quite a bit of time,
+but I never did it.     
   

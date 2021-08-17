@@ -38,7 +38,7 @@ def getNumberString(num):
 for i in range(FADE_START, FADE_END + 1):
 	if i % ((FADE_END - FADE_START) // 20) == 0:
 		print("Image " + str(i) + " out of " + str(FADE_END - FADE_START))
-	address = "../scene4FramesRaw/frame." + getNumberString(i) + ".png"
+	address = "../scene4Frames/frame." + getNumberString(i) + ".png"
 	img = cv2.imread(address)
 	img = addCircles(img, i)
 	cv2.imwrite(address, img)

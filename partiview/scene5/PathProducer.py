@@ -47,27 +47,30 @@ def polygons(frame, group, parity):
 
 def fadeOutPartly(group, start, startAlpha, endAlpha, frameStep):
 	commands = dict()
-	for i in range(int(startAlpha * 100), int(endAlpha * 100) -1, -1):
-		index = start + int(frameStep * (int(startAlpha * 100) - i))
-		commands[index] = 'eval ' + group + '\neval alpha %.2f' % (i / 100)
+	for i in range(int(startAlpha * 1000), int(endAlpha * 1000) -1, -1):
+		index = start + int(frameStep * (int(startAlpha * 1000) - i))
+		commands[index] = 'eval ' + group + '\neval alpha %.3f' % (i / 1000)
 	return commands
 
-FIRST_HIGHLIGHT_START = 4200
-FIRST_HIGHLIGHT_END = 4270
-FIRST_HIGHLIGHT_SELECT = 4340
 
-SECOND_FADE_START = 6660
-SECOND_FADE_END = 6730
 
-THIRD_FADE_START = 6970
-THIRD_FADE_END = 7060
-THIRD_FADE_SELECT = 7150
+FIRST_HIGHLIGHT_START = 7130
+FIRST_HIGHLIGHT_END = 7200
+FIRST_HIGHLIGHT_SELECT = 7270
+
+SECOND_FADE_START = 9350
+SECOND_FADE_END = 9420
+
+THIRD_FADE_START = 10050
+THIRD_FADE_END = 10140
+THIRD_FADE_SELECT = 10230
+
 
 producePath(dataFileIn=open('pathData.txt', "r"), pathFileOut=open('outPath.wf', "w"),
 			framesFileOut=open('makeFrames.cf', "w"), speedMultiplier=0.6, bezierTightness=1.2,
 			numericalSteps=3500, timeOffset=0,
-			singleCommands=mergeDict([changeStarBrightness(startLum=5, endLum=0.6, startFrame=500, endFrame=600, group='g1'),
-			yearSeries(startYear=1995, endYear=2022, startFrame=600, endFrame=2700),
+			singleCommands=mergeDict([changeStarBrightness(startLum=5, endLum=0.6, startFrame=520, endFrame=620, group='g1'),
+			yearSeries(startYear=1995, endYear=2022, startFrame=660, endFrame=4200),
 
 			changeStarBrightness(startLum=1, endLum=15, startFrame=FIRST_HIGHLIGHT_START, endFrame=FIRST_HIGHLIGHT_END, group='g2'),
 			changeStarBrightness(startLum=1, endLum=0.02, startFrame=FIRST_HIGHLIGHT_START, endFrame=FIRST_HIGHLIGHT_END, group='g3'),
@@ -77,16 +80,16 @@ producePath(dataFileIn=open('pathData.txt', "r"), pathFileOut=open('outPath.wf',
 			polygons(frame=FIRST_HIGHLIGHT_END, group='g3', parity='off'),
 			polygons(frame=FIRST_HIGHLIGHT_END, group='g4', parity='off'),
 			polygons(frame=FIRST_HIGHLIGHT_END, group='g5', parity='off'),
-			polygons(frame=4500, group='g2', parity='off'),
+			polygons(frame=FIRST_HIGHLIGHT_SELECT + 10, group='g2', parity='off'),
 
 
-			fadeIn(group='g7', start=5050, maxAlpha=0.15, frameStep=2),
+			fadeIn(group='g7', start=7400, maxAlpha=0.15, frameStep=2),
 
-			flip(frame=5571, group='g8', parity='off'),
-			flip(frame=5571, group='g9', parity='on'),
+			flip(frame=8170, group='g8', parity='off'),
+			flip(frame=8170, group='g9', parity='on'),
 
 
-			fadeOut(group='g9', start=6600, startAlpha=0.15, frameStep=2),
+
 			changeStarBrightness(startLum=1, endLum=0.02, startFrame=SECOND_FADE_START, endFrame=SECOND_FADE_END, group='g2'),
 
 
@@ -95,10 +98,11 @@ producePath(dataFileIn=open('pathData.txt', "r"), pathFileOut=open('outPath.wf',
 			changeStarBrightness(startLum=1.8, endLum=0.02, startFrame=THIRD_FADE_END, endFrame=THIRD_FADE_SELECT, group='g3'),
 			polygons(frame=THIRD_FADE_SELECT, group='g3', parity='off'),
 
-		    flip(frame=8551, group='g6', parity='off'),
-		    flip(frame=8551, group='g10', parity='on'),
+			fadeOut(group='g9', start=11150, startAlpha=0.15, frameStep=2),
+		    flip(frame=11450, group='g6', parity='off'),
+		    flip(frame=11450, group='g10', parity='on'),
 
-			fadeOutPartly(group='g10', start=9300, startAlpha=0.15, endAlpha=0.05, frameStep=4),
+			fadeOutPartly(group='g10', start=11440, startAlpha=0.150, endAlpha=0.050, frameStep=0.6),
 
 									  ]),
 

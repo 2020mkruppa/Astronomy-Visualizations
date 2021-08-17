@@ -9,7 +9,7 @@ ZONE_OUT = 'habitableZoneMoving/habitableZoneMoving.speck'
 INNER_OUT = 'habitableZoneInner/habitableZoneInner.speck'
 OUTER_OUT = 'habitableZoneOuter/habitableZoneOuter.speck'
 
-RADIUS = getInterpolator(start_x=3100, end_x=3250, power=2, y_lists=[[8, 0.25], [3.2, 0.13]]) #Outer, Inner
+RADIUS = getInterpolator(start_x=5370, end_x=5520, power=2, y_lists=[[8, 0.25], [3.2, 0.13]]) #Outer, Inner
 GRAD_INSET = 0.15
 GRAD_LENGTH = 0.4
 COLOR_NUM = 40
@@ -56,7 +56,7 @@ def addPanel(r1, arg1, r2, arg2, color, file):
 
 
 zone = open(ZONE_OUT, "w")
-for t in range(3100, 3250):
+for t in range(5370, 5520):
 	if t % 20 == 0:
 		print(t)
 	zone.write('datatime ' + str(t) + '\n')

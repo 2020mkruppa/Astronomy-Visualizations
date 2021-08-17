@@ -19,10 +19,10 @@ HIGHLIGHT_OUT = 'tessSphereHighlight/tessSphereHighlight.speck'
 TILE_ANGLE = 23.45
 RADIUS = 20
 TILE_SECTORS = 8
-START_TIME = 7200
-END_TIME = 8500
+START_TIME = 10830
+END_TIME = 11350
 STARTING_EXPONENT = 2
-TILE_ANIM_LENGTH = 50
+TILE_ANIM_LENGTH = 60
 OUTLINE_INTERP = getInterpolator(start_x=0, end_x=1, power=2, y_lists=[[0, 4]])
 TILE_FADE_INTERP = getInterpolator(start_x=0, end_x=1, power=1, y_lists=[[0, 20]])
 
@@ -116,7 +116,7 @@ def computeMasterTile():
 	edgeList[3].append(toXYZ(upperLat, -rightLong))
 	edgeList[1].append(toXYZ(upperLat, rightLong))
 
-	edgeList[1].reverse()
+	edgeList[1].reverse() #Draw the edge in the correct order
 	edgeList[2].reverse()
 
 	return sectors, edgeList
@@ -124,9 +124,9 @@ def computeMasterTile():
 def binarySearchForClosest(errorFunction, start, end):
 	mid = (start + end) / 2
 	error = errorFunction(mid)
-	if abs(error) < 0.0001:  # Hitting target is very unlikely for floating point comparison
+	if abs(error) < 0.0001:
 		return mid
-	if start == end or end < start:  # Shouldn't ever reach here
+	if start == end or end < start:
 		return mid
 	if error > 0:
 		return binarySearchForClosest(errorFunction, start, mid)
@@ -267,9 +267,9 @@ for tiles, edges, start in completedPanels:
 
 
 ####HIGHLIGHT WRITING
-HIGHLIGHT_OUT_START = 9400
-HIGHLIGHT_OUT_END = 9950
-
+HIGHLIGHT_OUT_START = 11560
+HIGHLIGHT_OUT_END = 13554
+'''
 position_interp = getInterpolator(start_x=HIGHLIGHT_OUT_START, end_x=HIGHLIGHT_OUT_END, power=1, y_lists=[[0, (len(completedPanels) / 4) - 1]])
 
 for t in range(HIGHLIGHT_OUT_START, HIGHLIGHT_OUT_END + 22):
@@ -279,4 +279,18 @@ for t in range(HIGHLIGHT_OUT_START, HIGHLIGHT_OUT_END + 22):
 
 	for i in range(4):
 		tiles, edges, start = completedPanels[(4 * int(position_interp(t)[0])) + i]
+		drawNormedSector(tiles, edges, 1, highlight)
+'''
+
+stripNum = 0
+for t in range(HIGHLIGHT_OUT_START, HIGHLIGHT_OUT_END):
+	if t % 20 == 0:
+		print(t)
+	highlight.write('datatime ' + str(t) + '\n')
+
+	if (t + 1 - HIGHLIGHT_OUT_START) % 23 == 0:
+		stripNum = (stripNum + 1) % 26
+
+	for i in range(4):
+		tiles, edges, start = completedPanels[(4 * stripNum) + i]
 		drawNormedSector(tiles, edges, 1, highlight)
