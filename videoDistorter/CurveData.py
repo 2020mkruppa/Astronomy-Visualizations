@@ -1,7 +1,11 @@
 import math
+import pickle
+import os.path
+import numpy as np
 
 #THESE ARE BOTTOM LEFT_INDEXED COORDINATES, FROM DESMOS
 #Keep .0 to ensure floating point calculations
+
 By = 908.0
 Dx = 318.0
 Dy = 237.0
@@ -54,6 +58,10 @@ def latitudeLine(yBase, x):
 
 
 def generateEdgeLists():
+	# Coordinate maps for the top/side edge
+	X2Y = dict()
+	Y2XRight = dict()
+	Y2XLeft = dict()
 	for i in range(0, 2001):
 		tNorm = i / 2000.0
 		coords = longitudeLine(Dx, tNorm)
@@ -68,9 +76,9 @@ def generateEdgeLists():
 		y = int(coords[1])
 		X2Y[x] = y
 		Y2XRight[y] = x
+	return X2Y, Y2XLeft, Y2XRight
 
-
-def inShape(x, y):
+def inShape(x, y, X2Y, Y2XLeft, Y2XRight):
 	if (y not in Y2XRight) or (y not in Y2XLeft) or (x not in X2Y):
 		return False
 	return X2Y[x] >= y >= bottom(x) and Y2XRight[y] >= x >= Y2XLeft[y]
@@ -79,8 +87,9 @@ def getXBaseNorm(norm):
 	return Dx + norm * (1920 - Dx - Dx)
 
 
-def generateLongitudeLookUpTable():
+def generateLongitudeLookUpTable(X2Y, Y2XLeft, Y2XRight):
 	print("Generating Longitude Lookup")
+	longitudeMap = [[[] for y in range(1080)] for x in range(1920)] #Access using [x][y]
 	for i in range(0, 2001):
 		if i % 100 == 0:
 			print(i)
@@ -93,15 +102,17 @@ def generateLongitudeLookUpTable():
 				continue
 			x = int(coords[0])
 			y = int(coords[1])
-			if not inShape(x, y):
+			if not inShape(x, y, X2Y, Y2XLeft, Y2XRight):
 				continue
 			longitudeMap[x][y].append([coords[0], coords[1], i / 2000.0])
-	chooseBestCoordinateMap(longitudeMap)
+	return chooseBestCoordinateMap(longitudeMap)
+
 
 def getYFromNorm(norm):
 	return Ey + norm * (By - Ey)
 
-def generateLatitudeLookUpTable():
+def generateLatitudeLookUpTable(X2Y, Y2XLeft, Y2XRight):
+	latitudeMap = [[[] for y in range(1080)] for x in range(1920)]
 	print("Generating Latitude Lookup")
 	for i in range(0, 2001):
 		if i % 100 == 0:
@@ -114,12 +125,14 @@ def generateLatitudeLookUpTable():
 				continue
 			x = int(coords[0])
 			y = int(coords[1])
-			if not inShape(x, y):
+			if not inShape(x, y, X2Y, Y2XLeft, Y2XRight):
 				continue
 			latitudeMap[x][y].append([coords[0], coords[1], i / 2000.0])
-	chooseBestCoordinateMap(latitudeMap)
+	return chooseBestCoordinateMap(latitudeMap)
+
 
 def chooseBestCoordinateMap(lookup):
+	selectedMap = [[[] for y in range(1080)] for x in range(1920)]
 	for x in range(len(lookup)):
 		for y in range(len(lookup[0])):
 			choices = lookup[x][y]
@@ -130,22 +143,41 @@ def chooseBestCoordinateMap(lookup):
 				if distance < bestDistance:
 					bestDistance = distance
 					value = choice[2]
-			lookup[x][y] = value
+			selectedMap[x][y] = value
+	return selectedMap
 
 
-#Coordinate maps for the top/side edge
-X2Y = dict()
-Y2XRight = dict()
-Y2XLeft = dict()
-
-#Normalized maps for final image mapping
-longitudeMap = [[[] for y in range(1080)] for x in range(1920)]  #Access using [x][y]
-latitudeMap = [[[] for yy in range(1080)] for xx in range(1920)]
-
-generateEdgeLists()
-generateLatitudeLookUpTable()
-generateLongitudeLookUpTable()
+def getWarpedCoordinates(x, y, longitudeMap, latitudeMap):
+	return [min(1919, int(longitudeMap[x][y] * 1920)), min(1079, int(latitudeMap[x][y] * 1080))]
 
 
-print(longitudeMap[960][600])
-print(longitudeMap[960][900])
+def getPointsMap(lookForPickle):
+	pickleName = "mappingData.pkl"
+	if lookForPickle and os.path.isfile(pickleName):
+		with open(pickleName, "rb") as infile:
+			maps = pickle.load(infile)
+			return np.array(maps[0]), np.array(maps[1]), np.array(maps[2]), np.array(maps[3])
+
+	X2Y, Y2XLeft, Y2XRight = generateEdgeLists()
+	latitudeLookup = generateLatitudeLookUpTable(X2Y, Y2XLeft, Y2XRight)
+	longitudeLookup = generateLongitudeLookUpTable(X2Y, Y2XLeft, Y2XRight)
+
+	inputListY = []
+	inputListX = []
+	outputListY = []
+	outputListX = []
+
+	for x in range(1920):
+		for y in range(1080):
+			if inShape(x, y, X2Y, Y2XLeft, Y2XRight):
+				outCoords = getWarpedCoordinates(x, y, longitudeLookup, latitudeLookup)
+				outputListY.append(1079 - y)
+				outputListX.append(x)
+				inputListY.append(1079 - outCoords[1])
+				inputListX.append(outCoords[0])
+
+
+	with open(pickleName, "wb") as outfile:
+		pickle.dump([inputListX, inputListY, outputListX, outputListY], outfile)
+
+	return np.array(inputListX), np.array(inputListY), np.array(outputListX), np.array(outputListY)
